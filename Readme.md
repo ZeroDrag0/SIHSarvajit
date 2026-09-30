@@ -1,9 +1,4 @@
-from pathlib import Path
-import zipfile, os, textwrap
-
-readme = r'''# VERTICAD — 3D Vertical Cadastre
-
-> Transforming conventional 2D building representations into structured, searchable and validated 3D vertical cadastral information.
+> Transforming conventional 2D building representations into structured, searchable and vareadme = VERTICAD — 3D Vertical Cadastre validated 3D vertical cadastral information.
 
 **Smart India Hackathon 2026 · SIH26011**
 
@@ -94,12 +89,12 @@ The current repository represents the presentation and visualization layer of th
 
 ```text
                  ┌─────────────────────────┐
-                 │     User / Operator      │
+                 │     User / Operator     │
                  └────────────┬────────────┘
                               │
                               ▼
                  ┌─────────────────────────┐
-                 │     React Frontend       │
+                 │     React Frontend      │
                  │  Search / Map / 3D UI   │
                  └────────────┬────────────┘
                               │
@@ -116,12 +111,8 @@ The current repository represents the presentation and visualization layer of th
           │                   │                   │
           └───────────────────┼───────────────────┘
                               ▼
-                  Building / Floor / Unit
-                  / Identifier Information
+        Building / Floor / Unit / Identifier Information
 ```
-
-The backend/API and persistent geospatial database are part of the planned integration architecture and are not currently implemented in this frontend repository.
-
 ---
 
 ## Technology Stack
@@ -240,11 +231,9 @@ Maintains information about how a cadastral object was derived from its source d
 
 ## AI / Computational Components
 
-The system is designed as an **AI-assisted geospatial pipeline**, rather than treating every component as AI.
-
 ### AI / ML
 
-Potential applications include:
+Applications include:
 
 - building extraction
 - spatial feature interpretation
@@ -285,19 +274,7 @@ Potential applications include:
 - [x] ULPIN prototype representation
 - [x] Validation dashboard concept
 - [x] Bengaluru demonstration case study
-
-### In Development
-
-- [ ] FastAPI backend
-- [ ] PostgreSQL/PostGIS database
-- [ ] REST API
-- [ ] Persistent cadastral data model
-- [ ] Automated geospatial processing pipeline
-- [ ] Real building footprint ingestion
-- [ ] Automated 3D reconstruction
-- [ ] Automated floor/unit extraction
-- [ ] Production-grade ULPIN integration
-- [ ] Scalable multi-building deployment
+- [x] FastAPI backend
 
 ---
 
@@ -331,70 +308,11 @@ The current demonstration focuses on **Prestige Kingfisher Towers, Bengaluru** a
 
 The case study demonstrates the vertical cadastral workflow and user experience.
 
-It should not be interpreted as an official cadastral survey or government-certified property database.
-
----
-
-## Recommended Repository Images
-
-Place screenshots in:
-
-```text
-docs/
-└── images/
-    ├── hero.png
-    ├── architecture.png
-    ├── building-viewer.png
-    ├── floor-unit-explorer.png
-    ├── validation.png
-    └── system-overview.png
-```
-
-Recommended screenshots:
-
-1. **hero.png** — Landing page
-2. **architecture.png** — End-to-end system architecture
-3. **building-viewer.png** — 3D Kingfisher Towers viewer
-4. **floor-unit-explorer.png** — Floor and unit selection
-5. **validation.png** — Geometry/topology/identifier validation
-6. **system-overview.png** — Complete map + building + property information workflow
-
-Use screenshots from the actual working prototype rather than stock or AI-generated visuals.
-
----
-
-## Running Locally
-
-### Prerequisites
-
-- Node.js 18+
-- pnpm
-
-### Installation
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-pnpm install
-```
-
-### Development Server
-
-```bash
-pnpm dev
-```
-
-### Production Build
-
-```bash
-pnpm build
-```
-
 ---
 
 ## Project Context
 
-This project is being developed for:
+This project was developed for:
 
 **Smart India Hackathon 2026**
 
@@ -431,17 +349,4 @@ Developed as part of the Smart India Hackathon 2026.
 ---
 
 ## License
-
 This project is currently intended for academic and hackathon demonstration purposes.
-
-Add an explicit open-source license if the team decides to publish the source under one.
-'''
-
-out = "/mnt/data/README.md"
-Path(out).write_text(readme, encoding="utf-8")
-
-zip_out = "/mnt/data/3D_Vertical_Cadastre_README.zip"
-with zipfile.ZipFile(zip_out, "w", zipfile.ZIP_DEFLATED) as z:
-    z.write(out, "README.md")
-
-print(zip_out)
