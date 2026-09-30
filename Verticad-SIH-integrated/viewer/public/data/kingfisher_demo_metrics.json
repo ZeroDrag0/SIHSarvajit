@@ -1,0 +1,18 @@
+{
+  "footprint_area_m2": 591.7863530326208,
+  "building_height_m": 120.0,
+  "number_of_floors": 34,
+  "number_of_generated_units": 136,
+  "ulpin_count": 136,
+  "ulpin_uniqueness": 136,
+  "ulpin_duplicate_count": 0,
+  "geometry_linkage_percent": 100.0,
+  "validation_checks_passed": "SEE REPORT",
+  "base_mesh_vertices": 24,
+  "base_mesh_faces": 40,
+  "base_mesh_components": 2,
+  "base_mesh_volume_m3": 69129.55764046754,
+  "floor_mesh_count": 34,
+  "crown_start_floor": "F31",
+  "crown_height_m": 14.117647058823536
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Explore detailed 3D cadastral data of buildings, floors, and property units with spatial validation and unique identifiers for precise property insights.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
