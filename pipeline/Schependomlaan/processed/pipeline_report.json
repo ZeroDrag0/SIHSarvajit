@@ -1,0 +1,89 @@
+{
+  "source_mode": "live_ifc",
+  "ifc_source": "/home/claude/work/Archive-DataSetSchependomlaan/Design model IFC/IFC Schependomlaan.ifc",
+  "buildings": 1,
+  "ifc_storeys": 6,
+  "ifc_spaces": 100,
+  "classified_spaces": 100,
+  "class_counts": {
+    "technical_service": 1,
+    "entrance": 1,
+    "storage": 1,
+    "private_apartment_space": 94,
+    "common_circulation": 3
+  },
+  "common_service_spaces": 6,
+  "inferred_property_units": 10,
+  "declared_count_check": {
+    "declared_in_ifc_project_name": 10,
+    "derived": 10,
+    "agrees": true,
+    "note": "cross-check only; the derived count is not forced to the declared count"
+  },
+  "ambiguous_space_names": [
+    "1.02"
+  ],
+  "space_geometry": {
+    "space_count": 100,
+    "geometry_extracted": 100,
+    "success_rate": 1.0,
+    "by_status": {
+      "valid": 6,
+      "fallback": 94
+    },
+    "by_method": {
+      "ifc_body_mesh": 6,
+      "footprint_box_extrusion": 94
+    },
+    "real_body_geometry": 6,
+    "fallback_geometry": 94,
+    "boundary_corroboration": {
+      "corroborated": 93,
+      "partially_corroborated": 6,
+      "deviates": 1
+    },
+    "mean_confidence": 0.843,
+    "space_boundaries_in_model": 1675
+  },
+  "unit_geometry": {
+    "unit_count": 10,
+    "units_with_geometry": 10,
+    "geometry_success_rate": 1.0,
+    "units_geometry_valid": 0,
+    "by_geometry_status": {
+      "fallback": 10
+    },
+    "by_representation": {
+      "boolean_union": 10
+    }
+  },
+  "topology_valid": true,
+  "topology_errors": [],
+  "topology_check_status_counts": {
+    "passed": 12,
+    "failed": 0,
+    "warning": 1,
+    "incomplete": 0,
+    "not_run": 0,
+    "not_applicable": 2
+  },
+  "pointcloud_files_detected": 2,
+  "pointcloud_files_processed": 0,
+  "pointcloud_files_git_lfs_pointer": 2,
+  "pointcloud_status": {
+    "inventory": "git_lfs_pointers_only",
+    "alignment": "no_pointcloud_files_processed",
+    "ifc_comparison": "no_pointcloud_files_processed"
+  },
+  "cadastral_status": "not_available",
+  "terrain_status": "not_available",
+  "crs": {
+    "coordinate_status": "local/unverified",
+    "transformation_status": "not_performed",
+    "vertical_reference": "local datum (NAP not verified)",
+    "gnss_cors_control": "not_available"
+  },
+  "drone_imagery": "not_available_and_not_used",
+  "underground_status": "data_not_available",
+  "prototype_3d_ulpins": 10
+}

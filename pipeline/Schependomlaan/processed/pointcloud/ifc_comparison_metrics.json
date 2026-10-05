@@ -1,0 +1,16 @@
+{
+  "status": "no_pointcloud_files_processed",
+  "method": "KD-tree nearest distance to sampled IfcSpace surfaces; no ICP/registration estimated",
+  "registration_files_found": false,
+  "files": [
+    {
+      "file": "De Schepen week 27_t.ply",
+      "status": "not_computed_git_lfs_pointer_not_downloaded"
+    },
+    {
+      "file": "De Schepen week 30_t.ply",
+      "status": "not_computed_git_lfs_pointer_not_downloaded"
+    }
+  ],
+  "reason": "all discovered files are Git-LFS pointer stubs (content not downloaded)"
+}

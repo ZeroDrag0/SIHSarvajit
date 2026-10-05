@@ -1,0 +1,12 @@
+{
+  "source_crs": "IFC local engineering coordinates",
+  "source_crs_declared_in_ifc": null,
+  "target_crs": null,
+  "vertical_reference": "local datum (NAP not verified)",
+  "transformation_status": "not_performed",
+  "coordinate_status": "local/unverified",
+  "gnss_cors_control": "not_available",
+  "notes": [
+    "IFC is not assumed to be georeferenced"
+  ]
+}

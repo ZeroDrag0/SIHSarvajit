@@ -1,0 +1,113 @@
+{
+  "source_root": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds",
+  "pointcloud_format_summary": {
+    "ply": 2,
+    "las": 0,
+    "ascii_text": 4
+  },
+  "total_detected": 6,
+  "files": [
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 27\\ASCII\\De Schepen week 27_t - Cloud.txt",
+      "name": "De Schepen week 27_t - Cloud.txt",
+      "format": "txt",
+      "size_bytes": 97142881,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "ascii_stats": {
+        "sample_rows": 10,
+        "column_count": 9,
+        "parseable": true,
+        "sample_values": [
+          "8261.7119140625",
+          "-6635.7182617188",
+          "407.9416198730",
+          "98",
+          "132",
+          "160"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 27\\PLY\\De Schepen week 27_t.ply",
+      "name": "De Schepen week 27_t.ply",
+      "format": "ply",
+      "size_bytes": 205962475,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "point_count": 1110763
+    },
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 28\\ASCII\\De Schepen week 27_t - Cloud.txt",
+      "name": "De Schepen week 27_t - Cloud.txt",
+      "format": "txt",
+      "size_bytes": 115645959,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "ascii_stats": {
+        "sample_rows": 10,
+        "column_count": 9,
+        "parseable": true,
+        "sample_values": [
+          "8261.7119140625",
+          "-6635.7182617188",
+          "407.9416198730",
+          "0.384314",
+          "0.517647",
+          "0.627451"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 29\\ASCII\\De Schepen week 29_t - Cloud.txt",
+      "name": "De Schepen week 29_t - Cloud.txt",
+      "format": "txt",
+      "size_bytes": 271430070,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "ascii_stats": {
+        "sample_rows": 10,
+        "column_count": 9,
+        "parseable": true,
+        "sample_values": [
+          "14884.4150390625",
+          "8647.7421875000",
+          "12079.7412109375",
+          "0.352941",
+          "0.364706",
+          "0.411765"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 30\\ASCII\\De Schepen week 30_t - Cloud.txt",
+      "name": "De Schepen week 30_t - Cloud.txt",
+      "format": "txt",
+      "size_bytes": 133220528,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "ascii_stats": {
+        "sample_rows": 10,
+        "column_count": 9,
+        "parseable": true,
+        "sample_values": [
+          "1492.9393310547",
+          "11086.3691406250",
+          "-284.1545104980",
+          "125",
+          "125",
+          "119"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\DELL\\Desktop\\Model\\Archive-DataSetSchependomlaan\\Point Clouds\\Week 30\\PLY\\De Schepen week 30_t.ply",
+      "name": "De Schepen week 30_t.ply",
+      "format": "ply",
+      "size_bytes": 263330451,
+      "crs_known": false,
+      "crs_statement": "CRS/registration not assumed; the source metadata does not provide an authoritative coordinate system.",
+      "point_count": 1503436
+    }
+  ]
+}

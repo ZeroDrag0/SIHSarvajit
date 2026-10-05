@@ -1,0 +1,3572 @@
+{
+  "building": "10 Appartementen Schependomlaan",
+  "derived_property_unit_count": 100,
+  "units": [
+    {
+      "unit_id": "00-begane-grond-a0-01-22ljvi",
+      "ifc_global_id": "22lJvI_rz50umvUizzyEQi",
+      "name": "A0.01",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "22lJvI_rz50umvUizzyEQi"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 8,
+        "face_count": 12,
+        "volume_m3": 1.8921414758316517,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.48599054113,
+            0.486,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "22lJvI_rz50umvUizzyEQi"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-a0-00-2dficw",
+      "ifc_global_id": "2dFicWHgz1KPbr5tHWzMcP",
+      "name": "A0.00",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2dFicWHgz1KPbr5tHWzMcP"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 20,
+        "face_count": 36,
+        "volume_m3": 53.31561704703042,
+        "bounds": [
+          [
+            -2.7752281819599998,
+            0.0,
+            0.0
+          ],
+          [
+            1.8607718337799999,
+            5.04000000156,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2dFicWHgz1KPbr5tHWzMcP"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-a0-02-3zmk1e",
+      "ifc_global_id": "3ZMk1e17XESP$vROePi38_",
+      "name": "A0.02",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3ZMk1e17XESP$vROePi38_"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 12,
+        "face_count": 20,
+        "volume_m3": 9.691547680000003,
+        "bounds": [
+          [
+            -0.006,
+            0.0,
+            0.0
+          ],
+          [
+            2.7640000000000002,
+            1.336,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3ZMk1e17XESP$vROePi38_"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-08-2gxkgj",
+      "ifc_global_id": "2GXKgJyIfAhxPinRH3xm0N",
+      "name": "3.08",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2GXKgJyIfAhxPinRH3xm0N"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2GXKgJyIfAhxPinRH3xm0N"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-07-2lsz4l",
+      "ifc_global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+      "name": "3.07",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2lSz4lYYD0yPZfZ0iQzeVj"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2lSz4lYYD0yPZfZ0iQzeVj"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-06-39nqt7",
+      "ifc_global_id": "39NQt7$3b1Mxn97UesaLDi",
+      "name": "3.06",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "39NQt7$3b1Mxn97UesaLDi"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "39NQt7$3b1Mxn97UesaLDi"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-09-1qhwod",
+      "ifc_global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+      "name": "3.09",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1qHWoDsfT4fQCpDzcA1RZj"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1qHWoDsfT4fQCpDzcA1RZj"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-03-1scg2c",
+      "ifc_global_id": "1sCG2cUVb49PxJaBBE81Kw",
+      "name": "3.03",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1sCG2cUVb49PxJaBBE81Kw"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1sCG2cUVb49PxJaBBE81Kw"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-04-10-ivt",
+      "ifc_global_id": "10$IVtAgz3gvaL1AC5hF6m",
+      "name": "3.04",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "10$IVtAgz3gvaL1AC5hF6m"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "10$IVtAgz3gvaL1AC5hF6m"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-01-0asyuu",
+      "ifc_global_id": "0asyuu9T1AaPR7AmNDL1_c",
+      "name": "3.01",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0asyuu9T1AaPR7AmNDL1_c"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0asyuu9T1AaPR7AmNDL1_c"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-00-1g43xn",
+      "ifc_global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+      "name": "3.00",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1G43xnpGf8ReA8Ux2AmH0Y"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1G43xnpGf8ReA8Ux2AmH0Y"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-02-0iocqf",
+      "ifc_global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+      "name": "3.02",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0IOcqFv1vCWwJz5c1VnoNe"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0IOcqFv1vCWwJz5c1VnoNe"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-3-05-3o3cja",
+      "ifc_global_id": "3o3cJaPf51HPH9CUJnfi0W",
+      "name": "3.05",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3o3cJaPf51HPH9CUJnfi0W"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3o3cJaPf51HPH9CUJnfi0W"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-10-12ahbn",
+      "ifc_global_id": "12AHbNFjr4FRJYlF1r7pMB",
+      "name": "2.10",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "12AHbNFjr4FRJYlF1r7pMB"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "12AHbNFjr4FRJYlF1r7pMB"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-08-2brbba",
+      "ifc_global_id": "2brbBA_o18ffxZ1OJKAEXd",
+      "name": "2.08",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2brbBA_o18ffxZ1OJKAEXd"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2brbBA_o18ffxZ1OJKAEXd"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-05-1gbax8",
+      "ifc_global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+      "name": "2.05",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1GBaX8Qs19WPwcdIjq6ONn"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1GBaX8Qs19WPwcdIjq6ONn"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-06-0ajlk6",
+      "ifc_global_id": "0ajLK6DXHAaeMk704HiMsX",
+      "name": "2.06",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0ajLK6DXHAaeMk704HiMsX"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0ajLK6DXHAaeMk704HiMsX"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-07-0oqmhr",
+      "ifc_global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+      "name": "2.07",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0OqmHrrnL18wpVdVYaE6Eq"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0OqmHrrnL18wpVdVYaE6Eq"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-09-02nk-d",
+      "ifc_global_id": "02NK$DEdTDwuguIz00UqtE",
+      "name": "2.09",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "02NK$DEdTDwuguIz00UqtE"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "02NK$DEdTDwuguIz00UqtE"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-03-3vdzrm",
+      "ifc_global_id": "3vdzRMAWL66B6ew5$sjOj$",
+      "name": "2.03",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3vdzRMAWL66B6ew5$sjOj$"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3vdzRMAWL66B6ew5$sjOj$"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-04-2rpp3i",
+      "ifc_global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+      "name": "2.04",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2rpp3iZFTCVwGEE7x9qiQ8"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2rpp3iZFTCVwGEE7x9qiQ8"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-02-0bnesd",
+      "ifc_global_id": "0bNesd_3DCrhdyKRJV7k4U",
+      "name": "1.02",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0bNesd_3DCrhdyKRJV7k4U"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0bNesd_3DCrhdyKRJV7k4U"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-01-0p5hfj",
+      "ifc_global_id": "0P5HFjHIjAsevZeF10JaZS",
+      "name": "2.01",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0P5HFjHIjAsevZeF10JaZS"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0P5HFjHIjAsevZeF10JaZS"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-2-00-0dj6n-",
+      "ifc_global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+      "name": "2.00",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0Dj6N$QAjCa8$dcIusb5Sm"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0Dj6N$QAjCa8$dcIusb5Sm"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-01-0ehfwk",
+      "ifc_global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+      "name": "1.01",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0EHFwkDTP5BAvP$Lr4UUAk"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0EHFwkDTP5BAvP$Lr4UUAk"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-06-0jkjl8",
+      "ifc_global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+      "name": "1.06",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0Jkjl8tTH5TBBcOqrZRjc0"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0Jkjl8tTH5TBBcOqrZRjc0"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-07-0p4air",
+      "ifc_global_id": "0P4aIRXgD9XPdxJodXPmsI",
+      "name": "1.07",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0P4aIRXgD9XPdxJodXPmsI"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0P4aIRXgD9XPdxJodXPmsI"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-02-1eo6mc",
+      "ifc_global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+      "name": "1.02",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1EO6MCIfDFuRP2Ugg$wu$f"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1EO6MCIfDFuRP2Ugg$wu$f"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-00-3k51pw",
+      "ifc_global_id": "3K51PWTdT9s9p1sMs0i66A",
+      "name": "1.00",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3K51PWTdT9s9p1sMs0i66A"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3K51PWTdT9s9p1sMs0i66A"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-05-3m0ean",
+      "ifc_global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+      "name": "1.05",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3m0eaNZIj4WuqLA61vp_PJ"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3m0eaNZIj4WuqLA61vp_PJ"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-04-1s5uzb",
+      "ifc_global_id": "1S5uZBEqz97vGlKIzp8YFh",
+      "name": "1.04",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1S5uZBEqz97vGlKIzp8YFh"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1S5uZBEqz97vGlKIzp8YFh"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "00-begane-grond-1-03-3rw6tp",
+      "ifc_global_id": "3RW6tpuaLA5fXODOX3rOlb",
+      "name": "1.03",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "elevation": 0.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3RW6tpuaLA5fXODOX3rOlb"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3RW6tpuaLA5fXODOX3rOlb"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-06-3f3cow",
+      "ifc_global_id": "3F3COwDdj5LRVbWzGorFc7",
+      "name": "4.06",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3F3COwDdj5LRVbWzGorFc7"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3F3COwDdj5LRVbWzGorFc7"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-07-3ecqs2",
+      "ifc_global_id": "3EcQs2ERfA495F4sseU_w4",
+      "name": "6.07",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3EcQs2ERfA495F4sseU_w4"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3EcQs2ERfA495F4sseU_w4"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-06-0z1xo3",
+      "ifc_global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+      "name": "6.06",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0z1xo3KDX8yQN59ZNuWEoz"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0z1xo3KDX8yQN59ZNuWEoz"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-05-3spt-e",
+      "ifc_global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+      "name": "6.05",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3SPT$EB8r0aBxVBsVnHu5U"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3SPT$EB8r0aBxVBsVnHu5U"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-08-2gogl_",
+      "ifc_global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+      "name": "6.08",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2GOGL_EpT9BOLi26H$n8Y1"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2GOGL_EpT9BOLi26H$n8Y1"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-03-0kg640",
+      "ifc_global_id": "0kg640irz75hysOImfQ5Ff",
+      "name": "6.03",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0kg640irz75hysOImfQ5Ff"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0kg640irz75hysOImfQ5Ff"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-04-3_e7in",
+      "ifc_global_id": "3_e7IngdDBjOHVpCs_T3bC",
+      "name": "6.04",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3_e7IngdDBjOHVpCs_T3bC"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3_e7IngdDBjOHVpCs_T3bC"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-01-1bpdpr",
+      "ifc_global_id": "1bpdPR8RjDwuwW5iXv63ud",
+      "name": "6.01",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1bpdPR8RjDwuwW5iXv63ud"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1bpdPR8RjDwuwW5iXv63ud"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-09-2so3nb",
+      "ifc_global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+      "name": "5.09",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2so3nbcb13Ig9Yd7gOPiH$"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2so3nbcb13Ig9Yd7gOPiH$"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-02-09wjtq",
+      "ifc_global_id": "09WjTQSeH1n8koThMDL_IH",
+      "name": "6.02",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "09WjTQSeH1n8koThMDL_IH"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "09WjTQSeH1n8koThMDL_IH"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-6-00-2wflct",
+      "ifc_global_id": "2WflCt48T2yQbjDADsjk3X",
+      "name": "6.00",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2WflCt48T2yQbjDADsjk3X"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2WflCt48T2yQbjDADsjk3X"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-07-1dqmrh",
+      "ifc_global_id": "1dQmRhr_nEmea8aisHAkCQ",
+      "name": "5.07",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1dQmRhr_nEmea8aisHAkCQ"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1dQmRhr_nEmea8aisHAkCQ"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-00-1atro3",
+      "ifc_global_id": "1AtrO37LT8iQg1RDVAeoCA",
+      "name": "5.00",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1AtrO37LT8iQg1RDVAeoCA"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1AtrO37LT8iQg1RDVAeoCA"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-05-0up7ra",
+      "ifc_global_id": "0up7RAxwfAqvoyCE1kDxpy",
+      "name": "5.05",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0up7RAxwfAqvoyCE1kDxpy"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0up7RAxwfAqvoyCE1kDxpy"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-06-0iiwc_",
+      "ifc_global_id": "0IIWC_MJj0TegDVVevqJ7a",
+      "name": "5.06",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0IIWC_MJj0TegDVVevqJ7a"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0IIWC_MJj0TegDVVevqJ7a"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-08-1khe8h",
+      "ifc_global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+      "name": "5.08",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1KHE8Hn6vAPe5Gw9Zrubuh"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1KHE8Hn6vAPe5Gw9Zrubuh"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-03-0bsqhl",
+      "ifc_global_id": "0BsqHll2P5vhJOAHEDwAwi",
+      "name": "5.03",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0BsqHll2P5vhJOAHEDwAwi"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0BsqHll2P5vhJOAHEDwAwi"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-04-1pbqvl",
+      "ifc_global_id": "1PBqvLnRDDUATdl_lvNYMh",
+      "name": "5.04",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1PBqvLnRDDUATdl_lvNYMh"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1PBqvLnRDDUATdl_lvNYMh"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-02-2ex8cq",
+      "ifc_global_id": "2EX8CQvoT3VOdgcbCwhid_",
+      "name": "5.02",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2EX8CQvoT3VOdgcbCwhid_"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2EX8CQvoT3VOdgcbCwhid_"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-5-01-0hw2p5",
+      "ifc_global_id": "0hW2P55_n5cOR9ThNgO3e6",
+      "name": "5.01",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0hW2P55_n5cOR9ThNgO3e6"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0hW2P55_n5cOR9ThNgO3e6"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-01-0tv9iz",
+      "ifc_global_id": "0tv9iZwmX3QhOwYgrkdylc",
+      "name": "4.01",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0tv9iZwmX3QhOwYgrkdylc"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0tv9iZwmX3QhOwYgrkdylc"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-07-3evctp",
+      "ifc_global_id": "3eVcTPP4z5PvakE2XtxxJp",
+      "name": "4.07",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3eVcTPP4z5PvakE2XtxxJp"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3eVcTPP4z5PvakE2XtxxJp"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-08-09fo1j",
+      "ifc_global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+      "name": "4.08",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "09fo1jWjfFtQMbiri1ZVQ3"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "09fo1jWjfFtQMbiri1ZVQ3"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-02-0ofdzw",
+      "ifc_global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+      "name": "4.02",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0OFDZWgvrCbvU2AvmpKDKA"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0OFDZWgvrCbvU2AvmpKDKA"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-00-2ufjkh",
+      "ifc_global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+      "name": "4.00",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2UFJkHK4XCxgqVrTwxYwA7"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2UFJkHK4XCxgqVrTwxYwA7"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-05-1rpmri",
+      "ifc_global_id": "1RPMriui52lBriSIaCeUCC",
+      "name": "4.05",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1RPMriui52lBriSIaCeUCC"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1RPMriui52lBriSIaCeUCC"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-04-2euwuv",
+      "ifc_global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+      "name": "4.04",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2eUwuV6Q14GRH$hdaTX4hB"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2eUwuV6Q14GRH$hdaTX4hB"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-4-03-2brxap",
+      "ifc_global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+      "name": "4.03",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2BRXAPrXHFoR9OLTjqGZa3"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2BRXAPrXHFoR9OLTjqGZa3"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "01-eerste-verdieping-a1-01-0ldlkg",
+      "ifc_global_id": "0ldLkGDpv5wRT1Q$Q3V2M1",
+      "name": "A1.01",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "elevation": 3000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0ldLkGDpv5wRT1Q$Q3V2M1"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 28,
+        "face_count": 52,
+        "volume_m3": 17.84683153713829,
+        "bounds": [
+          [
+            -1.3260001135200001,
+            0.0,
+            0.0
+          ],
+          [
+            1.93799999301,
+            2.83354962917,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0ldLkGDpv5wRT1Q$Q3V2M1"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-06-3gmzjj",
+      "ifc_global_id": "3gmZJjQND96w5a6Ee$z2ah",
+      "name": "7.06",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3gmZJjQND96w5a6Ee$z2ah"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3gmZJjQND96w5a6Ee$z2ah"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-09-0seyzp",
+      "ifc_global_id": "0sEYZPVdXAZAaorrZw2LKy",
+      "name": "8.09",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0sEYZPVdXAZAaorrZw2LKy"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0sEYZPVdXAZAaorrZw2LKy"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-07-0cjdgh",
+      "ifc_global_id": "0CJDgHLZLCWu7DbuOU80VN",
+      "name": "8.07",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0CJDgHLZLCWu7DbuOU80VN"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0CJDgHLZLCWu7DbuOU80VN"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-00-0cujfs",
+      "ifc_global_id": "0CujFs7XvBHACKRDUKrtM$",
+      "name": "8.00",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0CujFs7XvBHACKRDUKrtM$"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0CujFs7XvBHACKRDUKrtM$"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-05-2q_kn3",
+      "ifc_global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+      "name": "8.05",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2q_kN3Luf7wwPVcXYQjBxR"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2q_kN3Luf7wwPVcXYQjBxR"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-06-1leids",
+      "ifc_global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+      "name": "8.06",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1LeiDSp9fA6h6$bEYt0VSH"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1LeiDSp9fA6h6$bEYt0VSH"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-08-1s8ejb",
+      "ifc_global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+      "name": "8.08",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1s8ejb3fH1wA$G6dYM5GgC"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1s8ejb3fH1wA$G6dYM5GgC"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-03-0a_kf4",
+      "ifc_global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+      "name": "8.03",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0a_kF4OBP2GPx5hgvIBSXe"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0a_kF4OBP2GPx5hgvIBSXe"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-04-3qkc-p",
+      "ifc_global_id": "3QKc$p$NXEvRNG3pdlAj02",
+      "name": "8.04",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3QKc$p$NXEvRNG3pdlAj02"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3QKc$p$NXEvRNG3pdlAj02"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-02-2takn3",
+      "ifc_global_id": "2taKN3SF5AqhoJgBEDOiLL",
+      "name": "8.02",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2taKN3SF5AqhoJgBEDOiLL"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2taKN3SF5AqhoJgBEDOiLL"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-8-01-1rgszo",
+      "ifc_global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+      "name": "8.01",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1rGsZO_eH6hBvf3PaTPrrd"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1rGsZO_eH6hBvf3PaTPrrd"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-01-2j8_gv",
+      "ifc_global_id": "2j8_gVWpbACxOVmNDi6bGE",
+      "name": "7.01",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2j8_gVWpbACxOVmNDi6bGE"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2j8_gVWpbACxOVmNDi6bGE"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-07-1mzktl",
+      "ifc_global_id": "1mzKtLlF9B0824gzkkIWlz",
+      "name": "7.07",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1mzKtLlF9B0824gzkkIWlz"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1mzKtLlF9B0824gzkkIWlz"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-08-3kejcn",
+      "ifc_global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+      "name": "7.08",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3KeJCNzFv2cPjuyq2Kb61z"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3KeJCNzFv2cPjuyq2Kb61z"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-02-0ylghi",
+      "ifc_global_id": "0yLghiaXr4pB6B4YHPBOlT",
+      "name": "7.02",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0yLghiaXr4pB6B4YHPBOlT"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0yLghiaXr4pB6B4YHPBOlT"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-00-0m66n5",
+      "ifc_global_id": "0m66n5BInC6fBzFb8EWwyE",
+      "name": "7.00",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0m66n5BInC6fBzFb8EWwyE"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0m66n5BInC6fBzFb8EWwyE"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-05-1gekzc",
+      "ifc_global_id": "1geKZCJAHAVQxXKkYkD9nV",
+      "name": "7.05",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1geKZCJAHAVQxXKkYkD9nV"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1geKZCJAHAVQxXKkYkD9nV"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-04-3-vxlf",
+      "ifc_global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+      "name": "7.04",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3$vxLFFCTCjhIrAHJw7BxO"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3$vxLFFCTCjhIrAHJw7BxO"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-7-03-1stydh",
+      "ifc_global_id": "1stYdhm21EUQMz3jV6WdHc",
+      "name": "7.03",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1stYdhm21EUQMz3jV6WdHc"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1stYdhm21EUQMz3jV6WdHc"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "02-tweede-verdieping-a2-01-2nn5oy",
+      "ifc_global_id": "2Nn5OYLeT9FBcLTcY8oegS",
+      "name": "A2.01",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "elevation": 6000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Nn5OYLeT9FBcLTcY8oegS"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 28,
+        "face_count": 52,
+        "volume_m3": 19.526983803005646,
+        "bounds": [
+          [
+            -1.32600013275,
+            0.0,
+            0.0
+          ],
+          [
+            1.93799999301,
+            3.31354925128,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2Nn5OYLeT9FBcLTcY8oegS"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-06-1ksvb7",
+      "ifc_global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+      "name": "9.06",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1ksvb7lcPBt9rmCaSOqIpd"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1ksvb7lcPBt9rmCaSOqIpd"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-07-1alg6d",
+      "ifc_global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+      "name": "10.07",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1AlG6Dm9L1h8L4yH9tB8FO"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1AlG6Dm9L1h8L4yH9tB8FO"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-00-0c9lsn",
+      "ifc_global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+      "name": "10.00",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0c9LSnFgj7OBxwRT4cC9lK"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0c9LSnFgj7OBxwRT4cC9lK"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-05-1jrmac",
+      "ifc_global_id": "1JrMACb0vE99f79I2KAPuN",
+      "name": "10.05",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1JrMACb0vE99f79I2KAPuN"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1JrMACb0vE99f79I2KAPuN"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-06-12skpf",
+      "ifc_global_id": "12sKPfqUvDFv$X4w8UYHNK",
+      "name": "10.06",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "12sKPfqUvDFv$X4w8UYHNK"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "12sKPfqUvDFv$X4w8UYHNK"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-08-0folgh",
+      "ifc_global_id": "0FOLghHZTBOPD8KF6PRrx0",
+      "name": "10.08",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0FOLghHZTBOPD8KF6PRrx0"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0FOLghHZTBOPD8KF6PRrx0"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-03-0lgze9",
+      "ifc_global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+      "name": "10.03",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0lGZe9hjL5GQNRN2Ku92xr"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0lGZe9hjL5GQNRN2Ku92xr"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-04-0thxut",
+      "ifc_global_id": "0thxUtY5D3nQDlN3b_gGVK",
+      "name": "10.04",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0thxUtY5D3nQDlN3b_gGVK"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0thxUtY5D3nQDlN3b_gGVK"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-02-2pbv_b",
+      "ifc_global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+      "name": "10.02",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Pbv_BJfT8Ev1Sj5Jh4Tgi"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2Pbv_BJfT8Ev1Sj5Jh4Tgi"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-10-01-2yo-ep",
+      "ifc_global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+      "name": "10.01",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Yo$EpP$z2dOC6zNZ35BJq"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2Yo$EpP$z2dOC6zNZ35BJq"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-01-0oebkl",
+      "ifc_global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+      "name": "9.01",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0oEbkL7YDD8AYm6eYpAT4B"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0oEbkL7YDD8AYm6eYpAT4B"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-07-34jlbt",
+      "ifc_global_id": "34JLBtlPXEaeJkF7ppuU09",
+      "name": "9.07",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "34JLBtlPXEaeJkF7ppuU09"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "34JLBtlPXEaeJkF7ppuU09"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-08-0z1dmn",
+      "ifc_global_id": "0z1DMNAyb21RRdXtk2yF$a",
+      "name": "9.08",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0z1DMNAyb21RRdXtk2yF$a"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "0z1DMNAyb21RRdXtk2yF$a"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-02-2segle",
+      "ifc_global_id": "2SEglEZ618iOaVY$jPjl1r",
+      "name": "9.02",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2SEglEZ618iOaVY$jPjl1r"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "2SEglEZ618iOaVY$jPjl1r"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-00-00xvyz",
+      "ifc_global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+      "name": "9.00",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "00XVyzXGDDQPsHPeNwCNmZ"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "00XVyzXGDDQPsHPeNwCNmZ"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-05-3_fpsw",
+      "ifc_global_id": "3_fPSW07z7bufHlc3SsUgF",
+      "name": "9.05",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3_fPSW07z7bufHlc3SsUgF"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3_fPSW07z7bufHlc3SsUgF"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-04-3ig4tb",
+      "ifc_global_id": "3iG4tbXJ901RkZ0OynKIbL",
+      "name": "9.04",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3iG4tbXJ901RkZ0OynKIbL"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3iG4tbXJ901RkZ0OynKIbL"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-9-03-1wtl5_",
+      "ifc_global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+      "name": "9.03",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1Wtl5_cnDDhAIgcPpOxWTl"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 0,
+        "face_count": 0,
+        "volume_m3": 0.0,
+        "bounds": null,
+        "extracted": false
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "1Wtl5_cnDDhAIgcPpOxWTl"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    },
+    {
+      "unit_id": "03-derde-verdieping-a3-01-3c9gfb",
+      "ifc_global_id": "3c9gfBnpXAtgB1oHgYsgIs",
+      "name": "A3.01",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "elevation": 9000.0,
+      "classification": "derived/prototype",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3c9gfBnpXAtgB1oHgYsgIs"
+      ],
+      "derivation_method": [
+        "IfcSpace geometry and spatial containment from IfcRelContainedInSpatialStructure",
+        "space name and storey association retained from original IFC",
+        "prototype unit created because legal apartment boundaries are not authoritative in the source dataset"
+      ],
+      "geometry": {
+        "vertex_count": 24,
+        "face_count": 44,
+        "volume_m3": 16.664223098498493,
+        "bounds": [
+          [
+            -1.18874626105,
+            0.0,
+            0.0
+          ],
+          [
+            1.93799999301,
+            2.77604921575,
+            2.62
+          ]
+        ],
+        "extracted": true
+      },
+      "provenance": {
+        "source": "Schependomlaan IFC",
+        "source_ifc_global_ids": [
+          "3c9gfBnpXAtgB1oHgYsgIs"
+        ],
+        "derivation_method": [
+          "IfcSpace object treated as a derived property unit",
+          "supports later legal cadastral integration"
+        ]
+      }
+    }
+  ]
+}

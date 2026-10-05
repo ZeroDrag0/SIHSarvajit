@@ -1,0 +1,8 @@
+project_root: ../..
+dataset_root: ../Schependomlaan
+archive_root: ../../Archive-DataSetSchependomlaan
+primary_ifc: ../../Archive-DataSetSchependomlaan/Design model IFC/IFC Schependomlaan.ifc
+as_planned_ifc_dir: ../../Archive-DataSetSchependomlaan/As Planned models
+pointcloud_dir: ../../Archive-DataSetSchependomlaan/Point Clouds
+documentation_dir: ../../Archive-DataSetSchependomlaan
+processed_dir: ../Schependomlaan/processed

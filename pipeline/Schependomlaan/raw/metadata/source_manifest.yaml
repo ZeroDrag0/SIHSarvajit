@@ -1,0 +1,19 @@
+project: Schependomlaan
+archive_root: ../../Archive-DataSetSchependomlaan
+primary_ifc: ../../Archive-DataSetSchependomlaan/Design model IFC/IFC Schependomlaan.ifc
+as_planned_ifcs:
+  - ../../Archive-DataSetSchependomlaan/As Planned models/IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 26 26 june IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 27 3 july IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 28 10 july IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 29 17 july IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 30 24 july IFC Schependomlaan incl planningsdata.ifc
+  - ../../Archive-DataSetSchependomlaan/As Planned models/Week 37 11 sept IFC Schependomlaan incl planningsdata.ifc
+pointclouds:
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 27/PLY/De Schepen week 27_t.ply
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 30/PLY/De Schepen week 30_t.ply
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 27/ASCII/De Schepen week 27_t - Cloud.txt
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 28/ASCII/De Schepen week 27_t - Cloud.txt
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 29/ASCII/De Schepen week 29_t - Cloud.txt
+  - ../../Archive-DataSetSchependomlaan/Point Clouds/Week 30/ASCII/De Schepen week 30_t - Cloud.txt
+legal_status: 'No legal or cadastral unit boundary has been included in the dataset. Generated property units are labelled as derived/prototype.'

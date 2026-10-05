@@ -1,0 +1,8 @@
+{
+  "terrain_status": "not_available",
+  "rasters": [],
+  "building_terrain": null,
+  "notes": [
+    "no DTM/DSM supplied; ground/roof elevation and height-above-terrain not derived"
+  ]
+}

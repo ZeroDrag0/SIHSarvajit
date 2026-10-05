@@ -1,0 +1,2948 @@
+{
+  "method": "rule_based",
+  "model_status": "not_trained",
+  "source_mode": "live_ifc",
+  "classes": [
+    "private_apartment_space",
+    "common_circulation",
+    "entrance",
+    "technical_service",
+    "storage",
+    "parking",
+    "foundation",
+    "roof",
+    "unknown"
+  ],
+  "space_count": 100,
+  "class_counts": {
+    "technical_service": 1,
+    "entrance": 1,
+    "storage": 1,
+    "private_apartment_space": 94,
+    "common_circulation": 3
+  },
+  "group_scopes": {
+    "A0": {
+      "scope": "shared",
+      "dwelling_signature_types": [],
+      "alpha_prefix": "A"
+    },
+    "3": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "2": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "1": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "4": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "6": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "5": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "A1": {
+      "scope": "shared",
+      "dwelling_signature_types": [],
+      "alpha_prefix": "A"
+    },
+    "7": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "8": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "A2": {
+      "scope": "shared",
+      "dwelling_signature_types": [],
+      "alpha_prefix": "A"
+    },
+    "9": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "10": {
+      "scope": "private_candidate",
+      "dwelling_signature_types": [
+        "badkamer",
+        "keuken",
+        "slaapkamer",
+        "woonkamer"
+      ],
+      "alpha_prefix": ""
+    },
+    "A3": {
+      "scope": "shared",
+      "dwelling_signature_types": [],
+      "alpha_prefix": "A"
+    }
+  },
+  "spaces": [
+    {
+      "space_global_id": "22lJvI_rz50umvUizzyEQi",
+      "space_name": "A0.01",
+      "long_name": "instal. ruimte",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "A0",
+      "group_scope": "shared",
+      "classification": "technical_service",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A0",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2dFicWHgz1KPbr5tHWzMcP",
+      "space_name": "A0.00",
+      "long_name": "entree",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "A0",
+      "group_scope": "shared",
+      "classification": "entrance",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A0",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3ZMk1e17XESP$vROePi38_",
+      "space_name": "A0.02",
+      "long_name": "berging",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "A0",
+      "group_scope": "shared",
+      "classification": "storage",
+      "function": "storage",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A0",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "storage",
+          "detail": [
+            "berging"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2GXKgJyIfAhxPinRH3xm0N",
+      "space_name": "3.08",
+      "long_name": "badkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+      "space_name": "3.07",
+      "long_name": "slaapkamer 2",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "39NQt7$3b1Mxn97UesaLDi",
+      "space_name": "3.06",
+      "long_name": "slaapkamer 1",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+      "space_name": "3.09",
+      "long_name": "instal. ruimte",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1sCG2cUVb49PxJaBBE81Kw",
+      "space_name": "3.03",
+      "long_name": "woonkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "10$IVtAgz3gvaL1AC5hF6m",
+      "space_name": "3.04",
+      "long_name": "keuken",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0asyuu9T1AaPR7AmNDL1_c",
+      "space_name": "3.01",
+      "long_name": "mk",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+      "space_name": "3.00",
+      "long_name": "entree",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+      "space_name": "3.02",
+      "long_name": "toilet",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3o3cJaPf51HPH9CUJnfi0W",
+      "space_name": "3.05",
+      "long_name": "gang",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "3",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "circulation",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "3",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "circulation",
+          "detail": [
+            "gang"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "12AHbNFjr4FRJYlF1r7pMB",
+      "space_name": "2.10",
+      "long_name": "berging",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "storage",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "storage",
+          "detail": [
+            "berging"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2brbBA_o18ffxZ1OJKAEXd",
+      "space_name": "2.08",
+      "long_name": "badkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+      "space_name": "2.05",
+      "long_name": "gang",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "circulation",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "circulation",
+          "detail": [
+            "gang"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0ajLK6DXHAaeMk704HiMsX",
+      "space_name": "2.06",
+      "long_name": "slaapkamer 1",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+      "space_name": "2.07",
+      "long_name": "slaapkamer 2",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "02NK$DEdTDwuguIz00UqtE",
+      "space_name": "2.09",
+      "long_name": "instal. ruimte",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3vdzRMAWL66B6ew5$sjOj$",
+      "space_name": "2.03",
+      "long_name": "woonkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+      "space_name": "2.04",
+      "long_name": "keuken",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0bNesd_3DCrhdyKRJV7k4U",
+      "space_name": "1.02",
+      "long_name": "toilet",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0P5HFjHIjAsevZeF10JaZS",
+      "space_name": "2.01",
+      "long_name": "mk",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+      "space_name": "2.00",
+      "long_name": "entree",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "2",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "2",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+      "space_name": "1.01",
+      "long_name": "mk",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+      "space_name": "1.06",
+      "long_name": "badkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0P4aIRXgD9XPdxJodXPmsI",
+      "space_name": "1.07",
+      "long_name": "instal. ruimte",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+      "space_name": "1.02",
+      "long_name": "toilet",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3K51PWTdT9s9p1sMs0i66A",
+      "space_name": "1.00",
+      "long_name": "entree",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+      "space_name": "1.05",
+      "long_name": "slaapkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1S5uZBEqz97vGlKIzp8YFh",
+      "space_name": "1.04",
+      "long_name": "keuken",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3RW6tpuaLA5fXODOX3rOlb",
+      "space_name": "1.03",
+      "long_name": "woonkamer",
+      "storey_id": "2SWZMQPyD9pfT9q87pgXa1",
+      "storey_name": "00 begane grond",
+      "prefix_group": "1",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "1",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3F3COwDdj5LRVbWzGorFc7",
+      "space_name": "4.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3EcQs2ERfA495F4sseU_w4",
+      "space_name": "6.07",
+      "long_name": "badkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+      "space_name": "6.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+      "space_name": "6.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+      "space_name": "6.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0kg640irz75hysOImfQ5Ff",
+      "space_name": "6.03",
+      "long_name": "woonkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3_e7IngdDBjOHVpCs_T3bC",
+      "space_name": "6.04",
+      "long_name": "keuken",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1bpdPR8RjDwuwW5iXv63ud",
+      "space_name": "6.01",
+      "long_name": "mk",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+      "space_name": "5.09",
+      "long_name": "kast",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "storage",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "storage",
+          "detail": [
+            "kast"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "09WjTQSeH1n8koThMDL_IH",
+      "space_name": "6.02",
+      "long_name": "toilet",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2WflCt48T2yQbjDADsjk3X",
+      "space_name": "6.00",
+      "long_name": "entree",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "6",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "6",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1dQmRhr_nEmea8aisHAkCQ",
+      "space_name": "5.07",
+      "long_name": "badkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1AtrO37LT8iQg1RDVAeoCA",
+      "space_name": "5.00",
+      "long_name": "entree",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0up7RAxwfAqvoyCE1kDxpy",
+      "space_name": "5.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0IIWC_MJj0TegDVVevqJ7a",
+      "space_name": "5.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+      "space_name": "5.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0BsqHll2P5vhJOAHEDwAwi",
+      "space_name": "5.03",
+      "long_name": "woonkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1PBqvLnRDDUATdl_lvNYMh",
+      "space_name": "5.04",
+      "long_name": "keuken",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2EX8CQvoT3VOdgcbCwhid_",
+      "space_name": "5.02",
+      "long_name": "toilet",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0hW2P55_n5cOR9ThNgO3e6",
+      "space_name": "5.01",
+      "long_name": "mk",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "5",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "5",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0tv9iZwmX3QhOwYgrkdylc",
+      "space_name": "4.01",
+      "long_name": "mk",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3eVcTPP4z5PvakE2XtxxJp",
+      "space_name": "4.07",
+      "long_name": "badkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+      "space_name": "4.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+      "space_name": "4.02",
+      "long_name": "toilet",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+      "space_name": "4.00",
+      "long_name": "entree",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1RPMriui52lBriSIaCeUCC",
+      "space_name": "4.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+      "space_name": "4.04",
+      "long_name": "keuken",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+      "space_name": "4.03",
+      "long_name": "woonkamer",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "4",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "4",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0ldLkGDpv5wRT1Q$Q3V2M1",
+      "space_name": "A1.01",
+      "long_name": "overloop",
+      "storey_id": "0u4wgLe6n0ABVaiXyikbkA",
+      "storey_name": "01 eerste verdieping",
+      "prefix_group": "A1",
+      "group_scope": "shared",
+      "classification": "common_circulation",
+      "function": "circulation",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A1",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "circulation",
+          "detail": [
+            "overloop"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3gmZJjQND96w5a6Ee$z2ah",
+      "space_name": "7.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0sEYZPVdXAZAaorrZw2LKy",
+      "space_name": "8.09",
+      "long_name": "kast",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "storage",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "storage",
+          "detail": [
+            "kast"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0CJDgHLZLCWu7DbuOU80VN",
+      "space_name": "8.07",
+      "long_name": "badkamer",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0CujFs7XvBHACKRDUKrtM$",
+      "space_name": "8.00",
+      "long_name": "entree",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+      "space_name": "8.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+      "space_name": "8.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+      "space_name": "8.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+      "space_name": "8.03",
+      "long_name": "woonkamer",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3QKc$p$NXEvRNG3pdlAj02",
+      "space_name": "8.04",
+      "long_name": "keuken",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2taKN3SF5AqhoJgBEDOiLL",
+      "space_name": "8.02",
+      "long_name": "toilet",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+      "space_name": "8.01",
+      "long_name": "mk",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "8",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "8",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2j8_gVWpbACxOVmNDi6bGE",
+      "space_name": "7.01",
+      "long_name": "mk",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1mzKtLlF9B0824gzkkIWlz",
+      "space_name": "7.07",
+      "long_name": "badkamer",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+      "space_name": "7.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0yLghiaXr4pB6B4YHPBOlT",
+      "space_name": "7.02",
+      "long_name": "toilet",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0m66n5BInC6fBzFb8EWwyE",
+      "space_name": "7.00",
+      "long_name": "entree",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1geKZCJAHAVQxXKkYkD9nV",
+      "space_name": "7.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+      "space_name": "7.04",
+      "long_name": "keuken",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1stYdhm21EUQMz3jV6WdHc",
+      "space_name": "7.03",
+      "long_name": "woonkamer",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "7",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "7",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2Nn5OYLeT9FBcLTcY8oegS",
+      "space_name": "A2.01",
+      "long_name": "overloop",
+      "storey_id": "0wPqxf9KX0nPDjgzD8mXwD",
+      "storey_name": "02 tweede verdieping",
+      "prefix_group": "A2",
+      "group_scope": "shared",
+      "classification": "common_circulation",
+      "function": "circulation",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A2",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "circulation",
+          "detail": [
+            "overloop"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+      "space_name": "9.06",
+      "long_name": "slaapkamer 2",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+      "space_name": "10.07",
+      "long_name": "badkamer",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+      "space_name": "10.00",
+      "long_name": "entree",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1JrMACb0vE99f79I2KAPuN",
+      "space_name": "10.05",
+      "long_name": "slaapkamer",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "12sKPfqUvDFv$X4w8UYHNK",
+      "space_name": "10.06",
+      "long_name": "onben. ruimte",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "unnamed",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "unnamed",
+          "detail": [
+            "onben"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0FOLghHZTBOPD8KF6PRrx0",
+      "space_name": "10.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+      "space_name": "10.03",
+      "long_name": "woonkamer",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0thxUtY5D3nQDlN3b_gGVK",
+      "space_name": "10.04",
+      "long_name": "keuken",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+      "space_name": "10.02",
+      "long_name": "toilet",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+      "space_name": "10.01",
+      "long_name": "mk",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "10",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "10",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+      "space_name": "9.01",
+      "long_name": "mk",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "mk"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "34JLBtlPXEaeJkF7ppuU09",
+      "space_name": "9.07",
+      "long_name": "badkamer",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "badkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "0z1DMNAyb21RRdXtk2yF$a",
+      "space_name": "9.08",
+      "long_name": "instal. ruimte",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "technical",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "technical",
+          "detail": [
+            "instal"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "2SEglEZ618iOaVY$jPjl1r",
+      "space_name": "9.02",
+      "long_name": "toilet",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "sanitary",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "sanitary",
+          "detail": [
+            "toilet"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+      "space_name": "9.00",
+      "long_name": "entree",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "entrance",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "entrance",
+          "detail": [
+            "entree"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3_fPSW07z7bufHlc3SsUgF",
+      "space_name": "9.05",
+      "long_name": "slaapkamer 1",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "slaapkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3iG4tbXJ901RkZ0OynKIbL",
+      "space_name": "9.04",
+      "long_name": "keuken",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "keuken"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+      "space_name": "9.03",
+      "long_name": "woonkamer",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "9",
+      "group_scope": "private_candidate",
+      "classification": "private_apartment_space",
+      "function": "dwelling_room",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "9",
+          "detail": "group has dwelling-signature types ['badkamer', 'keuken', 'slaapkamer', 'woonkamer']"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "dwelling_room",
+          "detail": [
+            "woonkamer"
+          ]
+        }
+      ]
+    },
+    {
+      "space_global_id": "3c9gfBnpXAtgB1oHgYsgIs",
+      "space_name": "A3.01",
+      "long_name": "overloop",
+      "storey_id": "2Hyat1fsPEGfyYPyim12A1",
+      "storey_name": "03 derde verdieping",
+      "prefix_group": "A3",
+      "group_scope": "shared",
+      "classification": "common_circulation",
+      "function": "circulation",
+      "confidence": 0.95,
+      "method": "rule_based",
+      "model_status": "not_trained",
+      "evidence": [
+        {
+          "signal": "name_prefix_group",
+          "value": "A3",
+          "detail": "group has dwelling-signature types []"
+        },
+        {
+          "signal": "room_type_lexicon",
+          "value": "circulation",
+          "detail": [
+            "overloop"
+          ]
+        }
+      ]
+    }
+  ]
+}
