@@ -1,0 +1,284 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    "10 of 10 unit(s) include fallback (footprint+box extrusion) geometry",
+    "space geometry deviates from IFC space boundaries (>5 cm xy): ['3.05']"
+  ],
+  "checks": {
+    "duplicate_units": {
+      "status": "passed",
+      "duplicates": []
+    },
+    "invalid_geometry": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": [],
+      "fallback_geometry_units": [
+        "PU-01",
+        "PU-02",
+        "PU-03",
+        "PU-04",
+        "PU-05",
+        "PU-06",
+        "PU-07",
+        "PU-08",
+        "PU-09",
+        "PU-10"
+      ],
+      "note": "fallback = extruded from IFC FootPrint+Box (watertight, but not a Body mesh)"
+    },
+    "self_intersections": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": [],
+      "method": "footprint validity (shapely) + mesh manifoldness (manifold3d) + watertight/winding; exhaustive triangle-triangle intersection NOT performed"
+    },
+    "zero_negative_volume": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": []
+    },
+    "volumetric_overlap": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": [],
+      "candidate_pairs": 66,
+      "exact_boolean_pairs": 66,
+      "approximated_pairs": 0,
+      "intra_unit_overlaps": []
+    },
+    "footprint_overlap": {
+      "status": "passed",
+      "stacked_pairs": [
+        {
+          "units": [
+            "PU-01",
+            "PU-04"
+          ],
+          "footprint_overlap_m2": 75.75,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-01",
+            "PU-07"
+          ],
+          "footprint_overlap_m2": 75.75,
+          "z_overlap_m": -3.38
+        },
+        {
+          "units": [
+            "PU-01",
+            "PU-09"
+          ],
+          "footprint_overlap_m2": 68.065,
+          "z_overlap_m": -6.38
+        },
+        {
+          "units": [
+            "PU-02",
+            "PU-05"
+          ],
+          "footprint_overlap_m2": 98.433,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-02",
+            "PU-08"
+          ],
+          "footprint_overlap_m2": 98.433,
+          "z_overlap_m": -3.38
+        },
+        {
+          "units": [
+            "PU-02",
+            "PU-10"
+          ],
+          "footprint_overlap_m2": 88.93,
+          "z_overlap_m": -6.38
+        },
+        {
+          "units": [
+            "PU-03",
+            "PU-06"
+          ],
+          "footprint_overlap_m2": 93.16,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-04",
+            "PU-07"
+          ],
+          "footprint_overlap_m2": 85.037,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-04",
+            "PU-09"
+          ],
+          "footprint_overlap_m2": 76.825,
+          "z_overlap_m": -3.38
+        },
+        {
+          "units": [
+            "PU-05",
+            "PU-08"
+          ],
+          "footprint_overlap_m2": 103.358,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-05",
+            "PU-10"
+          ],
+          "footprint_overlap_m2": 93.746,
+          "z_overlap_m": -3.38
+        },
+        {
+          "units": [
+            "PU-07",
+            "PU-09"
+          ],
+          "footprint_overlap_m2": 76.825,
+          "z_overlap_m": -0.38
+        },
+        {
+          "units": [
+            "PU-08",
+            "PU-10"
+          ],
+          "footprint_overlap_m2": 93.242,
+          "z_overlap_m": -0.38
+        }
+      ],
+      "note": "footprints that overlap while z-ranges are disjoint = vertical stacking (expected)"
+    },
+    "vertical_overlap": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": []
+    },
+    "unexpected_gaps": {
+      "status": "passed",
+      "storey_coverage_ratio": {
+        "00 begane grond": 0.78,
+        "01 eerste verdieping": 0.77,
+        "02 tweede verdieping": 0.875,
+        "03 derde verdieping": 0.826
+      },
+      "low_coverage": {},
+      "unowned_spaces_with_geometry": [],
+      "note": "wall thickness legitimately separates net room volumes; low ratio = suspicious gaps"
+    },
+    "building_containment": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": [],
+      "footprint_envelope_source": "union of all IfcSpace footprints (self-consistency only; no independent envelope supplied)",
+      "z_envelope_source": "IFC storey elevations (independent of space geometry)"
+    },
+    "storey_unit_consistency": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": []
+    },
+    "z_order_consistency": {
+      "status": "passed",
+      "items": [],
+      "units_skipped": []
+    },
+    "shared_boundary_consistency": {
+      "status": "passed",
+      "adjacent_pairs": 6,
+      "gap_m_min_median_max": [
+        0.2999990449999998,
+        0.2999990450250003,
+        0.2999999945300011
+      ],
+      "isolated_units": [],
+      "note": "neighbouring units are separated by wall thickness (net volumes); overlaps are caught by volumetric_overlap"
+    },
+    "parcel_building_consistency": {
+      "status": "not_applicable",
+      "reason": "no cadastral data supplied"
+    },
+    "terrain_building_consistency": {
+      "status": "not_applicable",
+      "reason": "no terrain data supplied"
+    },
+    "geometry_provenance": {
+      "status": "warning",
+      "units_with_fallback_geometry": [
+        "PU-01",
+        "PU-02",
+        "PU-03",
+        "PU-04",
+        "PU-05",
+        "PU-06",
+        "PU-07",
+        "PU-08",
+        "PU-09",
+        "PU-10"
+      ],
+      "units_below_0_6_confidence": [],
+      "spaces_not_fully_corroborated_by_space_boundaries": [
+        "1.01",
+        "2.00",
+        "2.01",
+        "3.00",
+        "3.02",
+        "3.05",
+        "3.08"
+      ],
+      "spaces_deviating_from_space_boundaries": [
+        "3.05"
+      ],
+      "note": "fallback = IfcSpace FootPrint curve + Box height extrusion (real IFC data, no Body solid); corroboration = independent comparison with IfcRelSpaceBoundary surfaces"
+    }
+  },
+  "metrics": {
+    "unit_count": 10,
+    "unit_ids": [
+      "PU-01",
+      "PU-02",
+      "PU-03",
+      "PU-04",
+      "PU-05",
+      "PU-06",
+      "PU-07",
+      "PU-08",
+      "PU-09",
+      "PU-10"
+    ],
+    "units_with_geometry": 10,
+    "units_without_geometry": [],
+    "space_geometry_count": 100,
+    "spaces_without_geometry": 0,
+    "total_unit_volume_m3": 2411.111,
+    "required_checks": [
+      "duplicate_units",
+      "invalid_geometry",
+      "self_intersections",
+      "zero_negative_volume",
+      "volumetric_overlap",
+      "building_containment",
+      "storey_unit_consistency",
+      "z_order_consistency"
+    ],
+    "required_checks_not_passed": [],
+    "check_status_counts": {
+      "passed": 12,
+      "failed": 0,
+      "warning": 1,
+      "incomplete": 0,
+      "not_run": 0,
+      "not_applicable": 2
+    }
+  },
+  "validity_definition": "true only if all required checks ran on all units and passed"
+}

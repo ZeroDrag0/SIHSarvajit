@@ -1,0 +1,150 @@
+{
+  "source_mode": "live_ifc",
+  "source_file": "/home/claude/work/Archive-DataSetSchependomlaan/Design model IFC/IFC Schependomlaan.ifc",
+  "schema": "IFC2X3",
+  "project": {
+    "global_id": "344O7vICcwH8qAEnwJDjSU",
+    "name": "10 Appartementen Schependomlaan",
+    "description": null
+  },
+  "units": {
+    "length_scale_to_metre": 0.001
+  },
+  "entity_counts": {
+    "IfcSite": 1,
+    "IfcBuilding": 1,
+    "IfcBuildingStorey": 6,
+    "IfcSpace": 100,
+    "IfcZone": 0,
+    "IfcWall": 934,
+    "IfcSlab": 279,
+    "IfcDoor": 205,
+    "IfcWindow": 259
+  },
+  "relationship_counts": {
+    "IfcRelAggregates": 59,
+    "IfcRelContainedInSpatialStructure": 14,
+    "IfcRelSpaceBoundary": 1675,
+    "IfcRelDefinesByProperties": 18137,
+    "IfcRelDefinesByType": 187,
+    "IfcRelAssignsToGroup": 0,
+    "IfcRelReferencedInSpatialStructure": 0,
+    "IfcRelNests": 0,
+    "IfcRelVoidsElement": 79
+  },
+  "spatial_tree": [
+    {
+      "building": {
+        "global_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "name": "Building"
+      },
+      "storeys": [
+        {
+          "global_id": "1Q6PG1Po9C5hoyWBnJmRby",
+          "name": "-1 fundering",
+          "elevation_m": -1.0,
+          "space_count": 0
+        },
+        {
+          "global_id": "2SWZMQPyD9pfT9q87pgXa1",
+          "name": "00 begane grond",
+          "elevation_m": 0.0,
+          "space_count": 32
+        },
+        {
+          "global_id": "0u4wgLe6n0ABVaiXyikbkA",
+          "name": "01 eerste verdieping",
+          "elevation_m": 3.0,
+          "space_count": 29
+        },
+        {
+          "global_id": "0wPqxf9KX0nPDjgzD8mXwD",
+          "name": "02 tweede verdieping",
+          "elevation_m": 6.0,
+          "space_count": 20
+        },
+        {
+          "global_id": "2Hyat1fsPEGfyYPyim12A1",
+          "name": "03 derde verdieping",
+          "elevation_m": 9.0,
+          "space_count": 19
+        },
+        {
+          "global_id": "0oaSdYqubDuuJF4k9AqHjC",
+          "name": "04 dak",
+          "elevation_m": 12.0,
+          "space_count": 0
+        }
+      ]
+    }
+  ],
+  "spaces_without_storey": 0,
+  "space_storey_resolution": {
+    "aggregates": 100
+  },
+  "zones": [],
+  "spaces_with_psets": 100,
+  "spaces_with_boundaries": 100,
+  "spaces_with_zones": 0,
+  "representation_types": {
+    "Body": 6,
+    "Box": 100,
+    "FootPrint": 94
+  },
+  "georeferencing": {
+    "ifc_map_conversion": null,
+    "ifc_projected_crs": null,
+    "site_reference": [
+      {
+        "global_id": "20FpTZCqJy2vhVJYtjuIce",
+        "name": "Site",
+        "ref_latitude": [
+          52,
+          9,
+          0,
+          0
+        ],
+        "ref_longitude": [
+          5,
+          23,
+          0,
+          0
+        ],
+        "ref_elevation": 20000.0,
+        "placement_origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "contexts": [
+      {
+        "context_type": "Model",
+        "world_origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_north": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "context_type": "Plan",
+        "world_origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_north": [
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "coordinate_status": "local/unverified"
+  },
+  "limitations": []
+}

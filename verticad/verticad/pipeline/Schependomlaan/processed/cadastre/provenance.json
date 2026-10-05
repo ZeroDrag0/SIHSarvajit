@@ -1,0 +1,121 @@
+{
+  "run_timestamp_utc": "2026-10-04T09:36:08+00:00",
+  "note": "timestamp is informational only; no identifier depends on it",
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.18.44-fc-v64-x86_64-with-glibc2.39",
+    "ifcopenshell": "0.9.0",
+    "trimesh": "5.1.1",
+    "numpy": "2.4.4",
+    "shapely": "2.1.2",
+    "scipy": "1.17.1",
+    "pyproj": "3.8.0",
+    "manifold3d": "3.5.4"
+  },
+  "inputs": {
+    "ifc": {
+      "path": "/home/claude/work/Archive-DataSetSchependomlaan/Design model IFC/IFC Schependomlaan.ifc",
+      "sha256": "2c3565ca1904f2aa61adab92024cf3755b2c5b21a498144d3094d7cb58cebec7",
+      "schema": "IFC2X3",
+      "length_unit": {
+        "length_scale_to_metre": 0.001
+      },
+      "source_mode": "live_ifc"
+    },
+    "pointclouds": [
+      {
+        "name": "De Schepen week 27_t.ply",
+        "size_bytes": 134,
+        "parse_status": "git_lfs_pointer_not_downloaded"
+      },
+      {
+        "name": "De Schepen week 30_t.ply",
+        "size_bytes": 134,
+        "parse_status": "git_lfs_pointer_not_downloaded"
+      }
+    ]
+  },
+  "methods": {
+    "space_classification": {
+      "method_type": "rule_based",
+      "model_status": "not_applicable"
+    },
+    "building_extraction": {
+      "method_type": "geometry_based",
+      "model_status": "not_trained"
+    },
+    "floor_segmentation": {
+      "method_type": "rule_based",
+      "model_status": "not_trained"
+    },
+    "vertical_property_delineation": {
+      "method_type": "rule_based",
+      "model_status": "not_trained"
+    },
+    "topology_validation": {
+      "method_type": "rule_based"
+    },
+    "ulpin": {
+      "method_type": "deterministic_hash",
+      "official": false
+    },
+    "ml_model_trained": false
+  },
+  "geometry": {
+    "space_summary": {
+      "space_count": 100,
+      "geometry_extracted": 100,
+      "success_rate": 1.0,
+      "by_status": {
+        "valid": 6,
+        "fallback": 94
+      },
+      "by_method": {
+        "ifc_body_mesh": 6,
+        "footprint_box_extrusion": 94
+      },
+      "real_body_geometry": 6,
+      "fallback_geometry": 94,
+      "boundary_corroboration": {
+        "corroborated": 93,
+        "partially_corroborated": 6,
+        "deviates": 1
+      },
+      "mean_confidence": 0.843,
+      "space_boundaries_in_model": 1675
+    },
+    "unit_summary": {
+      "unit_count": 10,
+      "units_with_geometry": 10,
+      "geometry_success_rate": 1.0,
+      "units_geometry_valid": 0,
+      "by_geometry_status": {
+        "fallback": 10
+      },
+      "by_representation": {
+        "boolean_union": 10
+      }
+    }
+  },
+  "pointcloud_comparison_status": "no_pointcloud_files_processed",
+  "coordinate_reference": {
+    "source_crs": "IFC local engineering coordinates",
+    "source_crs_declared_in_ifc": null,
+    "target_crs": null,
+    "vertical_reference": "local datum (NAP not verified)",
+    "transformation_status": "not_performed",
+    "coordinate_status": "local/unverified",
+    "gnss_cors_control": "not_available",
+    "notes": [
+      "IFC is not assumed to be georeferenced"
+    ]
+  },
+  "data_availability": {
+    "drone_imagery_available": false,
+    "drone_imagery_used": false,
+    "cadastral": "not_available",
+    "terrain": "not_available",
+    "underground": "data_not_available"
+  },
+  "legal_notice": "Property units are derived/inferred prototypes; ULPINs are prototype identifiers, not official."
+}

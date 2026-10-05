@@ -1,0 +1,8 @@
+node_modules/
+web/dist/
+__pycache__/
+*.pyc
+.env.local
+pipeline/Schependomlaan/processed.new/
+pipeline/Schependomlaan/processed.prev/
+pipeline/Schependomlaan/raw/ifc/*.ifc

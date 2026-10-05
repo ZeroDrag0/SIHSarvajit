@@ -1,0 +1,21 @@
+{
+  "note": "viewer/API-ready output manifest (existing viewer/backend untouched)",
+  "model": "cadastre/3d_cadastral_model.json",
+  "units_geojson": "geometry/property_units.geojson",
+  "units_glb": "geometry/property_units.glb",
+  "ulpins": "ulpin/prototype_ulpins.json",
+  "validation": "validation/topology_validation.json",
+  "coordinate_reference": {
+    "source_crs": "IFC local engineering coordinates",
+    "source_crs_declared_in_ifc": null,
+    "target_crs": null,
+    "vertical_reference": "local datum (NAP not verified)",
+    "transformation_status": "not_performed",
+    "coordinate_status": "local/unverified",
+    "gnss_cors_control": "not_available",
+    "notes": [
+      "IFC is not assumed to be georeferenced"
+    ]
+  },
+  "glb_up_axis": "Y (converted from IFC Z-up)"
+}

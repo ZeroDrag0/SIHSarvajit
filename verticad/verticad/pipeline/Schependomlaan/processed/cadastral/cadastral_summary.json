@@ -1,0 +1,20 @@
+{
+  "cadastral_status": "not_available",
+  "parcel_id": null,
+  "parcel_count": 0,
+  "files": [],
+  "link": null,
+  "notes": [
+    "no local cadastral/BAG file supplied; no parcel identifiers are invented"
+  ],
+  "building_link": {
+    "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+    "parcel_id": null,
+    "bag_id": null,
+    "link_basis": null,
+    "cadastral_status": "not_available",
+    "parcel_building_intersection": "not_evaluated"
+  },
+  "hierarchy": "Parcel > Building > Storey > Vertical Property Unit",
+  "association_policy": "explicit link file, or intersection in a shared verified CRS; otherwise null"
+}

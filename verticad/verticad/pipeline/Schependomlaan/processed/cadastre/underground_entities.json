@@ -1,0 +1,15 @@
+{
+  "underground_status": "data_not_available",
+  "entities": [],
+  "supported_types": [
+    "basement",
+    "foundation",
+    "utility",
+    "tunnel",
+    "subsurface_corridor",
+    "other_volumetric"
+  ],
+  "notes": [
+    "no authoritative underground/subsurface source supplied; none fabricated. Place GeoJSON features with properties {entity_id,type,z_min,z_max,legal_status,ownership_status} in external/underground/"
+  ]
+}

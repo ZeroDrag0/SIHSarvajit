@@ -1,0 +1,58 @@
+# Configurable rules for space classification and property-unit grouping.
+# Nothing here encodes the Schependomlaan room list; lexicon entries are generic
+# Dutch/English building vocabulary and can be extended per project.
+
+space_name:
+  # <group token>.<sequence>; group token may carry an alphabetic prefix (e.g. A0, 10, B2)
+  pattern: '^(?P<prefix>[A-Za-z]*)(?P<number>\d+)\.(?P<seq>\d+)$'
+
+lexicon:
+  dwelling_signature: [keuken, woonkamer, slaapkamer, badkamer, kitchen, living, bedroom, bathroom, wohn, schlaf]
+  entrance: [entree, entrance, foyer, vestibule, hal]
+  circulation: [overloop, gang, trap, trappenhuis, corridor, landing, stair, hallway, galerij, lift]
+  technical: [instal, techn, meterkast, cv, schacht, shaft, boiler, plant, mk, utility]
+  storage: [berging, kast, opslag, storage, closet, bergruimte]
+  parking: [parkeer, garage, stalling, parking, fietsenstalling]
+  unnamed: [onben, unnamed, unknown]
+  sanitary: [toilet, wc, badkamer, bathroom]
+
+storey_cues:
+  foundation: [fundering, foundation, kelder, basement, crawl]
+  roof: [dak, roof]
+  parking: [parkeer, parking]
+
+grouping:
+  # A prefix-group is a dwelling candidate if >= this many distinct dwelling-signature
+  # room types occur in it.
+  min_dwelling_signature_types: 2
+  # distance (m) under which two room footprints count as adjacent (wall thickness)
+  adjacency_tolerance_m: 0.6
+  # a unit is "geometrically connected" if its rooms form one adjacency component
+  require_connected_rooms: true
+  max_confidence_without_geometry: 0.75
+
+validation:
+  tolerance_area_m2: 0.001
+  tolerance_z_m: 0.01
+  min_volume_m3: 0.001
+  storey_z_tolerance_m: 0.25
+  building_envelope_buffer_m: 0.6
+  shared_boundary_max_gap_m: 0.6
+  min_storey_coverage_ratio: 0.4
+  max_exact_pairs: 4000
+
+pointcloud:
+  ascii_sample_rows: 200000
+  inside_building_buffer_m: 0.5
+  # point clouds are commonly in a scanner/local frame; compare only when extents are plausible
+  max_plausible_extent_ratio: 5.0
+  # IFC comparison metrics (only computed for a verified/declared or plausibly co-registered cloud)
+  match_radius_m: 1.0
+  coverage_tolerance_m: 0.10
+  surface_sample_spacing_m: 0.05
+  max_surface_samples: 1500000
+
+pset_group_keys: [appartement, apartment, woning, dwelling, unit, wooneenheid]
+declared_count:
+  # cross-check only (never used to force the result): "<N> Appartementen ..." in the project name
+  pattern: '(?P<n>\d+)\s*(appartementen|apartments|woningen|dwellings|units)'

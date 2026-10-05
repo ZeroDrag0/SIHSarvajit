@@ -1,0 +1,905 @@
+{
+  "scheme": "SIH-P3D-ULPIN/v1",
+  "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN.",
+  "count": 10,
+  "records": [
+    {
+      "prototype_ulpin": "P3D-G5KE-2ZMH-JXBP-7GTO-DY",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-01",
+        "storey_ids": [
+          "2SWZMQPyD9pfT9q87pgXa1"
+        ],
+        "vertical_extent_m": [
+          0.0,
+          2.62
+        ],
+        "geometry_version": "g1-532c2b3c2098",
+        "source_ids": [
+          "0EHFwkDTP5BAvP$Lr4UUAk",
+          "0Jkjl8tTH5TBBcOqrZRjc0",
+          "0P4aIRXgD9XPdxJodXPmsI",
+          "1EO6MCIfDFuRP2Ugg$wu$f",
+          "1S5uZBEqz97vGlKIzp8YFh",
+          "3K51PWTdT9s9p1sMs0i66A",
+          "3RW6tpuaLA5fXODOX3rOlb",
+          "3m0eaNZIj4WuqLA61vp_PJ"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-01",
+      "storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "geometry_version": "g1-532c2b3c2098",
+      "source_ids": [
+        "0EHFwkDTP5BAvP$Lr4UUAk",
+        "0Jkjl8tTH5TBBcOqrZRjc0",
+        "0P4aIRXgD9XPdxJodXPmsI",
+        "1EO6MCIfDFuRP2Ugg$wu$f",
+        "1S5uZBEqz97vGlKIzp8YFh",
+        "3K51PWTdT9s9p1sMs0i66A",
+        "3RW6tpuaLA5fXODOX3rOlb",
+        "3m0eaNZIj4WuqLA61vp_PJ"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "volume_m3": 210.359,
+        "footprint_area_m2": 80.29,
+        "centroid": [
+          9.413,
+          5.764,
+          1.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.8495
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-AMRI-DCZ4-JQ65-A6RW-7Y",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-02",
+        "storey_ids": [
+          "2SWZMQPyD9pfT9q87pgXa1"
+        ],
+        "vertical_extent_m": [
+          0.0,
+          2.62
+        ],
+        "geometry_version": "g1-aafa1f009861",
+        "source_ids": [
+          "02NK$DEdTDwuguIz00UqtE",
+          "0Dj6N$QAjCa8$dcIusb5Sm",
+          "0OqmHrrnL18wpVdVYaE6Eq",
+          "0P5HFjHIjAsevZeF10JaZS",
+          "0ajLK6DXHAaeMk704HiMsX",
+          "0bNesd_3DCrhdyKRJV7k4U",
+          "12AHbNFjr4FRJYlF1r7pMB",
+          "1GBaX8Qs19WPwcdIjq6ONn",
+          "2brbBA_o18ffxZ1OJKAEXd",
+          "2rpp3iZFTCVwGEE7x9qiQ8",
+          "3vdzRMAWL66B6ew5$sjOj$"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-02",
+      "storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "geometry_version": "g1-aafa1f009861",
+      "source_ids": [
+        "02NK$DEdTDwuguIz00UqtE",
+        "0Dj6N$QAjCa8$dcIusb5Sm",
+        "0OqmHrrnL18wpVdVYaE6Eq",
+        "0P5HFjHIjAsevZeF10JaZS",
+        "0ajLK6DXHAaeMk704HiMsX",
+        "0bNesd_3DCrhdyKRJV7k4U",
+        "12AHbNFjr4FRJYlF1r7pMB",
+        "1GBaX8Qs19WPwcdIjq6ONn",
+        "2brbBA_o18ffxZ1OJKAEXd",
+        "2rpp3iZFTCVwGEE7x9qiQ8",
+        "3vdzRMAWL66B6ew5$sjOj$"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "volume_m3": 271.827,
+        "footprint_area_m2": 103.751,
+        "centroid": [
+          17.501,
+          7.779,
+          1.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.8396
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.9,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-YBYX-O5DS-Y7YU-Q4XT-JH",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-03",
+        "storey_ids": [
+          "2SWZMQPyD9pfT9q87pgXa1"
+        ],
+        "vertical_extent_m": [
+          0.0,
+          2.62
+        ],
+        "geometry_version": "g1-ff5dce408e7e",
+        "source_ids": [
+          "0IOcqFv1vCWwJz5c1VnoNe",
+          "0asyuu9T1AaPR7AmNDL1_c",
+          "10$IVtAgz3gvaL1AC5hF6m",
+          "1G43xnpGf8ReA8Ux2AmH0Y",
+          "1qHWoDsfT4fQCpDzcA1RZj",
+          "1sCG2cUVb49PxJaBBE81Kw",
+          "2GXKgJyIfAhxPinRH3xm0N",
+          "2lSz4lYYD0yPZfZ0iQzeVj",
+          "39NQt7$3b1Mxn97UesaLDi",
+          "3o3cJaPf51HPH9CUJnfi0W"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-03",
+      "storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "geometry_version": "g1-ff5dce408e7e",
+      "source_ids": [
+        "0IOcqFv1vCWwJz5c1VnoNe",
+        "0asyuu9T1AaPR7AmNDL1_c",
+        "10$IVtAgz3gvaL1AC5hF6m",
+        "1G43xnpGf8ReA8Ux2AmH0Y",
+        "1qHWoDsfT4fQCpDzcA1RZj",
+        "1sCG2cUVb49PxJaBBE81Kw",
+        "2GXKgJyIfAhxPinRH3xm0N",
+        "2lSz4lYYD0yPZfZ0iQzeVj",
+        "39NQt7$3b1Mxn97UesaLDi",
+        "3o3cJaPf51HPH9CUJnfi0W"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "volume_m3": 244.784,
+        "footprint_area_m2": 93.429,
+        "centroid": [
+          7.15,
+          17.726,
+          1.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.796
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-LES7-B45Y-ZSQL-P5EN-VQ",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-04",
+        "storey_ids": [
+          "0u4wgLe6n0ABVaiXyikbkA"
+        ],
+        "vertical_extent_m": [
+          3.0,
+          5.62
+        ],
+        "geometry_version": "g1-e50994f4281b",
+        "source_ids": [
+          "09fo1jWjfFtQMbiri1ZVQ3",
+          "0OFDZWgvrCbvU2AvmpKDKA",
+          "0tv9iZwmX3QhOwYgrkdylc",
+          "1RPMriui52lBriSIaCeUCC",
+          "2BRXAPrXHFoR9OLTjqGZa3",
+          "2UFJkHK4XCxgqVrTwxYwA7",
+          "2eUwuV6Q14GRH$hdaTX4hB",
+          "3F3COwDdj5LRVbWzGorFc7",
+          "3eVcTPP4z5PvakE2XtxxJp"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-04",
+      "storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "geometry_version": "g1-e50994f4281b",
+      "source_ids": [
+        "09fo1jWjfFtQMbiri1ZVQ3",
+        "0OFDZWgvrCbvU2AvmpKDKA",
+        "0tv9iZwmX3QhOwYgrkdylc",
+        "1RPMriui52lBriSIaCeUCC",
+        "2BRXAPrXHFoR9OLTjqGZa3",
+        "2UFJkHK4XCxgqVrTwxYwA7",
+        "2eUwuV6Q14GRH$hdaTX4hB",
+        "3F3COwDdj5LRVbWzGorFc7",
+        "3eVcTPP4z5PvakE2XtxxJp"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "volume_m3": 222.797,
+        "footprint_area_m2": 85.037,
+        "centroid": [
+          9.454,
+          6.288,
+          4.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-RMQ6-MC7Y-OLIO-X5AJ-4A",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-05",
+        "storey_ids": [
+          "0u4wgLe6n0ABVaiXyikbkA"
+        ],
+        "vertical_extent_m": [
+          3.0,
+          5.62
+        ],
+        "geometry_version": "g1-b475141f94b8",
+        "source_ids": [
+          "0BsqHll2P5vhJOAHEDwAwi",
+          "0IIWC_MJj0TegDVVevqJ7a",
+          "0hW2P55_n5cOR9ThNgO3e6",
+          "0up7RAxwfAqvoyCE1kDxpy",
+          "1AtrO37LT8iQg1RDVAeoCA",
+          "1KHE8Hn6vAPe5Gw9Zrubuh",
+          "1PBqvLnRDDUATdl_lvNYMh",
+          "1dQmRhr_nEmea8aisHAkCQ",
+          "2EX8CQvoT3VOdgcbCwhid_",
+          "2so3nbcb13Ig9Yd7gOPiH$"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-05",
+      "storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "geometry_version": "g1-b475141f94b8",
+      "source_ids": [
+        "0BsqHll2P5vhJOAHEDwAwi",
+        "0IIWC_MJj0TegDVVevqJ7a",
+        "0hW2P55_n5cOR9ThNgO3e6",
+        "0up7RAxwfAqvoyCE1kDxpy",
+        "1AtrO37LT8iQg1RDVAeoCA",
+        "1KHE8Hn6vAPe5Gw9Zrubuh",
+        "1PBqvLnRDDUATdl_lvNYMh",
+        "1dQmRhr_nEmea8aisHAkCQ",
+        "2EX8CQvoT3VOdgcbCwhid_",
+        "2so3nbcb13Ig9Yd7gOPiH$"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "volume_m3": 272.289,
+        "footprint_area_m2": 103.927,
+        "centroid": [
+          17.242,
+          8.027,
+          4.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-GH2F-XS4Z-TYEM-JBZK-KY",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-06",
+        "storey_ids": [
+          "0u4wgLe6n0ABVaiXyikbkA"
+        ],
+        "vertical_extent_m": [
+          3.0,
+          5.62
+        ],
+        "geometry_version": "g1-5e385d34ac84",
+        "source_ids": [
+          "09WjTQSeH1n8koThMDL_IH",
+          "0kg640irz75hysOImfQ5Ff",
+          "0z1xo3KDX8yQN59ZNuWEoz",
+          "1bpdPR8RjDwuwW5iXv63ud",
+          "2GOGL_EpT9BOLi26H$n8Y1",
+          "2WflCt48T2yQbjDADsjk3X",
+          "3EcQs2ERfA495F4sseU_w4",
+          "3SPT$EB8r0aBxVBsVnHu5U",
+          "3_e7IngdDBjOHVpCs_T3bC"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-06",
+      "storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "geometry_version": "g1-5e385d34ac84",
+      "source_ids": [
+        "09WjTQSeH1n8koThMDL_IH",
+        "0kg640irz75hysOImfQ5Ff",
+        "0z1xo3KDX8yQN59ZNuWEoz",
+        "1bpdPR8RjDwuwW5iXv63ud",
+        "2GOGL_EpT9BOLi26H$n8Y1",
+        "2WflCt48T2yQbjDADsjk3X",
+        "3EcQs2ERfA495F4sseU_w4",
+        "3SPT$EB8r0aBxVBsVnHu5U",
+        "3_e7IngdDBjOHVpCs_T3bC"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "volume_m3": 248.345,
+        "footprint_area_m2": 94.788,
+        "centroid": [
+          7.149,
+          17.753,
+          4.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-FHBU-TRJE-LPNH-L3UV-WD",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-07",
+        "storey_ids": [
+          "0wPqxf9KX0nPDjgzD8mXwD"
+        ],
+        "vertical_extent_m": [
+          6.0,
+          8.62
+        ],
+        "geometry_version": "g1-b803b9d9eae7",
+        "source_ids": [
+          "0m66n5BInC6fBzFb8EWwyE",
+          "0yLghiaXr4pB6B4YHPBOlT",
+          "1geKZCJAHAVQxXKkYkD9nV",
+          "1mzKtLlF9B0824gzkkIWlz",
+          "1stYdhm21EUQMz3jV6WdHc",
+          "2j8_gVWpbACxOVmNDi6bGE",
+          "3$vxLFFCTCjhIrAHJw7BxO",
+          "3KeJCNzFv2cPjuyq2Kb61z",
+          "3gmZJjQND96w5a6Ee$z2ah"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-07",
+      "storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "geometry_version": "g1-b803b9d9eae7",
+      "source_ids": [
+        "0m66n5BInC6fBzFb8EWwyE",
+        "0yLghiaXr4pB6B4YHPBOlT",
+        "1geKZCJAHAVQxXKkYkD9nV",
+        "1mzKtLlF9B0824gzkkIWlz",
+        "1stYdhm21EUQMz3jV6WdHc",
+        "2j8_gVWpbACxOVmNDi6bGE",
+        "3$vxLFFCTCjhIrAHJw7BxO",
+        "3KeJCNzFv2cPjuyq2Kb61z",
+        "3gmZJjQND96w5a6Ee$z2ah"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 6.0,
+        "z_max": 8.62,
+        "height_m": 2.62,
+        "volume_m3": 222.797,
+        "footprint_area_m2": 85.037,
+        "centroid": [
+          9.454,
+          6.288,
+          7.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-V4UB-2VZS-UM67-NOVT-2R",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-08",
+        "storey_ids": [
+          "0wPqxf9KX0nPDjgzD8mXwD"
+        ],
+        "vertical_extent_m": [
+          6.0,
+          8.62
+        ],
+        "geometry_version": "g1-6f6f42c1453f",
+        "source_ids": [
+          "0CJDgHLZLCWu7DbuOU80VN",
+          "0CujFs7XvBHACKRDUKrtM$",
+          "0a_kF4OBP2GPx5hgvIBSXe",
+          "0sEYZPVdXAZAaorrZw2LKy",
+          "1LeiDSp9fA6h6$bEYt0VSH",
+          "1rGsZO_eH6hBvf3PaTPrrd",
+          "1s8ejb3fH1wA$G6dYM5GgC",
+          "2q_kN3Luf7wwPVcXYQjBxR",
+          "2taKN3SF5AqhoJgBEDOiLL",
+          "3QKc$p$NXEvRNG3pdlAj02"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-08",
+      "storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "geometry_version": "g1-6f6f42c1453f",
+      "source_ids": [
+        "0CJDgHLZLCWu7DbuOU80VN",
+        "0CujFs7XvBHACKRDUKrtM$",
+        "0a_kF4OBP2GPx5hgvIBSXe",
+        "0sEYZPVdXAZAaorrZw2LKy",
+        "1LeiDSp9fA6h6$bEYt0VSH",
+        "1rGsZO_eH6hBvf3PaTPrrd",
+        "1s8ejb3fH1wA$G6dYM5GgC",
+        "2q_kN3Luf7wwPVcXYQjBxR",
+        "2taKN3SF5AqhoJgBEDOiLL",
+        "3QKc$p$NXEvRNG3pdlAj02"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 6.0,
+        "z_max": 8.62,
+        "height_m": 2.62,
+        "volume_m3": 270.797,
+        "footprint_area_m2": 103.358,
+        "centroid": [
+          17.272,
+          7.992,
+          7.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-RF6H-KKP2-Q7WO-MBW7-4D",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-09",
+        "storey_ids": [
+          "2Hyat1fsPEGfyYPyim12A1"
+        ],
+        "vertical_extent_m": [
+          9.0,
+          11.62
+        ],
+        "geometry_version": "g1-6cacafeb8aab",
+        "source_ids": [
+          "00XVyzXGDDQPsHPeNwCNmZ",
+          "0oEbkL7YDD8AYm6eYpAT4B",
+          "0z1DMNAyb21RRdXtk2yF$a",
+          "1Wtl5_cnDDhAIgcPpOxWTl",
+          "1ksvb7lcPBt9rmCaSOqIpd",
+          "2SEglEZ618iOaVY$jPjl1r",
+          "34JLBtlPXEaeJkF7ppuU09",
+          "3_fPSW07z7bufHlc3SsUgF",
+          "3iG4tbXJ901RkZ0OynKIbL"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-09",
+      "storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "geometry_version": "g1-6cacafeb8aab",
+      "source_ids": [
+        "00XVyzXGDDQPsHPeNwCNmZ",
+        "0oEbkL7YDD8AYm6eYpAT4B",
+        "0z1DMNAyb21RRdXtk2yF$a",
+        "1Wtl5_cnDDhAIgcPpOxWTl",
+        "1ksvb7lcPBt9rmCaSOqIpd",
+        "2SEglEZ618iOaVY$jPjl1r",
+        "34JLBtlPXEaeJkF7ppuU09",
+        "3_fPSW07z7bufHlc3SsUgF",
+        "3iG4tbXJ901RkZ0OynKIbL"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 9.0,
+        "z_max": 11.62,
+        "height_m": 2.62,
+        "volume_m3": 201.281,
+        "footprint_area_m2": 76.825,
+        "centroid": [
+          9.667,
+          6.476,
+          10.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    },
+    {
+      "prototype_ulpin": "P3D-CDMI-I6ZW-NNGY-CX2B-7O",
+      "identity": {
+        "scheme": "SIH-P3D-ULPIN/v1",
+        "dataset": "Schependomlaan",
+        "parcel_id": null,
+        "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+        "property_unit_id": "PU-10",
+        "storey_ids": [
+          "2Hyat1fsPEGfyYPyim12A1"
+        ],
+        "vertical_extent_m": [
+          9.0,
+          11.62
+        ],
+        "geometry_version": "g1-b4b0d00b2562",
+        "source_ids": [
+          "0FOLghHZTBOPD8KF6PRrx0",
+          "0c9LSnFgj7OBxwRT4cC9lK",
+          "0lGZe9hjL5GQNRN2Ku92xr",
+          "0thxUtY5D3nQDlN3b_gGVK",
+          "12sKPfqUvDFv$X4w8UYHNK",
+          "1AlG6Dm9L1h8L4yH9tB8FO",
+          "1JrMACb0vE99f79I2KAPuN",
+          "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+          "2Yo$EpP$z2dOC6zNZ35BJq"
+        ]
+      },
+      "parcel_id": null,
+      "building_id": "00tMo7QcxqWdIGvc4sMN2A",
+      "property_unit_id": "PU-10",
+      "storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "geometry_version": "g1-b4b0d00b2562",
+      "source_ids": [
+        "0FOLghHZTBOPD8KF6PRrx0",
+        "0c9LSnFgj7OBxwRT4cC9lK",
+        "0lGZe9hjL5GQNRN2Ku92xr",
+        "0thxUtY5D3nQDlN3b_gGVK",
+        "12sKPfqUvDFv$X4w8UYHNK",
+        "1AlG6Dm9L1h8L4yH9tB8FO",
+        "1JrMACb0vE99f79I2KAPuN",
+        "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+        "2Yo$EpP$z2dOC6zNZ35BJq"
+      ],
+      "identifier_class": "prototype_3d_ulpin",
+      "is_official_ulpin": false,
+      "issuer": "none (demonstrator-generated; not issued by any government authority)",
+      "geometry": {
+        "geometry_status": "fallback",
+        "z_min": 9.0,
+        "z_max": 11.62,
+        "height_m": 2.62,
+        "volume_m3": 245.835,
+        "footprint_area_m2": 93.83,
+        "centroid": [
+          17.044,
+          8.158,
+          10.31
+        ],
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "geometry_confidence": 0.85
+      },
+      "crs": {
+        "source_crs": "IFC local engineering coordinates",
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified"
+      },
+      "validation_status": "validated",
+      "validation_state": "validated",
+      "legal_status": "not_official_prototype_identifier",
+      "ownership_status": "unknown_not_provided",
+      "cadastral_status": "not_available",
+      "data_status": "prototype",
+      "provenance": {
+        "source_dataset": "Schependomlaan",
+        "derivation_method": "sha256(canonical identity JSON) -> base32",
+        "unit_status": "inferred",
+        "unit_confidence": 0.85,
+        "disclaimer": "Prototype 3D cadastral identifier for demonstration only; NOT an official government ULPIN."
+      }
+    }
+  ]
+}

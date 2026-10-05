@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart   # IFC upload
+httpx              # tests
+pytest

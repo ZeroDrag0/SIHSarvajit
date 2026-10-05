@@ -1,0 +1,5421 @@
+{
+  "source_mode": "live_ifc",
+  "coordinate_reference": {
+    "source_crs": "IFC local engineering coordinates",
+    "source_crs_declared_in_ifc": null,
+    "target_crs": null,
+    "vertical_reference": "local datum (NAP not verified)",
+    "transformation_status": "not_performed",
+    "coordinate_status": "local/unverified",
+    "gnss_cors_control": "not_available",
+    "notes": [
+      "IFC is not assumed to be georeferenced"
+    ]
+  },
+  "summary": {
+    "unit_count": 10,
+    "units_with_geometry": 10,
+    "geometry_success_rate": 1.0,
+    "units_geometry_valid": 0,
+    "by_geometry_status": {
+      "fallback": 10
+    },
+    "by_representation": {
+      "boolean_union": 10
+    }
+  },
+  "units": [
+    {
+      "candidate_id": "PU-01",
+      "label": "inferred dwelling group '1'",
+      "group_key": "1",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "3K51PWTdT9s9p1sMs0i66A",
+        "0EHFwkDTP5BAvP$Lr4UUAk",
+        "1EO6MCIfDFuRP2Ugg$wu$f",
+        "3RW6tpuaLA5fXODOX3rOlb",
+        "1S5uZBEqz97vGlKIzp8YFh",
+        "3m0eaNZIj4WuqLA61vp_PJ",
+        "0Jkjl8tTH5TBBcOqrZRjc0",
+        "0P4aIRXgD9XPdxJodXPmsI"
+      ],
+      "source_space_names": [
+        "1.00",
+        "1.01",
+        "1.02",
+        "1.03",
+        "1.04",
+        "1.05",
+        "1.06",
+        "1.07"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "3K51PWTdT9s9p1sMs0i66A",
+          "name": "1.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+          "name": "1.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+          "name": "1.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "3RW6tpuaLA5fXODOX3rOlb",
+          "name": "1.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1S5uZBEqz97vGlKIzp8YFh",
+          "name": "1.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+          "name": "1.05",
+          "long_name": "slaapkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+          "name": "1.06",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0P4aIRXgD9XPdxJodXPmsI",
+          "name": "1.07",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "3K51PWTdT9s9p1sMs0i66A",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3RW6tpuaLA5fXODOX3rOlb",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1S5uZBEqz97vGlKIzp8YFh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0P4aIRXgD9XPdxJodXPmsI",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "8 IfcSpaces share group token '1'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        },
+        {
+          "signal": "geometry_reassignment_out",
+          "detail": "1.02 moved to 2"
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 8,
+        "missing_constituents": [],
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 210.35891368375792,
+        "surface_area_m2": 378.11308919548884,
+        "centroid": [
+          9.412708482776225,
+          5.764119342804973,
+          1.31
+        ],
+        "footprint_area_m2": 80.28966700223081,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  5.300000045092,
+                  4.040000034929999
+                ],
+                [
+                  4.578921315121001,
+                  4.04
+                ],
+                [
+                  4.00000002755,
+                  4.681507414
+                ],
+                [
+                  3.99999995644,
+                  5.818492428300001
+                ],
+                [
+                  4.578921381792,
+                  6.45999999498
+                ],
+                [
+                  5.300000045092,
+                  6.460000050570001
+                ],
+                [
+                  5.3,
+                  6.44499999498
+                ],
+                [
+                  9.109,
+                  6.44499999498
+                ],
+                [
+                  9.109,
+                  7.21199995097
+                ],
+                [
+                  11.14500006259,
+                  7.21199995097
+                ],
+                [
+                  11.14500006259,
+                  4.39199995098
+                ],
+                [
+                  11.145000062600001,
+                  4.39199995098
+                ],
+                [
+                  11.145000062600001,
+                  7.2119999435199995
+                ],
+                [
+                  13.45000006707,
+                  7.2119999435199995
+                ],
+                [
+                  13.45000006707,
+                  4.39199995097
+                ],
+                [
+                  13.45000006259,
+                  4.39199995097
+                ],
+                [
+                  13.45000006259,
+                  1.214
+                ],
+                [
+                  12.23499991059,
+                  1.214
+                ],
+                [
+                  12.23499991059,
+                  0.345
+                ],
+                [
+                  8.5149998793,
+                  0.345
+                ],
+                [
+                  8.5149998793,
+                  1.214
+                ],
+                [
+                  5.514,
+                  1.214
+                ],
+                [
+                  5.514,
+                  4.055
+                ],
+                [
+                  5.3,
+                  4.055
+                ],
+                [
+                  5.300000045092,
+                  4.040000034929999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.290600042500001,
+                  7.311999950970001
+                ],
+                [
+                  10.290600042500001,
+                  8.561999967510001
+                ],
+                [
+                  11.225000067280002,
+                  8.561999967510001
+                ],
+                [
+                  11.225000067280002,
+                  7.311999950970001
+                ],
+                [
+                  10.290600042500001,
+                  7.311999950970001
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  11.3240000672,
+                  7.28199995098
+                ],
+                [
+                  11.3240000672,
+                  8.79794386935
+                ],
+                [
+                  12.90000006254,
+                  8.79794386935
+                ],
+                [
+                  12.90000006254,
+                  7.28199995098
+                ],
+                [
+                  11.3240000672,
+                  7.28199995098
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  5.734,
+                  10.35
+                ],
+                [
+                  9.009,
+                  10.35
+                ],
+                [
+                  9.009,
+                  6.5449999949799995
+                ],
+                [
+                  5.514,
+                  6.5449999949799995
+                ],
+                [
+                  5.514,
+                  9.28599999498
+                ],
+                [
+                  5.734,
+                  9.28599999498
+                ],
+                [
+                  5.734,
+                  10.35
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.522000009208,
+                  11.136000055310001
+                ],
+                [
+                  10.566,
+                  11.136000055310001
+                ],
+                [
+                  10.566,
+                  10.350000000000001
+                ],
+                [
+                  11.22400006725,
+                  10.350000000000001
+                ],
+                [
+                  11.22400006725,
+                  8.66199996751
+                ],
+                [
+                  10.19060004247,
+                  8.66199996751
+                ],
+                [
+                  10.19060004247,
+                  7.311999950970001
+                ],
+                [
+                  9.109,
+                  7.311999950970001
+                ],
+                [
+                  9.109,
+                  9.485000000000001
+                ],
+                [
+                  9.522000009208,
+                  9.485000000000001
+                ],
+                [
+                  9.522000009208,
+                  11.136000055310001
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.109,
+                  9.555
+                ],
+                [
+                  9.109,
+                  10.35
+                ],
+                [
+                  9.452,
+                  10.35
+                ],
+                [
+                  9.452,
+                  9.555
+                ],
+                [
+                  9.109,
+                  9.555
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.865999999952,
+                  10.449999974659999
+                ],
+                [
+                  10.865999999952,
+                  11.722
+                ],
+                [
+                  13.44999999995,
+                  11.722
+                ],
+                [
+                  13.44999999995,
+                  8.89794386935
+                ],
+                [
+                  11.3240000672,
+                  8.89794386935
+                ],
+                [
+                  11.3240000672,
+                  10.34999995097
+                ],
+                [
+                  11.786000062527,
+                  10.34999995097
+                ],
+                [
+                  11.786000062527,
+                  10.449999974659999
+                ],
+                [
+                  10.865999999952,
+                  10.449999974659999
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 8,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.8495,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "partially_corroborated": 1,
+          "corroborated": 7
+        },
+        "watertight": true,
+        "mesh_vertex_count": 114,
+        "mesh_face_count": 200,
+        "sum_of_room_volumes_m3": 210.35892754590515,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-02",
+      "label": "inferred dwelling group '2'",
+      "group_key": "2",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0bNesd_3DCrhdyKRJV7k4U",
+        "0Dj6N$QAjCa8$dcIusb5Sm",
+        "0P5HFjHIjAsevZeF10JaZS",
+        "3vdzRMAWL66B6ew5$sjOj$",
+        "2rpp3iZFTCVwGEE7x9qiQ8",
+        "1GBaX8Qs19WPwcdIjq6ONn",
+        "0ajLK6DXHAaeMk704HiMsX",
+        "0OqmHrrnL18wpVdVYaE6Eq",
+        "2brbBA_o18ffxZ1OJKAEXd",
+        "02NK$DEdTDwuguIz00UqtE",
+        "12AHbNFjr4FRJYlF1r7pMB"
+      ],
+      "source_space_names": [
+        "1.02",
+        "2.00",
+        "2.01",
+        "2.03",
+        "2.04",
+        "2.05",
+        "2.06",
+        "2.07",
+        "2.08",
+        "2.09",
+        "2.10"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "0bNesd_3DCrhdyKRJV7k4U",
+          "name": "1.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": "duplicate_space_name_in_group"
+        },
+        {
+          "global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+          "name": "2.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0P5HFjHIjAsevZeF10JaZS",
+          "name": "2.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "3vdzRMAWL66B6ew5$sjOj$",
+          "name": "2.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+          "name": "2.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+          "name": "2.05",
+          "long_name": "gang",
+          "function": "circulation",
+          "flag": null
+        },
+        {
+          "global_id": "0ajLK6DXHAaeMk704HiMsX",
+          "name": "2.06",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+          "name": "2.07",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2brbBA_o18ffxZ1OJKAEXd",
+          "name": "2.08",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "02NK$DEdTDwuguIz00UqtE",
+          "name": "2.09",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "12AHbNFjr4FRJYlF1r7pMB",
+          "name": "2.10",
+          "long_name": "berging",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0bNesd_3DCrhdyKRJV7k4U",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0P5HFjHIjAsevZeF10JaZS",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3vdzRMAWL66B6ew5$sjOj$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0ajLK6DXHAaeMk704HiMsX",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2brbBA_o18ffxZ1OJKAEXd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "02NK$DEdTDwuguIz00UqtE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "12AHbNFjr4FRJYlF1r7pMB",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "11 IfcSpaces share group token '2'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        },
+        {
+          "signal": "geometry_reassignment",
+          "detail": "1.02 (0bNesd_3DCrhdyKRJV7k4U) moved from name-group 1 to 2; adjacent at 0.1 m, 5.775 m from its name-group"
+        }
+      ],
+      "confidence": 0.9,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [
+        "space '1.02' (0bNesd_3DCrhdyKRJV7k4U) carries the name-group '1' but was assigned here by geometry (resolved; verify against source drawings)"
+      ],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 11,
+        "missing_constituents": [],
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 271.8272778847964,
+        "surface_area_m2": 546.3129473657896,
+        "centroid": [
+          17.50067564126451,
+          7.77882025458865,
+          1.31
+        ],
+        "footprint_area_m2": 103.75087429720676,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  19.12462096913,
+                  4.22899987515
+                ],
+                [
+                  21.08600011026,
+                  4.22899987515
+                ],
+                [
+                  21.08600011026,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  0.34500000000000064
+                ],
+                [
+                  14.3650002057,
+                  0.34500000000000064
+                ],
+                [
+                  14.3650002057,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  7.51499988925
+                ],
+                [
+                  19.12462096913,
+                  7.51499988925
+                ],
+                [
+                  19.12462096913,
+                  4.22899987515
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.0965006614,
+                  7.5850002945899995
+                ],
+                [
+                  17.0965006614,
+                  9.03652308149
+                ],
+                [
+                  18.50149899822,
+                  9.03652308149
+                ],
+                [
+                  18.50149899822,
+                  7.5850002945899995
+                ],
+                [
+                  17.0965006614,
+                  7.5850002945899995
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  13.749999045000001,
+                  10.300023181
+                ],
+                [
+                  15.699999045,
+                  10.300023181
+                ],
+                [
+                  15.699999045,
+                  9.556523081599
+                ],
+                [
+                  17.02650066145,
+                  9.556523081599
+                ],
+                [
+                  17.02650066145,
+                  7.5150002946
+                ],
+                [
+                  13.749999045000001,
+                  7.5150002946
+                ],
+                [
+                  13.749999045000001,
+                  10.300023181
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  16.840000062540003,
+                  12.516
+                ],
+                [
+                  16.840000062540003,
+                  11.500023081490001
+                ],
+                [
+                  18.501498998200002,
+                  11.500023081490001
+                ],
+                [
+                  18.501498998200002,
+                  9.62652308158
+                ],
+                [
+                  15.799999044930003,
+                  9.62652308158
+                ],
+                [
+                  15.799999044930003,
+                  12.516
+                ],
+                [
+                  16.840000062540003,
+                  12.516
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  13.749999045000001,
+                  13.540023181
+                ],
+                [
+                  15.699999045,
+                  13.540023181
+                ],
+                [
+                  15.699999045,
+                  10.370023181
+                ],
+                [
+                  13.749999045000001,
+                  10.370023181
+                ],
+                [
+                  13.749999045000001,
+                  13.540023181
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  16.8400000626,
+                  12.61600000004
+                ],
+                [
+                  15.79999904499,
+                  12.61600000004
+                ],
+                [
+                  15.79999904499,
+                  13.64002318102
+                ],
+                [
+                  15.254000048360002,
+                  13.64002318102
+                ],
+                [
+                  15.254000048360002,
+                  14.525892506998
+                ],
+                [
+                  14.708630747740001,
+                  14.525892506998
+                ],
+                [
+                  14.708630747740001,
+                  13.64002318102
+                ],
+                [
+                  13.750000000010001,
+                  13.64002318102
+                ],
+                [
+                  13.750000000010001,
+                  15.2860000055
+                ],
+                [
+                  16.8400000626,
+                  15.2860000055
+                ],
+                [
+                  16.8400000626,
+                  12.61600000004
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  20.291,
+                  4.641999950966
+                ],
+                [
+                  21.086000062585,
+                  4.641999950966
+                ],
+                [
+                  21.086000062585,
+                  4.298999950950001
+                ],
+                [
+                  20.291,
+                  4.298999950950001
+                ],
+                [
+                  20.291,
+                  4.641999950966
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  21.29999999999466,
+                  6.45999999498
+                ],
+                [
+                  22.021078510914002,
+                  6.45999999498
+                ],
+                [
+                  22.599999865160004,
+                  5.80907282005
+                ],
+                [
+                  22.599999865160004,
+                  4.681507414004
+                ],
+                [
+                  22.021078577585005,
+                  4.04
+                ],
+                [
+                  21.299999989200003,
+                  4.04
+                ],
+                [
+                  21.299999999994665,
+                  4.727999950968
+                ],
+                [
+                  21.085999999995003,
+                  4.727999950968
+                ],
+                [
+                  21.085999999995003,
+                  4.711999950968
+                ],
+                [
+                  20.220999999990003,
+                  4.711999950968
+                ],
+                [
+                  20.220999999990003,
+                  4.298999950951
+                ],
+                [
+                  19.194620991410005,
+                  4.298999950967
+                ],
+                [
+                  19.194620991410005,
+                  6.49499995097
+                ],
+                [
+                  21.086000083995003,
+                  6.49499995097
+                ],
+                [
+                  21.085999999995003,
+                  6.44499999498
+                ],
+                [
+                  21.29999999999466,
+                  6.44499999498
+                ],
+                [
+                  21.29999999999466,
+                  6.45999999498
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  19.2246209914,
+                  6.59499995097
+                ],
+                [
+                  19.2246209914,
+                  7.51499995097
+                ],
+                [
+                  21.086000083989997,
+                  7.51499995097
+                ],
+                [
+                  21.086000083989997,
+                  6.59499995097
+                ],
+                [
+                  19.2246209914,
+                  6.59499995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  20.866,
+                  11.5000230815
+                ],
+                [
+                  20.866,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  7.61499995098
+                ],
+                [
+                  18.57149899824,
+                  7.61499995098
+                ],
+                [
+                  18.57149899824,
+                  11.5000230815
+                ],
+                [
+                  20.866,
+                  11.5000230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  16.9400000678,
+                  15.2859999985
+                ],
+                [
+                  20.86599999996,
+                  15.2859999985
+                ],
+                [
+                  20.86599999996,
+                  11.600023080809999
+                ],
+                [
+                  17.304000074882,
+                  11.600023080809999
+                ],
+                [
+                  17.304000074882,
+                  11.820023074349999
+                ],
+                [
+                  16.9400000678,
+                  11.820023074349999
+                ],
+                [
+                  16.9400000678,
+                  15.2859999985
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 11,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.8396,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "partially_corroborated": 2,
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 152,
+        "mesh_face_count": 260,
+        "sum_of_room_volumes_m3": 271.8272906586818,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-03",
+      "label": "inferred dwelling group '3'",
+      "group_key": "3",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "1G43xnpGf8ReA8Ux2AmH0Y",
+        "0asyuu9T1AaPR7AmNDL1_c",
+        "0IOcqFv1vCWwJz5c1VnoNe",
+        "1sCG2cUVb49PxJaBBE81Kw",
+        "10$IVtAgz3gvaL1AC5hF6m",
+        "3o3cJaPf51HPH9CUJnfi0W",
+        "39NQt7$3b1Mxn97UesaLDi",
+        "2lSz4lYYD0yPZfZ0iQzeVj",
+        "2GXKgJyIfAhxPinRH3xm0N",
+        "1qHWoDsfT4fQCpDzcA1RZj"
+      ],
+      "source_space_names": [
+        "3.00",
+        "3.01",
+        "3.02",
+        "3.03",
+        "3.04",
+        "3.05",
+        "3.06",
+        "3.07",
+        "3.08",
+        "3.09"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+          "name": "3.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0asyuu9T1AaPR7AmNDL1_c",
+          "name": "3.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+          "name": "3.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1sCG2cUVb49PxJaBBE81Kw",
+          "name": "3.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "10$IVtAgz3gvaL1AC5hF6m",
+          "name": "3.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3o3cJaPf51HPH9CUJnfi0W",
+          "name": "3.05",
+          "long_name": "gang",
+          "function": "circulation",
+          "flag": null
+        },
+        {
+          "global_id": "39NQt7$3b1Mxn97UesaLDi",
+          "name": "3.06",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+          "name": "3.07",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2GXKgJyIfAhxPinRH3xm0N",
+          "name": "3.08",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+          "name": "3.09",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0asyuu9T1AaPR7AmNDL1_c",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1sCG2cUVb49PxJaBBE81Kw",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "10$IVtAgz3gvaL1AC5hF6m",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3o3cJaPf51HPH9CUJnfi0W",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "39NQt7$3b1Mxn97UesaLDi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2GXKgJyIfAhxPinRH3xm0N",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '3'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 10,
+        "missing_constituents": [],
+        "z_min": 0.0,
+        "z_max": 2.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 244.78390363160398,
+        "surface_area_m2": 476.33123356617915,
+        "centroid": [
+          7.149805103289704,
+          17.725773637387988,
+          1.3099999999999996
+        ],
+        "footprint_area_m2": 93.42899010695487,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  3.1500000458999997,
+                  14.89999995097
+                ],
+                [
+                  5.021000020926,
+                  14.89999995097
+                ],
+                [
+                  5.021000020926,
+                  14.034999950968
+                ],
+                [
+                  5.434,
+                  14.034999950968
+                ],
+                [
+                  5.434,
+                  13.064
+                ],
+                [
+                  3.1500000458999997,
+                  13.064
+                ],
+                [
+                  3.1500000458999997,
+                  14.89999995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  5.091,
+                  14.104999951
+                ],
+                [
+                  5.091,
+                  14.899999951
+                ],
+                [
+                  5.434,
+                  14.899999951
+                ],
+                [
+                  5.434,
+                  14.104999951
+                ],
+                [
+                  5.091,
+                  14.104999951
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  11.7270000626,
+                  17.995999951
+                ],
+                [
+                  15.58600000001,
+                  17.995999951
+                ],
+                [
+                  15.58600000001,
+                  15.586000000030001
+                ],
+                [
+                  11.7270000626,
+                  15.586000000030001
+                ],
+                [
+                  11.7270000626,
+                  17.995999951
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  6.979600062585001,
+                  16.870999951
+                ],
+                [
+                  6.979600062585001,
+                  15.586000000030001
+                ],
+                [
+                  5.434,
+                  15.586000000030001
+                ],
+                [
+                  5.434,
+                  14.969999951
+                ],
+                [
+                  3.0800000459000003,
+                  14.969999951
+                ],
+                [
+                  3.0800000459000003,
+                  13.06400000003
+                ],
+                [
+                  0.2140000000000004,
+                  13.06400000003
+                ],
+                [
+                  0.2140000000000004,
+                  21.04600000003
+                ],
+                [
+                  4.027999992130001,
+                  21.04600000003
+                ],
+                [
+                  6.5110001006000005,
+                  21.04600000003
+                ],
+                [
+                  6.5110001006000005,
+                  21.046
+                ],
+                [
+                  8.74500006258,
+                  21.046
+                ],
+                [
+                  8.74500006258,
+                  18.64599995097
+                ],
+                [
+                  6.5110001006000005,
+                  18.64599995097
+                ],
+                [
+                  6.5110001006000005,
+                  18.645999951
+                ],
+                [
+                  6.511000062584944,
+                  16.870999951
+                ],
+                [
+                  6.979600062585001,
+                  16.870999951
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  11.62700006259,
+                  19.13099995097
+                ],
+                [
+                  11.62700006259,
+                  15.586
+                ],
+                [
+                  7.049600119280001,
+                  15.586
+                ],
+                [
+                  7.049600119280001,
+                  16.870999983970002
+                ],
+                [
+                  10.582000062590001,
+                  16.870999983970002
+                ],
+                [
+                  10.582000062590001,
+                  19.13099995097
+                ],
+                [
+                  11.62700006259,
+                  19.13099995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.26500006259,
+                  16.970999951000003
+                ],
+                [
+                  9.26500006259,
+                  17.995999951
+                ],
+                [
+                  10.51200006259,
+                  17.995999951
+                ],
+                [
+                  10.51200006259,
+                  16.970999951000003
+                ],
+                [
+                  9.26500006259,
+                  16.970999951000003
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  6.58100006259,
+                  16.940999951000002
+                ],
+                [
+                  6.58100006259,
+                  18.575999951000004
+                ],
+                [
+                  8.74500006259,
+                  18.575999951000004
+                ],
+                [
+                  8.74500006259,
+                  16.940999951000002
+                ],
+                [
+                  6.58100006259,
+                  16.940999951000002
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  11.7270000626,
+                  21.046
+                ],
+                [
+                  15.58600000001,
+                  21.046
+                ],
+                [
+                  15.58600000001,
+                  18.09599995097
+                ],
+                [
+                  11.7270000626,
+                  18.09599995097
+                ],
+                [
+                  11.7270000626,
+                  21.046
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.48200006259,
+                  19.230999951
+                ],
+                [
+                  10.48200006259,
+                  18.095999951000003
+                ],
+                [
+                  9.26500006259,
+                  18.095999951000003
+                ],
+                [
+                  9.26500006259,
+                  18.940999951000002
+                ],
+                [
+                  8.84500006259,
+                  18.940999951000002
+                ],
+                [
+                  8.84500006259,
+                  21.046000000030002
+                ],
+                [
+                  11.62700006259,
+                  21.046000000030002
+                ],
+                [
+                  11.62700006259,
+                  19.230999951
+                ],
+                [
+                  10.48200006259,
+                  19.230999951
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 10,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.796,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "partially_corroborated": 3,
+          "deviates": 1,
+          "corroborated": 6
+        },
+        "watertight": true,
+        "mesh_vertex_count": 108,
+        "mesh_face_count": 180,
+        "sum_of_room_volumes_m3": 244.78395408022172,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-04",
+      "label": "inferred dwelling group '4'",
+      "group_key": "4",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "2UFJkHK4XCxgqVrTwxYwA7",
+        "0tv9iZwmX3QhOwYgrkdylc",
+        "0OFDZWgvrCbvU2AvmpKDKA",
+        "2BRXAPrXHFoR9OLTjqGZa3",
+        "2eUwuV6Q14GRH$hdaTX4hB",
+        "1RPMriui52lBriSIaCeUCC",
+        "3F3COwDdj5LRVbWzGorFc7",
+        "3eVcTPP4z5PvakE2XtxxJp",
+        "09fo1jWjfFtQMbiri1ZVQ3"
+      ],
+      "source_space_names": [
+        "4.00",
+        "4.01",
+        "4.02",
+        "4.03",
+        "4.04",
+        "4.05",
+        "4.06",
+        "4.07",
+        "4.08"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+          "name": "4.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0tv9iZwmX3QhOwYgrkdylc",
+          "name": "4.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+          "name": "4.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+          "name": "4.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+          "name": "4.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1RPMriui52lBriSIaCeUCC",
+          "name": "4.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3F3COwDdj5LRVbWzGorFc7",
+          "name": "4.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3eVcTPP4z5PvakE2XtxxJp",
+          "name": "4.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+          "name": "4.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0tv9iZwmX3QhOwYgrkdylc",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1RPMriui52lBriSIaCeUCC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3F3COwDdj5LRVbWzGorFc7",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3eVcTPP4z5PvakE2XtxxJp",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '4'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 9,
+        "missing_constituents": [],
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 222.79696298286242,
+        "surface_area_m2": 412.7649084169215,
+        "centroid": [
+          9.454085349488759,
+          6.288314251236786,
+          4.3100000000000005
+        ],
+        "footprint_area_m2": 85.0370144394678,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  5.5140000339099995,
+                  1.21400009183
+                ],
+                [
+                  5.5140000339099995,
+                  6.7639999345
+                ],
+                [
+                  9.559000000000001,
+                  6.7639999345
+                ],
+                [
+                  9.559000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  4.8989999465
+                ],
+                [
+                  9.559000018959999,
+                  4.8989999465
+                ],
+                [
+                  9.559000018959999,
+                  4.89899994649
+                ],
+                [
+                  13.45000006258,
+                  4.89899994649
+                ],
+                [
+                  13.45000006258,
+                  1.21400009183
+                ],
+                [
+                  12.23499991037,
+                  1.21400009183
+                ],
+                [
+                  12.23499991037,
+                  0.344999999998
+                ],
+                [
+                  8.51499989693,
+                  0.344999999998
+                ],
+                [
+                  8.51499989693,
+                  1.21400009183
+                ],
+                [
+                  5.5140000339099995,
+                  1.21400009183
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.674,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  7.27399995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  9.484999937897
+                ],
+                [
+                  9.4589999803,
+                  9.484999937897
+                ],
+                [
+                  9.4589999803,
+                  6.863999950969999
+                ],
+                [
+                  5.514,
+                  6.863999950969999
+                ],
+                [
+                  5.514,
+                  9.28599997976
+                ],
+                [
+                  5.734000008034,
+                  9.28599997976
+                ],
+                [
+                  5.734000008034,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  8.70395510086,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  10.4199999799
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  8.838999950969999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.116,
+                  9.555
+                ],
+                [
+                  9.116,
+                  10.349999999019
+                ],
+                [
+                  9.459,
+                  10.349999949989
+                ],
+                [
+                  9.459000000431999,
+                  9.555
+                ],
+                [
+                  9.116,
+                  9.555
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  11.722000000029999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  5.73399997964,
+                  10.419999951
+                ],
+                [
+                  5.734000000003714,
+                  12.446000000029999
+                ],
+                [
+                  8.63395510086,
+                  12.446000000029999
+                ],
+                [
+                  8.63395510086,
+                  10.419999951
+                ],
+                [
+                  5.73399997964,
+                  10.419999951
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 9,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 96,
+        "mesh_face_count": 160,
+        "sum_of_room_volumes_m3": 222.79697792404988,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-05",
+      "label": "inferred dwelling group '5'",
+      "group_key": "5",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "1AtrO37LT8iQg1RDVAeoCA",
+        "0hW2P55_n5cOR9ThNgO3e6",
+        "2EX8CQvoT3VOdgcbCwhid_",
+        "0BsqHll2P5vhJOAHEDwAwi",
+        "1PBqvLnRDDUATdl_lvNYMh",
+        "0up7RAxwfAqvoyCE1kDxpy",
+        "0IIWC_MJj0TegDVVevqJ7a",
+        "1dQmRhr_nEmea8aisHAkCQ",
+        "1KHE8Hn6vAPe5Gw9Zrubuh",
+        "2so3nbcb13Ig9Yd7gOPiH$"
+      ],
+      "source_space_names": [
+        "5.00",
+        "5.01",
+        "5.02",
+        "5.03",
+        "5.04",
+        "5.05",
+        "5.06",
+        "5.07",
+        "5.08",
+        "5.09"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "1AtrO37LT8iQg1RDVAeoCA",
+          "name": "5.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0hW2P55_n5cOR9ThNgO3e6",
+          "name": "5.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2EX8CQvoT3VOdgcbCwhid_",
+          "name": "5.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0BsqHll2P5vhJOAHEDwAwi",
+          "name": "5.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1PBqvLnRDDUATdl_lvNYMh",
+          "name": "5.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0up7RAxwfAqvoyCE1kDxpy",
+          "name": "5.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0IIWC_MJj0TegDVVevqJ7a",
+          "name": "5.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1dQmRhr_nEmea8aisHAkCQ",
+          "name": "5.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+          "name": "5.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+          "name": "5.09",
+          "long_name": "kast",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "1AtrO37LT8iQg1RDVAeoCA",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0hW2P55_n5cOR9ThNgO3e6",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2EX8CQvoT3VOdgcbCwhid_",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0BsqHll2P5vhJOAHEDwAwi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1PBqvLnRDDUATdl_lvNYMh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0up7RAxwfAqvoyCE1kDxpy",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0IIWC_MJj0TegDVVevqJ7a",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1dQmRhr_nEmea8aisHAkCQ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '5'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 10,
+        "missing_constituents": [],
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 272.2888054799501,
+        "surface_area_m2": 509.2980427051617,
+        "centroid": [
+          17.24180071455927,
+          8.02744030802298,
+          4.309999999999999
+        ],
+        "footprint_area_m2": 103.92702252276305,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  21.08600011026,
+                  6.76399995128
+                ],
+                [
+                  21.08600011026,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  0.34499999999699993
+                ],
+                [
+                  14.3650002057,
+                  0.34499999999699993
+                ],
+                [
+                  14.3650002057,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  6.76399995128
+                ],
+                [
+                  21.08600011026,
+                  6.76399995128
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.1495000626,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  6.83399995268
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  20.866,
+                  10.6815230815
+                ],
+                [
+                  20.866,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  6.863999951289999
+                ],
+                [
+                  18.57149899824,
+                  6.863999951289999
+                ],
+                [
+                  18.57149899824,
+                  10.6815230815
+                ],
+                [
+                  20.866,
+                  10.6815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  11.731523081499999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.741000062600001,
+                  15.28600003811
+                ],
+                [
+                  14.741000062600001,
+                  13.653523181484
+                ],
+                [
+                  15.1240000626,
+                  13.653523181484
+                ],
+                [
+                  15.1240000626,
+                  10.681523081489999
+                ],
+                [
+                  18.5015000626,
+                  10.681523081489999
+                ],
+                [
+                  18.5015000626,
+                  9.62652308149
+                ],
+                [
+                  13.750000000010001,
+                  9.62652308149
+                ],
+                [
+                  13.750000000010001,
+                  14.1
+                ],
+                [
+                  11.7070000626,
+                  14.1
+                ],
+                [
+                  11.7070000626,
+                  15.28600003811
+                ],
+                [
+                  14.741000062600001,
+                  15.28600003811
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.3340000626,
+                  10.7815230815
+                ],
+                [
+                  17.3340000626,
+                  15.28600000001
+                ],
+                [
+                  20.86600000002,
+                  15.28600000001
+                ],
+                [
+                  20.86600000002,
+                  10.7815230815
+                ],
+                [
+                  17.3340000626,
+                  10.7815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  15.28600000001
+                ],
+                [
+                  17.2340000626,
+                  15.28600000001
+                ],
+                [
+                  17.2340000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  11.8315230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.8110000626,
+                  14.4685231815
+                ],
+                [
+                  15.1540000626,
+                  14.4685231815
+                ],
+                [
+                  15.1540000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  14.4685231815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.8110000626,
+                  15.286000000016001
+                ],
+                [
+                  15.1540000626,
+                  15.286000000016001
+                ],
+                [
+                  15.1540000626,
+                  14.5385231815
+                ],
+                [
+                  14.8110000626,
+                  14.5385231815
+                ],
+                [
+                  14.8110000626,
+                  15.286000000016001
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 10,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 10
+        },
+        "watertight": true,
+        "mesh_vertex_count": 103,
+        "mesh_face_count": 170,
+        "sum_of_room_volumes_m3": 272.2887990096392,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-06",
+      "label": "inferred dwelling group '6'",
+      "group_key": "6",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "2WflCt48T2yQbjDADsjk3X",
+        "1bpdPR8RjDwuwW5iXv63ud",
+        "09WjTQSeH1n8koThMDL_IH",
+        "0kg640irz75hysOImfQ5Ff",
+        "3_e7IngdDBjOHVpCs_T3bC",
+        "3SPT$EB8r0aBxVBsVnHu5U",
+        "0z1xo3KDX8yQN59ZNuWEoz",
+        "3EcQs2ERfA495F4sseU_w4",
+        "2GOGL_EpT9BOLi26H$n8Y1"
+      ],
+      "source_space_names": [
+        "6.00",
+        "6.01",
+        "6.02",
+        "6.03",
+        "6.04",
+        "6.05",
+        "6.06",
+        "6.07",
+        "6.08"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "2WflCt48T2yQbjDADsjk3X",
+          "name": "6.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "1bpdPR8RjDwuwW5iXv63ud",
+          "name": "6.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "09WjTQSeH1n8koThMDL_IH",
+          "name": "6.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0kg640irz75hysOImfQ5Ff",
+          "name": "6.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3_e7IngdDBjOHVpCs_T3bC",
+          "name": "6.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+          "name": "6.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+          "name": "6.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3EcQs2ERfA495F4sseU_w4",
+          "name": "6.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+          "name": "6.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "2WflCt48T2yQbjDADsjk3X",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1bpdPR8RjDwuwW5iXv63ud",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "09WjTQSeH1n8koThMDL_IH",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0kg640irz75hysOImfQ5Ff",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3_e7IngdDBjOHVpCs_T3bC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3EcQs2ERfA495F4sseU_w4",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '6'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 9,
+        "missing_constituents": [],
+        "z_min": 3.0,
+        "z_max": 5.62,
+        "height_m": 2.62,
+        "vertical_extent_m": 2.62,
+        "volume_m3": 248.3448143133829,
+        "surface_area_m2": 458.1992589574427,
+        "centroid": [
+          7.148771152931872,
+          17.75275558903249,
+          4.3100000000000005
+        ],
+        "footprint_area_m2": 94.78811799520005,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  11.7270000626,
+                  17.995999951
+                ],
+                [
+                  15.637316814350001,
+                  17.995999951
+                ],
+                [
+                  15.637316814350001,
+                  15.586000000030001
+                ],
+                [
+                  11.7270000626,
+                  15.586000000030001
+                ],
+                [
+                  11.7270000626,
+                  17.995999951
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  6.5110001006000005,
+                  21.046
+                ],
+                [
+                  6.511000118767,
+                  21.046
+                ],
+                [
+                  8.74500006258,
+                  21.046
+                ],
+                [
+                  8.74500006258,
+                  18.64599995097
+                ],
+                [
+                  6.511000118767,
+                  18.64599995097
+                ],
+                [
+                  6.511000118767,
+                  16.87099989438
+                ],
+                [
+                  6.979600068157,
+                  16.87099989438
+                ],
+                [
+                  6.979600068157,
+                  15.586000041070001
+                ],
+                [
+                  5.433999965967,
+                  15.586000041070001
+                ],
+                [
+                  5.433999965967,
+                  13.064
+                ],
+                [
+                  0.162683306367,
+                  13.064
+                ],
+                [
+                  0.162683306367,
+                  21.046
+                ],
+                [
+                  4.027999939767,
+                  21.046
+                ],
+                [
+                  6.5110001006000005,
+                  21.046
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  8.81500006259,
+                  16.940999951000002
+                ],
+                [
+                  8.81500006259,
+                  17.715999951
+                ],
+                [
+                  9.16500006259,
+                  17.715999951
+                ],
+                [
+                  9.16500006259,
+                  16.940999951000002
+                ],
+                [
+                  8.81500006259,
+                  16.940999951000002
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.48200031028,
+                  16.87099992165
+                ],
+                [
+                  10.582000062590001,
+                  16.87099995097
+                ],
+                [
+                  10.582000062590001,
+                  19.13099995097
+                ],
+                [
+                  11.62700006259,
+                  19.13099995097
+                ],
+                [
+                  11.62700006259,
+                  15.586
+                ],
+                [
+                  7.049600119280001,
+                  15.586
+                ],
+                [
+                  7.049600119280001,
+                  16.870999983970002
+                ],
+                [
+                  9.23500006417,
+                  16.87099995097
+                ],
+                [
+                  9.235000043460001,
+                  17.71599994727
+                ],
+                [
+                  10.48200006259,
+                  17.71599995097
+                ],
+                [
+                  10.48200031028,
+                  16.87099992165
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  6.58100006259,
+                  16.940999951000002
+                ],
+                [
+                  6.58100006259,
+                  18.575999951000004
+                ],
+                [
+                  8.74500006259,
+                  18.575999951000004
+                ],
+                [
+                  8.74500006259,
+                  16.940999951000002
+                ],
+                [
+                  6.58100006259,
+                  16.940999951000002
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.26500006259,
+                  17.815999951000002
+                ],
+                [
+                  9.26500006259,
+                  18.840999951
+                ],
+                [
+                  10.51200006259,
+                  18.840999951
+                ],
+                [
+                  10.51200006259,
+                  17.815999951000002
+                ],
+                [
+                  9.26500006259,
+                  17.815999951000002
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  11.7270000626,
+                  21.046
+                ],
+                [
+                  15.637316814350001,
+                  21.046
+                ],
+                [
+                  15.637316814350001,
+                  18.09599995097
+                ],
+                [
+                  11.7270000626,
+                  18.09599995097
+                ],
+                [
+                  11.7270000626,
+                  21.046
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.482000054000002,
+                  18.94099995756
+                ],
+                [
+                  8.845000062550001,
+                  18.94099995756
+                ],
+                [
+                  8.845000062550001,
+                  21.046
+                ],
+                [
+                  11.627000077500002,
+                  21.046
+                ],
+                [
+                  11.627000077500002,
+                  19.23099995046
+                ],
+                [
+                  10.482000054000002,
+                  19.23099995046
+                ],
+                [
+                  10.482000054000002,
+                  18.94099995756
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 9,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 96,
+        "mesh_face_count": 160,
+        "sum_of_room_volumes_m3": 248.3448692616582,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-07",
+      "label": "inferred dwelling group '7'",
+      "group_key": "7",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0m66n5BInC6fBzFb8EWwyE",
+        "2j8_gVWpbACxOVmNDi6bGE",
+        "0yLghiaXr4pB6B4YHPBOlT",
+        "1stYdhm21EUQMz3jV6WdHc",
+        "3$vxLFFCTCjhIrAHJw7BxO",
+        "1geKZCJAHAVQxXKkYkD9nV",
+        "3gmZJjQND96w5a6Ee$z2ah",
+        "1mzKtLlF9B0824gzkkIWlz",
+        "3KeJCNzFv2cPjuyq2Kb61z"
+      ],
+      "source_space_names": [
+        "7.00",
+        "7.01",
+        "7.02",
+        "7.03",
+        "7.04",
+        "7.05",
+        "7.06",
+        "7.07",
+        "7.08"
+      ],
+      "source_storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0m66n5BInC6fBzFb8EWwyE",
+          "name": "7.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "2j8_gVWpbACxOVmNDi6bGE",
+          "name": "7.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0yLghiaXr4pB6B4YHPBOlT",
+          "name": "7.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1stYdhm21EUQMz3jV6WdHc",
+          "name": "7.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+          "name": "7.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1geKZCJAHAVQxXKkYkD9nV",
+          "name": "7.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3gmZJjQND96w5a6Ee$z2ah",
+          "name": "7.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1mzKtLlF9B0824gzkkIWlz",
+          "name": "7.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+          "name": "7.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0m66n5BInC6fBzFb8EWwyE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2j8_gVWpbACxOVmNDi6bGE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0yLghiaXr4pB6B4YHPBOlT",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1stYdhm21EUQMz3jV6WdHc",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1geKZCJAHAVQxXKkYkD9nV",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3gmZJjQND96w5a6Ee$z2ah",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1mzKtLlF9B0824gzkkIWlz",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '7'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "02 tweede verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 9,
+        "missing_constituents": [],
+        "z_min": 6.0,
+        "z_max": 8.620000000000001,
+        "height_m": 2.620000000000001,
+        "vertical_extent_m": 2.620000000000001,
+        "volume_m3": 222.79696298286242,
+        "surface_area_m2": 412.7649084169215,
+        "centroid": [
+          9.454085349488759,
+          6.288314251236785,
+          7.310000000000002
+        ],
+        "footprint_area_m2": 85.0370144394678,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  5.5140000339099995,
+                  1.21400009183
+                ],
+                [
+                  5.5140000339099995,
+                  6.7639999345
+                ],
+                [
+                  9.559000000000001,
+                  6.7639999345
+                ],
+                [
+                  9.559000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  4.8989999465
+                ],
+                [
+                  9.559000018959999,
+                  4.8989999465
+                ],
+                [
+                  9.559000018959999,
+                  4.89899994649
+                ],
+                [
+                  13.45000006258,
+                  4.89899994649
+                ],
+                [
+                  13.45000006258,
+                  1.21400009183
+                ],
+                [
+                  12.23499991037,
+                  1.21400009183
+                ],
+                [
+                  12.23499991037,
+                  0.344999999998
+                ],
+                [
+                  8.51499989693,
+                  0.344999999998
+                ],
+                [
+                  8.51499989693,
+                  1.21400009183
+                ],
+                [
+                  5.5140000339099995,
+                  1.21400009183
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.674,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  7.27399995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  9.484999937897
+                ],
+                [
+                  9.4589999803,
+                  9.484999937897
+                ],
+                [
+                  9.4589999803,
+                  6.863999950969999
+                ],
+                [
+                  5.514,
+                  6.863999950969999
+                ],
+                [
+                  5.514,
+                  9.28599997976
+                ],
+                [
+                  5.734000008034,
+                  9.28599997976
+                ],
+                [
+                  5.734000008034,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  8.70395510086,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  10.4199999799
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  8.838999950969999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.116,
+                  9.555
+                ],
+                [
+                  9.116,
+                  10.349999999019
+                ],
+                [
+                  9.459,
+                  10.349999949989
+                ],
+                [
+                  9.459000000431999,
+                  9.555
+                ],
+                [
+                  9.116,
+                  9.555
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  11.722000000029999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  5.73399997964,
+                  10.419999951
+                ],
+                [
+                  5.734000000003714,
+                  12.446000000029999
+                ],
+                [
+                  8.63395510086,
+                  12.446000000029999
+                ],
+                [
+                  8.63395510086,
+                  10.419999951
+                ],
+                [
+                  5.73399997964,
+                  10.419999951
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 9,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 96,
+        "mesh_face_count": 160,
+        "sum_of_room_volumes_m3": 222.79697792405,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-08",
+      "label": "inferred dwelling group '8'",
+      "group_key": "8",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0CujFs7XvBHACKRDUKrtM$",
+        "1rGsZO_eH6hBvf3PaTPrrd",
+        "2taKN3SF5AqhoJgBEDOiLL",
+        "0a_kF4OBP2GPx5hgvIBSXe",
+        "3QKc$p$NXEvRNG3pdlAj02",
+        "2q_kN3Luf7wwPVcXYQjBxR",
+        "1LeiDSp9fA6h6$bEYt0VSH",
+        "0CJDgHLZLCWu7DbuOU80VN",
+        "1s8ejb3fH1wA$G6dYM5GgC",
+        "0sEYZPVdXAZAaorrZw2LKy"
+      ],
+      "source_space_names": [
+        "8.00",
+        "8.01",
+        "8.02",
+        "8.03",
+        "8.04",
+        "8.05",
+        "8.06",
+        "8.07",
+        "8.08",
+        "8.09"
+      ],
+      "source_storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0CujFs7XvBHACKRDUKrtM$",
+          "name": "8.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+          "name": "8.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2taKN3SF5AqhoJgBEDOiLL",
+          "name": "8.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+          "name": "8.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3QKc$p$NXEvRNG3pdlAj02",
+          "name": "8.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+          "name": "8.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+          "name": "8.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0CJDgHLZLCWu7DbuOU80VN",
+          "name": "8.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+          "name": "8.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0sEYZPVdXAZAaorrZw2LKy",
+          "name": "8.09",
+          "long_name": "kast",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0CujFs7XvBHACKRDUKrtM$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2taKN3SF5AqhoJgBEDOiLL",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3QKc$p$NXEvRNG3pdlAj02",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0CJDgHLZLCWu7DbuOU80VN",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0sEYZPVdXAZAaorrZw2LKy",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '8'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "02 tweede verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 10,
+        "missing_constituents": [],
+        "z_min": 6.0,
+        "z_max": 8.620000000000001,
+        "height_m": 2.620000000000001,
+        "vertical_extent_m": 2.620000000000001,
+        "volume_m3": 270.79729353062737,
+        "surface_area_m2": 505.64428642403357,
+        "centroid": [
+          17.27173757526658,
+          7.991870039684612,
+          7.31
+        ],
+        "footprint_area_m2": 103.35774295643114,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  21.08600011026,
+                  6.76399995128
+                ],
+                [
+                  21.08600011026,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  1.21400000519
+                ],
+                [
+                  18.08500021548,
+                  0.34499999999699993
+                ],
+                [
+                  14.3650002057,
+                  0.34499999999699993
+                ],
+                [
+                  14.3650002057,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  1.21400000519
+                ],
+                [
+                  13.75,
+                  6.76399995128
+                ],
+                [
+                  21.08600011026,
+                  6.76399995128
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.1495000626,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  6.83399995268
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  20.866,
+                  10.6815230815
+                ],
+                [
+                  20.866,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  9.28599999499
+                ],
+                [
+                  21.086,
+                  6.863999951289999
+                ],
+                [
+                  18.57149899824,
+                  6.863999951289999
+                ],
+                [
+                  18.57149899824,
+                  10.6815230815
+                ],
+                [
+                  20.866,
+                  10.6815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  11.731523081499999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.74100006258,
+                  15.28600003811
+                ],
+                [
+                  14.74100006258,
+                  13.653523181484
+                ],
+                [
+                  15.124000062579999,
+                  13.653523181484
+                ],
+                [
+                  15.124000062579999,
+                  10.681523081489999
+                ],
+                [
+                  18.50150006258,
+                  10.681523081489999
+                ],
+                [
+                  18.50150006258,
+                  9.62652308149
+                ],
+                [
+                  13.749999999989999,
+                  9.62652308149
+                ],
+                [
+                  13.749999999989999,
+                  14.1
+                ],
+                [
+                  12.1869996815,
+                  14.1
+                ],
+                [
+                  12.1869996815,
+                  15.28600003811
+                ],
+                [
+                  14.74100006258,
+                  15.28600003811
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.3340000626,
+                  10.7815230815
+                ],
+                [
+                  17.3340000626,
+                  15.28600000001
+                ],
+                [
+                  20.86600000002,
+                  15.28600000001
+                ],
+                [
+                  20.86600000002,
+                  10.7815230815
+                ],
+                [
+                  17.3340000626,
+                  10.7815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  15.28600000001
+                ],
+                [
+                  17.2340000626,
+                  15.28600000001
+                ],
+                [
+                  17.2340000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  11.8315230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.8110000626,
+                  14.4685231815
+                ],
+                [
+                  15.1540000626,
+                  14.4685231815
+                ],
+                [
+                  15.1540000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  14.4685231815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.8110000626,
+                  15.286000000016001
+                ],
+                [
+                  15.1540000626,
+                  15.286000000016001
+                ],
+                [
+                  15.1540000626,
+                  14.5385231815
+                ],
+                [
+                  14.8110000626,
+                  14.5385231815
+                ],
+                [
+                  14.8110000626,
+                  15.286000000016001
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 10,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 10
+        },
+        "watertight": true,
+        "mesh_vertex_count": 103,
+        "mesh_face_count": 170,
+        "sum_of_room_volumes_m3": 270.79728654584966,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-09",
+      "label": "inferred dwelling group '9'",
+      "group_key": "9",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "00XVyzXGDDQPsHPeNwCNmZ",
+        "0oEbkL7YDD8AYm6eYpAT4B",
+        "2SEglEZ618iOaVY$jPjl1r",
+        "1Wtl5_cnDDhAIgcPpOxWTl",
+        "3iG4tbXJ901RkZ0OynKIbL",
+        "3_fPSW07z7bufHlc3SsUgF",
+        "1ksvb7lcPBt9rmCaSOqIpd",
+        "34JLBtlPXEaeJkF7ppuU09",
+        "0z1DMNAyb21RRdXtk2yF$a"
+      ],
+      "source_space_names": [
+        "9.00",
+        "9.01",
+        "9.02",
+        "9.03",
+        "9.04",
+        "9.05",
+        "9.06",
+        "9.07",
+        "9.08"
+      ],
+      "source_storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+          "name": "9.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+          "name": "9.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2SEglEZ618iOaVY$jPjl1r",
+          "name": "9.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+          "name": "9.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3iG4tbXJ901RkZ0OynKIbL",
+          "name": "9.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3_fPSW07z7bufHlc3SsUgF",
+          "name": "9.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+          "name": "9.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "34JLBtlPXEaeJkF7ppuU09",
+          "name": "9.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0z1DMNAyb21RRdXtk2yF$a",
+          "name": "9.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2SEglEZ618iOaVY$jPjl1r",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3iG4tbXJ901RkZ0OynKIbL",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3_fPSW07z7bufHlc3SsUgF",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "34JLBtlPXEaeJkF7ppuU09",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0z1DMNAyb21RRdXtk2yF$a",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '9'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "03 derde verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 9,
+        "missing_constituents": [],
+        "z_min": 9.0,
+        "z_max": 11.62000001241,
+        "height_m": 2.6200000124099994,
+        "vertical_extent_m": 2.6200000124099994,
+        "volume_m3": 201.2810688204831,
+        "surface_area_m2": 393.0655608413941,
+        "centroid": [
+          9.66714750069682,
+          6.476401358581013,
+          10.31000000099833
+        ],
+        "footprint_area_m2": 76.82484062428566,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  13.450000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  4.8989999465
+                ],
+                [
+                  13.45000006259,
+                  4.8989999465
+                ],
+                [
+                  13.45000006259,
+                  1.4300001937300002
+                ],
+                [
+                  11.65500015029,
+                  1.4300001937300002
+                ],
+                [
+                  11.65500015029,
+                  0.3820000000000001
+                ],
+                [
+                  9.09499993596,
+                  0.3820000000000001
+                ],
+                [
+                  9.09499993596,
+                  1.4300001937300002
+                ],
+                [
+                  5.73000019818,
+                  1.4300001937300002
+                ],
+                [
+                  5.73000019818,
+                  3.8029999743400005
+                ],
+                [
+                  6.95000006448,
+                  3.8030000009100005
+                ],
+                [
+                  6.95,
+                  6.763999965769999
+                ],
+                [
+                  9.559000000000001,
+                  6.763999934500001
+                ],
+                [
+                  9.559000000000001,
+                  7.20399995097
+                ],
+                [
+                  13.450000000000001,
+                  7.20399995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.674,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  8.738999950970001
+                ],
+                [
+                  12.93,
+                  7.27399995097
+                ],
+                [
+                  10.674,
+                  7.27399995097
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  9.484999937890999
+                ],
+                [
+                  9.45899998031,
+                  9.484999937890999
+                ],
+                [
+                  9.45899998031,
+                  6.8639999509599985
+                ],
+                [
+                  5.73000019818,
+                  6.8639999509599985
+                ],
+                [
+                  5.73000019818,
+                  9.069999737329999
+                ],
+                [
+                  5.95000019818,
+                  9.069999737329999
+                ],
+                [
+                  5.95000019818,
+                  10.349999998729999
+                ],
+                [
+                  9.04600002839,
+                  10.349999998729999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  8.70395510086,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  11.72199999998
+                ],
+                [
+                  10.605,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  7.27399995094
+                ],
+                [
+                  9.529000027581,
+                  10.4199999799
+                ],
+                [
+                  8.70395510086,
+                  10.4199999799
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  10.188999950969999
+                ],
+                [
+                  11.739,
+                  8.838999950969999
+                ],
+                [
+                  10.704,
+                  8.838999950969999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  9.116,
+                  9.555
+                ],
+                [
+                  9.116,
+                  10.349999999019
+                ],
+                [
+                  9.459,
+                  10.349999949989
+                ],
+                [
+                  9.459000000431999,
+                  9.555
+                ],
+                [
+                  9.116,
+                  9.555
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  10.704,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  11.722000000029999
+                ],
+                [
+                  13.44999999747,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  8.897943869379999
+                ],
+                [
+                  11.839,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  10.288999951
+                ],
+                [
+                  10.704,
+                  11.722000000029999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  5.9500002103302,
+                  11.718999980936
+                ],
+                [
+                  5.9500002103302,
+                  12.446000015029998
+                ],
+                [
+                  8.63395510086,
+                  12.446000015029998
+                ],
+                [
+                  8.63395510086,
+                  10.419999950946
+                ],
+                [
+                  5.950000169442,
+                  10.419999950946
+                ],
+                [
+                  5.9500002103302,
+                  10.8109999906
+                ],
+                [
+                  5.89000019818,
+                  10.8109999906
+                ],
+                [
+                  5.89000019818,
+                  11.718999980936
+                ],
+                [
+                  5.9500002103302,
+                  11.718999980936
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 9,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 108,
+        "mesh_face_count": 184,
+        "sum_of_room_volumes_m3": 201.28108268171476,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    },
+    {
+      "candidate_id": "PU-10",
+      "label": "inferred dwelling group '10'",
+      "group_key": "10",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0c9LSnFgj7OBxwRT4cC9lK",
+        "2Yo$EpP$z2dOC6zNZ35BJq",
+        "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+        "0lGZe9hjL5GQNRN2Ku92xr",
+        "0thxUtY5D3nQDlN3b_gGVK",
+        "1JrMACb0vE99f79I2KAPuN",
+        "12sKPfqUvDFv$X4w8UYHNK",
+        "1AlG6Dm9L1h8L4yH9tB8FO",
+        "0FOLghHZTBOPD8KF6PRrx0"
+      ],
+      "source_space_names": [
+        "10.00",
+        "10.01",
+        "10.02",
+        "10.03",
+        "10.04",
+        "10.05",
+        "10.06",
+        "10.07",
+        "10.08"
+      ],
+      "source_storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+          "name": "10.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+          "name": "10.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+          "name": "10.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+          "name": "10.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0thxUtY5D3nQDlN3b_gGVK",
+          "name": "10.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1JrMACb0vE99f79I2KAPuN",
+          "name": "10.05",
+          "long_name": "slaapkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "12sKPfqUvDFv$X4w8UYHNK",
+          "name": "10.06",
+          "long_name": "onben. ruimte",
+          "function": "unnamed",
+          "flag": null
+        },
+        {
+          "global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+          "name": "10.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0FOLghHZTBOPD8KF6PRrx0",
+          "name": "10.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0thxUtY5D3nQDlN3b_gGVK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1JrMACb0vE99f79I2KAPuN",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "12sKPfqUvDFv$X4w8UYHNK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0FOLghHZTBOPD8KF6PRrx0",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '10'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "03 derde verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [],
+      "geometry": {
+        "geometry_status": "fallback",
+        "representation": "boolean_union",
+        "union_status": "boolean_union_ok",
+        "constituent_count": 9,
+        "missing_constituents": [],
+        "z_min": 9.0,
+        "z_max": 11.62000004674,
+        "height_m": 2.6200000467399995,
+        "vertical_extent_m": 2.6200000467399995,
+        "volume_m3": 245.83475946088615,
+        "surface_area_m2": 481.0934166816349,
+        "centroid": [
+          17.044169890963577,
+          8.15846887984835,
+          10.310000009251171
+        ],
+        "footprint_area_m2": 93.83006474843552,
+        "footprint": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  13.75,
+                  6.763999951280001
+                ],
+                [
+                  19.64999999823,
+                  6.763999951280001
+                ],
+                [
+                  19.64999999823,
+                  3.8030000000000004
+                ],
+                [
+                  20.8699996617,
+                  3.8030000000000004
+                ],
+                [
+                  20.8699996617,
+                  1.4300001937300002
+                ],
+                [
+                  17.50499992392,
+                  1.4300001937300002
+                ],
+                [
+                  17.50499992392,
+                  0.3450000000000002
+                ],
+                [
+                  14.94499993596,
+                  0.3450000000000002
+                ],
+                [
+                  14.94499993596,
+                  1.4300001937300002
+                ],
+                [
+                  13.75,
+                  1.4300001937300002
+                ],
+                [
+                  13.75,
+                  6.763999951280001
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  17.1495000626,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  9.03652308149
+                ],
+                [
+                  18.50149908359,
+                  6.83399995268
+                ],
+                [
+                  17.1495000626,
+                  6.83399995268
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  9.55652308149
+                ],
+                [
+                  17.07950006262,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  6.763999952680001
+                ],
+                [
+                  13.749999045000001,
+                  9.55652308149
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  18.571498998240003,
+                  10.6815230815
+                ],
+                [
+                  20.6499996617,
+                  10.6815230815
+                ],
+                [
+                  20.6499996617,
+                  9.06999973734
+                ],
+                [
+                  20.8699996617,
+                  9.06999973734
+                ],
+                [
+                  20.8699996617,
+                  6.863999951289999
+                ],
+                [
+                  18.571498998240003,
+                  6.863999951289999
+                ],
+                [
+                  18.571498998240003,
+                  10.6815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  11.731523081499999
+                ],
+                [
+                  17.2340000626,
+                  10.7815230815
+                ],
+                [
+                  15.2240000626,
+                  10.7815230815
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.74100006255,
+                  15.14874614983
+                ],
+                [
+                  14.74100006255,
+                  13.653523181484
+                ],
+                [
+                  15.12400006255,
+                  13.653523181484
+                ],
+                [
+                  15.12400006255,
+                  10.681523081489999
+                ],
+                [
+                  18.50150006255,
+                  10.681523081489999
+                ],
+                [
+                  18.50150006255,
+                  9.62652308149
+                ],
+                [
+                  13.74999999997,
+                  9.62652308149
+                ],
+                [
+                  13.74999999997,
+                  14.1
+                ],
+                [
+                  11.6494996602,
+                  14.1
+                ],
+                [
+                  11.6494996602,
+                  15.14874614983
+                ],
+                [
+                  14.74100006255,
+                  15.14874614983
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  19.148999942019,
+                  15.1299997065514
+                ],
+                [
+                  19.148999942019,
+                  15.0699997241
+                ],
+                [
+                  20.64999962837,
+                  15.0699997241
+                ],
+                [
+                  20.64999962837,
+                  13.360000012130001
+                ],
+                [
+                  20.70999962169,
+                  13.360000012130001
+                ],
+                [
+                  20.70999962169,
+                  12.451999982850001
+                ],
+                [
+                  20.64999962837,
+                  12.451999982850001
+                ],
+                [
+                  20.64999962837,
+                  10.78152308151
+                ],
+                [
+                  17.334000062541,
+                  10.78152308151
+                ],
+                [
+                  17.334000062541,
+                  15.0699997241
+                ],
+                [
+                  18.2409999779,
+                  15.0699997241
+                ],
+                [
+                  18.2409999779,
+                  15.1299997065514
+                ],
+                [
+                  19.148999942019,
+                  15.1299997065514
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15.2240000626,
+                  15.069999706539999
+                ],
+                [
+                  17.2340000626,
+                  15.069999706539999
+                ],
+                [
+                  17.2340000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  11.8315230815
+                ],
+                [
+                  15.2240000626,
+                  15.069999706539999
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  14.8110000626,
+                  15.06999970655
+                ],
+                [
+                  15.1540000626,
+                  15.06999970655
+                ],
+                [
+                  15.1540000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  13.723523181500001
+                ],
+                [
+                  14.8110000626,
+                  15.06999970655
+                ]
+              ]
+            ]
+          ]
+        },
+        "footprint_note": "union of net room footprints (internal wall thickness not filled)",
+        "volume_note": "net internal volume of constituent IfcSpace volumes",
+        "geometry_source": "IfcSpace FootPrint curve + Box height extrusions (no Body solids)",
+        "is_fallback": true,
+        "fallback_space_count": 9,
+        "body_space_count": 0,
+        "fallback_note": "constituent spaces without an IFC Body were extruded from the IFC FootPrint curve and Box height (real IFC data, placed with real ObjectPlacement; marked fallback)",
+        "confidence": 0.85,
+        "confidence_note": "volume-weighted rule-based heuristic score, not a statistical probability",
+        "boundary_corroboration_summary": {
+          "corroborated": 9
+        },
+        "watertight": true,
+        "mesh_vertex_count": 115,
+        "mesh_face_count": 198,
+        "sum_of_room_volumes_m3": 245.83477137697687,
+        "notes": []
+      },
+      "coordinate_reference": {
+        "source_crs": "IFC local engineering coordinates",
+        "source_crs_declared_in_ifc": null,
+        "target_crs": null,
+        "vertical_reference": "local datum (NAP not verified)",
+        "transformation_status": "not_performed",
+        "coordinate_status": "local/unverified",
+        "gnss_cors_control": "not_available",
+        "notes": [
+          "IFC is not assumed to be georeferenced"
+        ]
+      }
+    }
+  ]
+}

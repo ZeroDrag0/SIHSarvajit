@@ -1,0 +1,17 @@
+{
+  "status": "no_pointcloud_files_processed",
+  "ifc_bounds_m": [
+    [
+      0.162683306367,
+      0.34499999999699993,
+      0.0
+    ],
+    [
+      22.599999865160004,
+      21.046000000030002,
+      11.62000004674
+    ]
+  ],
+  "files": [],
+  "method": "extent_and_bbox_comparison (no registration / ICP performed)"
+}

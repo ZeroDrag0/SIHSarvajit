@@ -1,0 +1,315 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schependomlaan prototype 3D cadastral model",
+  "type": "object",
+  "required": [
+    "model_version",
+    "legal_notice",
+    "coordinate_reference",
+    "parcels",
+    "buildings",
+    "property_units",
+    "underground_volumetric_entities",
+    "validation_summary"
+  ],
+  "properties": {
+    "model_version": {
+      "type": "string"
+    },
+    "legal_notice": {
+      "type": "string"
+    },
+    "coordinate_reference": {
+      "type": "object",
+      "required": [
+        "source_crs",
+        "target_crs",
+        "vertical_reference",
+        "transformation_status",
+        "coordinate_status"
+      ]
+    },
+    "parcels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "parcel_id",
+          "cadastral_status",
+          "building_refs"
+        ],
+        "properties": {
+          "parcel_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cadastral_status": {
+            "type": "string"
+          },
+          "building_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "buildings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "building_id",
+          "storeys",
+          "provenance"
+        ],
+        "properties": {
+          "building_id": {
+            "type": "string"
+          },
+          "parcel_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "storeys": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "storey_id",
+                "name",
+                "property_unit_refs"
+              ]
+            }
+          },
+          "provenance": {
+            "type": "object",
+            "required": [
+              "source_dataset",
+              "derivation_method",
+              "data_status"
+            ],
+            "properties": {
+              "source_dataset": {
+                "type": "string"
+              },
+              "source_file": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_ifc_global_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "derivation_method": {
+                "type": "string"
+              },
+              "confidence": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "validation_state": {
+                "type": "string"
+              },
+              "coordinate_reference": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "data_status": {
+                "enum": [
+                  "authoritative",
+                  "derived",
+                  "inferred",
+                  "prototype",
+                  "unavailable",
+                  "unverified"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "property_units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "unit_id",
+          "prototype_ulpin",
+          "status",
+          "classification",
+          "building_ref",
+          "storey_refs",
+          "footprint_2d",
+          "volume_3d",
+          "vertical_extent",
+          "ifc_spaces",
+          "validation_status",
+          "legal_status",
+          "ownership_status",
+          "provenance"
+        ],
+        "properties": {
+          "unit_id": {
+            "type": "string"
+          },
+          "prototype_ulpin": {
+            "type": "string",
+            "pattern": "^P3D-"
+          },
+          "status": {
+            "enum": [
+              "inferred",
+              "derived",
+              "prototype"
+            ]
+          },
+          "footprint_2d": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "volume_3d": {
+            "type": "object",
+            "required": [
+              "geometry_status"
+            ],
+            "properties": {
+              "geometry_status": {
+                "enum": [
+                  "valid",
+                  "non_watertight",
+                  "invalid",
+                  "fallback",
+                  "unavailable"
+                ]
+              }
+            }
+          },
+          "vertical_extent": {
+            "type": "object",
+            "required": [
+              "z_min",
+              "z_max",
+              "height_m"
+            ]
+          },
+          "legal_status": {
+            "const": "not_a_legal_cadastral_unit"
+          },
+          "ownership_status": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "object",
+            "required": [
+              "source_dataset",
+              "derivation_method",
+              "data_status"
+            ],
+            "properties": {
+              "source_dataset": {
+                "type": "string"
+              },
+              "source_file": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_ifc_global_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "derivation_method": {
+                "type": "string"
+              },
+              "confidence": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "validation_state": {
+                "type": "string"
+              },
+              "coordinate_reference": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "data_status": {
+                "enum": [
+                  "authoritative",
+                  "derived",
+                  "inferred",
+                  "prototype",
+                  "unavailable",
+                  "unverified"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "underground_volumetric_entities": {
+      "type": "object",
+      "required": [
+        "underground_status",
+        "entities"
+      ],
+      "properties": {
+        "underground_status": {
+          "enum": [
+            "data_not_available",
+            "supplied",
+            "supplied_unreadable"
+          ]
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "entity_id",
+              "geometry",
+              "z_min",
+              "z_max",
+              "type",
+              "source",
+              "confidence",
+              "legal_status",
+              "ownership_status",
+              "provenance"
+            ]
+          }
+        }
+      }
+    },
+    "validation_summary": {
+      "type": "object",
+      "required": [
+        "valid"
+      ]
+    }
+  }
+}
