@@ -1,0 +1,14 @@
+ifcopenshell>=0.8
+numpy
+shapely>=2
+trimesh
+manifold3d      # exact 3D boolean union/intersection used for unit geometry + overlap checks
+pyyaml
+pandas          # chunked ASCII point-cloud reading
+laspy           # LAS/LAZ headers (add lazrs for .laz)
+pyproj
+pyogrio         # GPKG/GML cadastral input (optional)
+rasterio        # GeoTIFF terrain input (optional)
+jsonschema
+pytest
+scipy           # KD-tree point-to-surface distances, density

@@ -1,0 +1,49 @@
+{
+  "status": "git_lfs_pointers_only",
+  "source_root": "/home/claude/work/Archive-DataSetSchependomlaan/Point Clouds",
+  "files": [
+    {
+      "path": "/home/claude/work/Archive-DataSetSchependomlaan/Point Clouds/Week 27/PLY/De Schepen week 27_t.ply",
+      "name": "De Schepen week 27_t.ply",
+      "format": "ply",
+      "size_bytes": 134,
+      "crs_known": false,
+      "crs_statement": "no CRS in file/metadata; coordinates treated as local/unverified",
+      "parse_status": "git_lfs_pointer_not_downloaded",
+      "lfs_pointer": {
+        "oid_sha256": "08ec2b2c228ededda51f564ae1b0424bc0cf14afa65ef8dfd8f3fedea50a6247",
+        "expected_size_bytes": 205962475
+      },
+      "note": "file is a Git-LFS pointer stub, not point data; run `git lfs pull` (or download the dataset release zip) and re-run the pipeline",
+      "point_count": null,
+      "bounds": null
+    },
+    {
+      "path": "/home/claude/work/Archive-DataSetSchependomlaan/Point Clouds/Week 30/PLY/De Schepen week 30_t.ply",
+      "name": "De Schepen week 30_t.ply",
+      "format": "ply",
+      "size_bytes": 134,
+      "crs_known": false,
+      "crs_statement": "no CRS in file/metadata; coordinates treated as local/unverified",
+      "parse_status": "git_lfs_pointer_not_downloaded",
+      "lfs_pointer": {
+        "oid_sha256": "2907e094f72e46a53e78d8c6721faa9e8e36942570611f0ee80597574e2efc27",
+        "expected_size_bytes": 263330451
+      },
+      "note": "file is a Git-LFS pointer stub, not point data; run `git lfs pull` (or download the dataset release zip) and re-run the pipeline",
+      "point_count": null,
+      "bounds": null
+    }
+  ],
+  "files_processed": 0,
+  "files_git_lfs_pointer": 2,
+  "format_summary": {
+    "ply": 2
+  },
+  "total_detected": 2,
+  "documentation": {
+    "files_scanned": [],
+    "mentions": {}
+  },
+  "acquisition_statement": "Acquisition method is not asserted: files are treated as generic point-cloud data. No documentation about acquisition was found in the scanned folders."
+}

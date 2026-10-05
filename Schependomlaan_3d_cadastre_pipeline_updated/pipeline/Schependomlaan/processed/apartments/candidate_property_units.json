@@ -1,0 +1,1998 @@
+{
+  "method": "rule_based",
+  "method_type": "name_prefix_composition+geometry",
+  "model_status": "not_trained",
+  "source_mode": "live_ifc",
+  "label_policy": "derived/inferred prototype property units; NOT official apartments or legal cadastral units",
+  "declared_count_check": {
+    "declared_in_ifc_project_name": 10,
+    "derived": 10,
+    "agrees": true,
+    "note": "cross-check only; the derived count is not forced to the declared count"
+  },
+  "summary": {
+    "ifc_space_count": 100,
+    "inferred_property_unit_count": 10,
+    "spaces_in_units": 94,
+    "common_or_service_spaces": 6,
+    "unassigned_private_like_spaces": 0,
+    "geometry_used": true,
+    "reassigned_by_geometry": 1,
+    "ambiguous_space_names": [
+      "1.02"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "PU-01",
+      "label": "inferred dwelling group '1'",
+      "group_key": "1",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "3K51PWTdT9s9p1sMs0i66A",
+        "0EHFwkDTP5BAvP$Lr4UUAk",
+        "1EO6MCIfDFuRP2Ugg$wu$f",
+        "3RW6tpuaLA5fXODOX3rOlb",
+        "1S5uZBEqz97vGlKIzp8YFh",
+        "3m0eaNZIj4WuqLA61vp_PJ",
+        "0Jkjl8tTH5TBBcOqrZRjc0",
+        "0P4aIRXgD9XPdxJodXPmsI"
+      ],
+      "source_space_names": [
+        "1.00",
+        "1.01",
+        "1.02",
+        "1.03",
+        "1.04",
+        "1.05",
+        "1.06",
+        "1.07"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "3K51PWTdT9s9p1sMs0i66A",
+          "name": "1.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+          "name": "1.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+          "name": "1.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "3RW6tpuaLA5fXODOX3rOlb",
+          "name": "1.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1S5uZBEqz97vGlKIzp8YFh",
+          "name": "1.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+          "name": "1.05",
+          "long_name": "slaapkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+          "name": "1.06",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0P4aIRXgD9XPdxJodXPmsI",
+          "name": "1.07",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "3K51PWTdT9s9p1sMs0i66A",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0EHFwkDTP5BAvP$Lr4UUAk",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1EO6MCIfDFuRP2Ugg$wu$f",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3RW6tpuaLA5fXODOX3rOlb",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1S5uZBEqz97vGlKIzp8YFh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3m0eaNZIj4WuqLA61vp_PJ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0Jkjl8tTH5TBBcOqrZRjc0",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0P4aIRXgD9XPdxJodXPmsI",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "8 IfcSpaces share group token '1'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        },
+        {
+          "signal": "geometry_reassignment_out",
+          "detail": "1.02 moved to 2"
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-02",
+      "label": "inferred dwelling group '2'",
+      "group_key": "2",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0bNesd_3DCrhdyKRJV7k4U",
+        "0Dj6N$QAjCa8$dcIusb5Sm",
+        "0P5HFjHIjAsevZeF10JaZS",
+        "3vdzRMAWL66B6ew5$sjOj$",
+        "2rpp3iZFTCVwGEE7x9qiQ8",
+        "1GBaX8Qs19WPwcdIjq6ONn",
+        "0ajLK6DXHAaeMk704HiMsX",
+        "0OqmHrrnL18wpVdVYaE6Eq",
+        "2brbBA_o18ffxZ1OJKAEXd",
+        "02NK$DEdTDwuguIz00UqtE",
+        "12AHbNFjr4FRJYlF1r7pMB"
+      ],
+      "source_space_names": [
+        "1.02",
+        "2.00",
+        "2.01",
+        "2.03",
+        "2.04",
+        "2.05",
+        "2.06",
+        "2.07",
+        "2.08",
+        "2.09",
+        "2.10"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "0bNesd_3DCrhdyKRJV7k4U",
+          "name": "1.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": "duplicate_space_name_in_group"
+        },
+        {
+          "global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+          "name": "2.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0P5HFjHIjAsevZeF10JaZS",
+          "name": "2.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "3vdzRMAWL66B6ew5$sjOj$",
+          "name": "2.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+          "name": "2.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+          "name": "2.05",
+          "long_name": "gang",
+          "function": "circulation",
+          "flag": null
+        },
+        {
+          "global_id": "0ajLK6DXHAaeMk704HiMsX",
+          "name": "2.06",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+          "name": "2.07",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2brbBA_o18ffxZ1OJKAEXd",
+          "name": "2.08",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "02NK$DEdTDwuguIz00UqtE",
+          "name": "2.09",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "12AHbNFjr4FRJYlF1r7pMB",
+          "name": "2.10",
+          "long_name": "berging",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0bNesd_3DCrhdyKRJV7k4U",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0Dj6N$QAjCa8$dcIusb5Sm",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0P5HFjHIjAsevZeF10JaZS",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3vdzRMAWL66B6ew5$sjOj$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2rpp3iZFTCVwGEE7x9qiQ8",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1GBaX8Qs19WPwcdIjq6ONn",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0ajLK6DXHAaeMk704HiMsX",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0OqmHrrnL18wpVdVYaE6Eq",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2brbBA_o18ffxZ1OJKAEXd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "02NK$DEdTDwuguIz00UqtE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "12AHbNFjr4FRJYlF1r7pMB",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "11 IfcSpaces share group token '2'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        },
+        {
+          "signal": "geometry_reassignment",
+          "detail": "1.02 (0bNesd_3DCrhdyKRJV7k4U) moved from name-group 1 to 2; adjacent at 0.1 m, 5.775 m from its name-group"
+        }
+      ],
+      "confidence": 0.9,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": [
+        "space '1.02' (0bNesd_3DCrhdyKRJV7k4U) carries the name-group '1' but was assigned here by geometry (resolved; verify against source drawings)"
+      ]
+    },
+    {
+      "candidate_id": "PU-03",
+      "label": "inferred dwelling group '3'",
+      "group_key": "3",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "1G43xnpGf8ReA8Ux2AmH0Y",
+        "0asyuu9T1AaPR7AmNDL1_c",
+        "0IOcqFv1vCWwJz5c1VnoNe",
+        "1sCG2cUVb49PxJaBBE81Kw",
+        "10$IVtAgz3gvaL1AC5hF6m",
+        "3o3cJaPf51HPH9CUJnfi0W",
+        "39NQt7$3b1Mxn97UesaLDi",
+        "2lSz4lYYD0yPZfZ0iQzeVj",
+        "2GXKgJyIfAhxPinRH3xm0N",
+        "1qHWoDsfT4fQCpDzcA1RZj"
+      ],
+      "source_space_names": [
+        "3.00",
+        "3.01",
+        "3.02",
+        "3.03",
+        "3.04",
+        "3.05",
+        "3.06",
+        "3.07",
+        "3.08",
+        "3.09"
+      ],
+      "source_storey_ids": [
+        "2SWZMQPyD9pfT9q87pgXa1"
+      ],
+      "storey_names": [
+        "00 begane grond"
+      ],
+      "spaces": [
+        {
+          "global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+          "name": "3.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0asyuu9T1AaPR7AmNDL1_c",
+          "name": "3.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+          "name": "3.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1sCG2cUVb49PxJaBBE81Kw",
+          "name": "3.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "10$IVtAgz3gvaL1AC5hF6m",
+          "name": "3.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3o3cJaPf51HPH9CUJnfi0W",
+          "name": "3.05",
+          "long_name": "gang",
+          "function": "circulation",
+          "flag": null
+        },
+        {
+          "global_id": "39NQt7$3b1Mxn97UesaLDi",
+          "name": "3.06",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+          "name": "3.07",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2GXKgJyIfAhxPinRH3xm0N",
+          "name": "3.08",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+          "name": "3.09",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "1G43xnpGf8ReA8Ux2AmH0Y",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0asyuu9T1AaPR7AmNDL1_c",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0IOcqFv1vCWwJz5c1VnoNe",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1sCG2cUVb49PxJaBBE81Kw",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "10$IVtAgz3gvaL1AC5hF6m",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3o3cJaPf51HPH9CUJnfi0W",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "39NQt7$3b1Mxn97UesaLDi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2lSz4lYYD0yPZfZ0iQzeVj",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2GXKgJyIfAhxPinRH3xm0N",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1qHWoDsfT4fQCpDzcA1RZj",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '3'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "00 begane grond"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-04",
+      "label": "inferred dwelling group '4'",
+      "group_key": "4",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "2UFJkHK4XCxgqVrTwxYwA7",
+        "0tv9iZwmX3QhOwYgrkdylc",
+        "0OFDZWgvrCbvU2AvmpKDKA",
+        "2BRXAPrXHFoR9OLTjqGZa3",
+        "2eUwuV6Q14GRH$hdaTX4hB",
+        "1RPMriui52lBriSIaCeUCC",
+        "3F3COwDdj5LRVbWzGorFc7",
+        "3eVcTPP4z5PvakE2XtxxJp",
+        "09fo1jWjfFtQMbiri1ZVQ3"
+      ],
+      "source_space_names": [
+        "4.00",
+        "4.01",
+        "4.02",
+        "4.03",
+        "4.04",
+        "4.05",
+        "4.06",
+        "4.07",
+        "4.08"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+          "name": "4.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0tv9iZwmX3QhOwYgrkdylc",
+          "name": "4.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+          "name": "4.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+          "name": "4.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+          "name": "4.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1RPMriui52lBriSIaCeUCC",
+          "name": "4.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3F3COwDdj5LRVbWzGorFc7",
+          "name": "4.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3eVcTPP4z5PvakE2XtxxJp",
+          "name": "4.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+          "name": "4.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "2UFJkHK4XCxgqVrTwxYwA7",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0tv9iZwmX3QhOwYgrkdylc",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0OFDZWgvrCbvU2AvmpKDKA",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2BRXAPrXHFoR9OLTjqGZa3",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2eUwuV6Q14GRH$hdaTX4hB",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1RPMriui52lBriSIaCeUCC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3F3COwDdj5LRVbWzGorFc7",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3eVcTPP4z5PvakE2XtxxJp",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "09fo1jWjfFtQMbiri1ZVQ3",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '4'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-05",
+      "label": "inferred dwelling group '5'",
+      "group_key": "5",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "1AtrO37LT8iQg1RDVAeoCA",
+        "0hW2P55_n5cOR9ThNgO3e6",
+        "2EX8CQvoT3VOdgcbCwhid_",
+        "0BsqHll2P5vhJOAHEDwAwi",
+        "1PBqvLnRDDUATdl_lvNYMh",
+        "0up7RAxwfAqvoyCE1kDxpy",
+        "0IIWC_MJj0TegDVVevqJ7a",
+        "1dQmRhr_nEmea8aisHAkCQ",
+        "1KHE8Hn6vAPe5Gw9Zrubuh",
+        "2so3nbcb13Ig9Yd7gOPiH$"
+      ],
+      "source_space_names": [
+        "5.00",
+        "5.01",
+        "5.02",
+        "5.03",
+        "5.04",
+        "5.05",
+        "5.06",
+        "5.07",
+        "5.08",
+        "5.09"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "1AtrO37LT8iQg1RDVAeoCA",
+          "name": "5.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0hW2P55_n5cOR9ThNgO3e6",
+          "name": "5.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2EX8CQvoT3VOdgcbCwhid_",
+          "name": "5.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0BsqHll2P5vhJOAHEDwAwi",
+          "name": "5.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1PBqvLnRDDUATdl_lvNYMh",
+          "name": "5.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0up7RAxwfAqvoyCE1kDxpy",
+          "name": "5.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0IIWC_MJj0TegDVVevqJ7a",
+          "name": "5.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1dQmRhr_nEmea8aisHAkCQ",
+          "name": "5.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+          "name": "5.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+          "name": "5.09",
+          "long_name": "kast",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "1AtrO37LT8iQg1RDVAeoCA",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0hW2P55_n5cOR9ThNgO3e6",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2EX8CQvoT3VOdgcbCwhid_",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0BsqHll2P5vhJOAHEDwAwi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1PBqvLnRDDUATdl_lvNYMh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0up7RAxwfAqvoyCE1kDxpy",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0IIWC_MJj0TegDVVevqJ7a",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1dQmRhr_nEmea8aisHAkCQ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1KHE8Hn6vAPe5Gw9Zrubuh",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2so3nbcb13Ig9Yd7gOPiH$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '5'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-06",
+      "label": "inferred dwelling group '6'",
+      "group_key": "6",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "2WflCt48T2yQbjDADsjk3X",
+        "1bpdPR8RjDwuwW5iXv63ud",
+        "09WjTQSeH1n8koThMDL_IH",
+        "0kg640irz75hysOImfQ5Ff",
+        "3_e7IngdDBjOHVpCs_T3bC",
+        "3SPT$EB8r0aBxVBsVnHu5U",
+        "0z1xo3KDX8yQN59ZNuWEoz",
+        "3EcQs2ERfA495F4sseU_w4",
+        "2GOGL_EpT9BOLi26H$n8Y1"
+      ],
+      "source_space_names": [
+        "6.00",
+        "6.01",
+        "6.02",
+        "6.03",
+        "6.04",
+        "6.05",
+        "6.06",
+        "6.07",
+        "6.08"
+      ],
+      "source_storey_ids": [
+        "0u4wgLe6n0ABVaiXyikbkA"
+      ],
+      "storey_names": [
+        "01 eerste verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "2WflCt48T2yQbjDADsjk3X",
+          "name": "6.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "1bpdPR8RjDwuwW5iXv63ud",
+          "name": "6.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "09WjTQSeH1n8koThMDL_IH",
+          "name": "6.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0kg640irz75hysOImfQ5Ff",
+          "name": "6.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3_e7IngdDBjOHVpCs_T3bC",
+          "name": "6.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+          "name": "6.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+          "name": "6.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3EcQs2ERfA495F4sseU_w4",
+          "name": "6.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+          "name": "6.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "2WflCt48T2yQbjDADsjk3X",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1bpdPR8RjDwuwW5iXv63ud",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "09WjTQSeH1n8koThMDL_IH",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0kg640irz75hysOImfQ5Ff",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3_e7IngdDBjOHVpCs_T3bC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3SPT$EB8r0aBxVBsVnHu5U",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0z1xo3KDX8yQN59ZNuWEoz",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3EcQs2ERfA495F4sseU_w4",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2GOGL_EpT9BOLi26H$n8Y1",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '6'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "01 eerste verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-07",
+      "label": "inferred dwelling group '7'",
+      "group_key": "7",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0m66n5BInC6fBzFb8EWwyE",
+        "2j8_gVWpbACxOVmNDi6bGE",
+        "0yLghiaXr4pB6B4YHPBOlT",
+        "1stYdhm21EUQMz3jV6WdHc",
+        "3$vxLFFCTCjhIrAHJw7BxO",
+        "1geKZCJAHAVQxXKkYkD9nV",
+        "3gmZJjQND96w5a6Ee$z2ah",
+        "1mzKtLlF9B0824gzkkIWlz",
+        "3KeJCNzFv2cPjuyq2Kb61z"
+      ],
+      "source_space_names": [
+        "7.00",
+        "7.01",
+        "7.02",
+        "7.03",
+        "7.04",
+        "7.05",
+        "7.06",
+        "7.07",
+        "7.08"
+      ],
+      "source_storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0m66n5BInC6fBzFb8EWwyE",
+          "name": "7.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "2j8_gVWpbACxOVmNDi6bGE",
+          "name": "7.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0yLghiaXr4pB6B4YHPBOlT",
+          "name": "7.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1stYdhm21EUQMz3jV6WdHc",
+          "name": "7.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+          "name": "7.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1geKZCJAHAVQxXKkYkD9nV",
+          "name": "7.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3gmZJjQND96w5a6Ee$z2ah",
+          "name": "7.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1mzKtLlF9B0824gzkkIWlz",
+          "name": "7.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+          "name": "7.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0m66n5BInC6fBzFb8EWwyE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2j8_gVWpbACxOVmNDi6bGE",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0yLghiaXr4pB6B4YHPBOlT",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1stYdhm21EUQMz3jV6WdHc",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3$vxLFFCTCjhIrAHJw7BxO",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1geKZCJAHAVQxXKkYkD9nV",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3gmZJjQND96w5a6Ee$z2ah",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1mzKtLlF9B0824gzkkIWlz",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3KeJCNzFv2cPjuyq2Kb61z",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '7'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "02 tweede verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-08",
+      "label": "inferred dwelling group '8'",
+      "group_key": "8",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0CujFs7XvBHACKRDUKrtM$",
+        "1rGsZO_eH6hBvf3PaTPrrd",
+        "2taKN3SF5AqhoJgBEDOiLL",
+        "0a_kF4OBP2GPx5hgvIBSXe",
+        "3QKc$p$NXEvRNG3pdlAj02",
+        "2q_kN3Luf7wwPVcXYQjBxR",
+        "1LeiDSp9fA6h6$bEYt0VSH",
+        "0CJDgHLZLCWu7DbuOU80VN",
+        "1s8ejb3fH1wA$G6dYM5GgC",
+        "0sEYZPVdXAZAaorrZw2LKy"
+      ],
+      "source_space_names": [
+        "8.00",
+        "8.01",
+        "8.02",
+        "8.03",
+        "8.04",
+        "8.05",
+        "8.06",
+        "8.07",
+        "8.08",
+        "8.09"
+      ],
+      "source_storey_ids": [
+        "0wPqxf9KX0nPDjgzD8mXwD"
+      ],
+      "storey_names": [
+        "02 tweede verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0CujFs7XvBHACKRDUKrtM$",
+          "name": "8.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+          "name": "8.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2taKN3SF5AqhoJgBEDOiLL",
+          "name": "8.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+          "name": "8.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3QKc$p$NXEvRNG3pdlAj02",
+          "name": "8.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+          "name": "8.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+          "name": "8.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0CJDgHLZLCWu7DbuOU80VN",
+          "name": "8.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+          "name": "8.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "0sEYZPVdXAZAaorrZw2LKy",
+          "name": "8.09",
+          "long_name": "kast",
+          "function": "storage",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0CujFs7XvBHACKRDUKrtM$",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1rGsZO_eH6hBvf3PaTPrrd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2taKN3SF5AqhoJgBEDOiLL",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0a_kF4OBP2GPx5hgvIBSXe",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3QKc$p$NXEvRNG3pdlAj02",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2q_kN3Luf7wwPVcXYQjBxR",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1LeiDSp9fA6h6$bEYt0VSH",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0CJDgHLZLCWu7DbuOU80VN",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1s8ejb3fH1wA$G6dYM5GgC",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0sEYZPVdXAZAaorrZw2LKy",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "10 IfcSpaces share group token '8'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "02 tweede verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-09",
+      "label": "inferred dwelling group '9'",
+      "group_key": "9",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "00XVyzXGDDQPsHPeNwCNmZ",
+        "0oEbkL7YDD8AYm6eYpAT4B",
+        "2SEglEZ618iOaVY$jPjl1r",
+        "1Wtl5_cnDDhAIgcPpOxWTl",
+        "3iG4tbXJ901RkZ0OynKIbL",
+        "3_fPSW07z7bufHlc3SsUgF",
+        "1ksvb7lcPBt9rmCaSOqIpd",
+        "34JLBtlPXEaeJkF7ppuU09",
+        "0z1DMNAyb21RRdXtk2yF$a"
+      ],
+      "source_space_names": [
+        "9.00",
+        "9.01",
+        "9.02",
+        "9.03",
+        "9.04",
+        "9.05",
+        "9.06",
+        "9.07",
+        "9.08"
+      ],
+      "source_storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+          "name": "9.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+          "name": "9.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2SEglEZ618iOaVY$jPjl1r",
+          "name": "9.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+          "name": "9.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3iG4tbXJ901RkZ0OynKIbL",
+          "name": "9.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "3_fPSW07z7bufHlc3SsUgF",
+          "name": "9.05",
+          "long_name": "slaapkamer 1",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+          "name": "9.06",
+          "long_name": "slaapkamer 2",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "34JLBtlPXEaeJkF7ppuU09",
+          "name": "9.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0z1DMNAyb21RRdXtk2yF$a",
+          "name": "9.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "00XVyzXGDDQPsHPeNwCNmZ",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0oEbkL7YDD8AYm6eYpAT4B",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2SEglEZ618iOaVY$jPjl1r",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1Wtl5_cnDDhAIgcPpOxWTl",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3iG4tbXJ901RkZ0OynKIbL",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "3_fPSW07z7bufHlc3SsUgF",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1ksvb7lcPBt9rmCaSOqIpd",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "34JLBtlPXEaeJkF7ppuU09",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0z1DMNAyb21RRdXtk2yF$a",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '9'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "03 derde verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    },
+    {
+      "candidate_id": "PU-10",
+      "label": "inferred dwelling group '10'",
+      "group_key": "10",
+      "status": "inferred",
+      "classification": "derived/inferred prototype property unit",
+      "legal_status": "not_a_legal_cadastral_unit",
+      "ownership_status": "unknown_not_provided",
+      "source_space_ids": [
+        "0c9LSnFgj7OBxwRT4cC9lK",
+        "2Yo$EpP$z2dOC6zNZ35BJq",
+        "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+        "0lGZe9hjL5GQNRN2Ku92xr",
+        "0thxUtY5D3nQDlN3b_gGVK",
+        "1JrMACb0vE99f79I2KAPuN",
+        "12sKPfqUvDFv$X4w8UYHNK",
+        "1AlG6Dm9L1h8L4yH9tB8FO",
+        "0FOLghHZTBOPD8KF6PRrx0"
+      ],
+      "source_space_names": [
+        "10.00",
+        "10.01",
+        "10.02",
+        "10.03",
+        "10.04",
+        "10.05",
+        "10.06",
+        "10.07",
+        "10.08"
+      ],
+      "source_storey_ids": [
+        "2Hyat1fsPEGfyYPyim12A1"
+      ],
+      "storey_names": [
+        "03 derde verdieping"
+      ],
+      "spaces": [
+        {
+          "global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+          "name": "10.00",
+          "long_name": "entree",
+          "function": "entrance",
+          "flag": null
+        },
+        {
+          "global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+          "name": "10.01",
+          "long_name": "mk",
+          "function": "technical",
+          "flag": null
+        },
+        {
+          "global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+          "name": "10.02",
+          "long_name": "toilet",
+          "function": "sanitary",
+          "flag": null
+        },
+        {
+          "global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+          "name": "10.03",
+          "long_name": "woonkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0thxUtY5D3nQDlN3b_gGVK",
+          "name": "10.04",
+          "long_name": "keuken",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "1JrMACb0vE99f79I2KAPuN",
+          "name": "10.05",
+          "long_name": "slaapkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "12sKPfqUvDFv$X4w8UYHNK",
+          "name": "10.06",
+          "long_name": "onben. ruimte",
+          "function": "unnamed",
+          "flag": null
+        },
+        {
+          "global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+          "name": "10.07",
+          "long_name": "badkamer",
+          "function": "dwelling_room",
+          "flag": null
+        },
+        {
+          "global_id": "0FOLghHZTBOPD8KF6PRrx0",
+          "name": "10.08",
+          "long_name": "instal. ruimte",
+          "function": "technical",
+          "flag": null
+        }
+      ],
+      "grouping_method": "name_prefix_composition+geometry",
+      "method_type": "rule_based",
+      "model_status": "not_trained",
+      "geometry_references": [
+        {
+          "space_global_id": "0c9LSnFgj7OBxwRT4cC9lK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2Yo$EpP$z2dOC6zNZ35BJq",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0lGZe9hjL5GQNRN2Ku92xr",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0thxUtY5D3nQDlN3b_gGVK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1JrMACb0vE99f79I2KAPuN",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "12sKPfqUvDFv$X4w8UYHNK",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "1AlG6Dm9L1h8L4yH9tB8FO",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        },
+        {
+          "space_global_id": "0FOLghHZTBOPD8KF6PRrx0",
+          "geometry_status": "fallback",
+          "method": "footprint_box_extrusion"
+        }
+      ],
+      "room_connectivity": "connected",
+      "grouping_evidence": [
+        {
+          "signal": "name_prefix_group",
+          "detail": "9 IfcSpaces share group token '10'"
+        },
+        {
+          "signal": "dwelling_composition",
+          "detail": [
+            "badkamer",
+            "keuken",
+            "slaapkamer",
+            "woonkamer"
+          ]
+        },
+        {
+          "signal": "storey_membership",
+          "detail": [
+            "03 derde verdieping"
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_basis": [
+        "name prefix group (+0.55)",
+        "all rooms on one storey (+0.15)",
+        "rooms form one adjacency component (+0.15)"
+      ],
+      "derivation_method": [
+        "IfcSpace prefix-group composition",
+        "storey membership",
+        "adjacency/duplicate resolution when geometry exists"
+      ],
+      "warnings": []
+    }
+  ],
+  "common_service_spaces": [
+    {
+      "global_id": "22lJvI_rz50umvUizzyEQi",
+      "name": "A0.01",
+      "long_name": "instal. ruimte",
+      "classification": "technical_service",
+      "storey": "00 begane grond"
+    },
+    {
+      "global_id": "2dFicWHgz1KPbr5tHWzMcP",
+      "name": "A0.00",
+      "long_name": "entree",
+      "classification": "entrance",
+      "storey": "00 begane grond"
+    },
+    {
+      "global_id": "3ZMk1e17XESP$vROePi38_",
+      "name": "A0.02",
+      "long_name": "berging",
+      "classification": "storage",
+      "storey": "00 begane grond"
+    },
+    {
+      "global_id": "0ldLkGDpv5wRT1Q$Q3V2M1",
+      "name": "A1.01",
+      "long_name": "overloop",
+      "classification": "common_circulation",
+      "storey": "01 eerste verdieping"
+    },
+    {
+      "global_id": "2Nn5OYLeT9FBcLTcY8oegS",
+      "name": "A2.01",
+      "long_name": "overloop",
+      "classification": "common_circulation",
+      "storey": "02 tweede verdieping"
+    },
+    {
+      "global_id": "3c9gfBnpXAtgB1oHgYsgIs",
+      "name": "A3.01",
+      "long_name": "overloop",
+      "classification": "common_circulation",
+      "storey": "03 derde verdieping"
+    }
+  ],
+  "unassigned_spaces": []
+}

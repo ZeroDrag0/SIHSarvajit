@@ -1,0 +1,1508 @@
+{
+  "building": "10 Appartementen Schependomlaan",
+  "classification": "prototype_ulpin",
+  "provenance_statement": "These identifiers are prototype 3D ULPIN values derived from real IFC space geometry and should not be treated as official cadastral ULPINs.",
+  "identifier_format": "SCHEP-PROTO-XXXXXXXXXXXX",
+  "records": [
+    {
+      "prototype_ulpin": "SCHEP-PROTO-4F275AE666B4",
+      "3d_ulpin_prototype": "SCHEP-PROTO-4F275AE666B4",
+      "derived_property_id": "00-begane-grond-a0-01-22ljvi",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-a0-01-22ljvi",
+      "geometry_reference": "22lJvI_rz50umvUizzyEQi",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "22lJvI_rz50umvUizzyEQi"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-29F658CE17BF",
+      "3d_ulpin_prototype": "SCHEP-PROTO-29F658CE17BF",
+      "derived_property_id": "00-begane-grond-a0-00-2dficw",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-a0-00-2dficw",
+      "geometry_reference": "2dFicWHgz1KPbr5tHWzMcP",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2dFicWHgz1KPbr5tHWzMcP"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-D5EFB15202A4",
+      "3d_ulpin_prototype": "SCHEP-PROTO-D5EFB15202A4",
+      "derived_property_id": "00-begane-grond-a0-02-3zmk1e",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-a0-02-3zmk1e",
+      "geometry_reference": "3ZMk1e17XESP$vROePi38_",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3ZMk1e17XESP$vROePi38_"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-3767094D73D9",
+      "3d_ulpin_prototype": "SCHEP-PROTO-3767094D73D9",
+      "derived_property_id": "00-begane-grond-3-08-2gxkgj",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-08-2gxkgj",
+      "geometry_reference": "2GXKgJyIfAhxPinRH3xm0N",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2GXKgJyIfAhxPinRH3xm0N"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-0471163A6ECF",
+      "3d_ulpin_prototype": "SCHEP-PROTO-0471163A6ECF",
+      "derived_property_id": "00-begane-grond-3-07-2lsz4l",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-07-2lsz4l",
+      "geometry_reference": "2lSz4lYYD0yPZfZ0iQzeVj",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2lSz4lYYD0yPZfZ0iQzeVj"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-EEFB336B1F9C",
+      "3d_ulpin_prototype": "SCHEP-PROTO-EEFB336B1F9C",
+      "derived_property_id": "00-begane-grond-3-06-39nqt7",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-06-39nqt7",
+      "geometry_reference": "39NQt7$3b1Mxn97UesaLDi",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "39NQt7$3b1Mxn97UesaLDi"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1D89F7DB8ECE",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1D89F7DB8ECE",
+      "derived_property_id": "00-begane-grond-3-09-1qhwod",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-09-1qhwod",
+      "geometry_reference": "1qHWoDsfT4fQCpDzcA1RZj",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1qHWoDsfT4fQCpDzcA1RZj"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-E87CF4F4BCCD",
+      "3d_ulpin_prototype": "SCHEP-PROTO-E87CF4F4BCCD",
+      "derived_property_id": "00-begane-grond-3-03-1scg2c",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-03-1scg2c",
+      "geometry_reference": "1sCG2cUVb49PxJaBBE81Kw",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1sCG2cUVb49PxJaBBE81Kw"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-8FBD3D48252A",
+      "3d_ulpin_prototype": "SCHEP-PROTO-8FBD3D48252A",
+      "derived_property_id": "00-begane-grond-3-04-10-ivt",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-04-10-ivt",
+      "geometry_reference": "10$IVtAgz3gvaL1AC5hF6m",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "10$IVtAgz3gvaL1AC5hF6m"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B821164B17C0",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B821164B17C0",
+      "derived_property_id": "00-begane-grond-3-01-0asyuu",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-01-0asyuu",
+      "geometry_reference": "0asyuu9T1AaPR7AmNDL1_c",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0asyuu9T1AaPR7AmNDL1_c"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-0D5735FAA277",
+      "3d_ulpin_prototype": "SCHEP-PROTO-0D5735FAA277",
+      "derived_property_id": "00-begane-grond-3-00-1g43xn",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-00-1g43xn",
+      "geometry_reference": "1G43xnpGf8ReA8Ux2AmH0Y",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1G43xnpGf8ReA8Ux2AmH0Y"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-514E47A910D0",
+      "3d_ulpin_prototype": "SCHEP-PROTO-514E47A910D0",
+      "derived_property_id": "00-begane-grond-3-02-0iocqf",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-02-0iocqf",
+      "geometry_reference": "0IOcqFv1vCWwJz5c1VnoNe",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0IOcqFv1vCWwJz5c1VnoNe"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-80C9DB6619ED",
+      "3d_ulpin_prototype": "SCHEP-PROTO-80C9DB6619ED",
+      "derived_property_id": "00-begane-grond-3-05-3o3cja",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-3-05-3o3cja",
+      "geometry_reference": "3o3cJaPf51HPH9CUJnfi0W",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3o3cJaPf51HPH9CUJnfi0W"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-E454852CBC02",
+      "3d_ulpin_prototype": "SCHEP-PROTO-E454852CBC02",
+      "derived_property_id": "00-begane-grond-2-10-12ahbn",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-10-12ahbn",
+      "geometry_reference": "12AHbNFjr4FRJYlF1r7pMB",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "12AHbNFjr4FRJYlF1r7pMB"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1EC3D2509E67",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1EC3D2509E67",
+      "derived_property_id": "00-begane-grond-2-08-2brbba",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-08-2brbba",
+      "geometry_reference": "2brbBA_o18ffxZ1OJKAEXd",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2brbBA_o18ffxZ1OJKAEXd"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B9BBAC934E6C",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B9BBAC934E6C",
+      "derived_property_id": "00-begane-grond-2-05-1gbax8",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-05-1gbax8",
+      "geometry_reference": "1GBaX8Qs19WPwcdIjq6ONn",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1GBaX8Qs19WPwcdIjq6ONn"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-49DC0F6E254E",
+      "3d_ulpin_prototype": "SCHEP-PROTO-49DC0F6E254E",
+      "derived_property_id": "00-begane-grond-2-06-0ajlk6",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-06-0ajlk6",
+      "geometry_reference": "0ajLK6DXHAaeMk704HiMsX",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0ajLK6DXHAaeMk704HiMsX"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-661BFB31BCBE",
+      "3d_ulpin_prototype": "SCHEP-PROTO-661BFB31BCBE",
+      "derived_property_id": "00-begane-grond-2-07-0oqmhr",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-07-0oqmhr",
+      "geometry_reference": "0OqmHrrnL18wpVdVYaE6Eq",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0OqmHrrnL18wpVdVYaE6Eq"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-5948C728C28B",
+      "3d_ulpin_prototype": "SCHEP-PROTO-5948C728C28B",
+      "derived_property_id": "00-begane-grond-2-09-02nk-d",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-09-02nk-d",
+      "geometry_reference": "02NK$DEdTDwuguIz00UqtE",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "02NK$DEdTDwuguIz00UqtE"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-BCE78EC81264",
+      "3d_ulpin_prototype": "SCHEP-PROTO-BCE78EC81264",
+      "derived_property_id": "00-begane-grond-2-03-3vdzrm",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-03-3vdzrm",
+      "geometry_reference": "3vdzRMAWL66B6ew5$sjOj$",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3vdzRMAWL66B6ew5$sjOj$"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-342113AEB9A5",
+      "3d_ulpin_prototype": "SCHEP-PROTO-342113AEB9A5",
+      "derived_property_id": "00-begane-grond-2-04-2rpp3i",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-04-2rpp3i",
+      "geometry_reference": "2rpp3iZFTCVwGEE7x9qiQ8",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2rpp3iZFTCVwGEE7x9qiQ8"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-9265A608D1FC",
+      "3d_ulpin_prototype": "SCHEP-PROTO-9265A608D1FC",
+      "derived_property_id": "00-begane-grond-1-02-0bnesd",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-02-0bnesd",
+      "geometry_reference": "0bNesd_3DCrhdyKRJV7k4U",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0bNesd_3DCrhdyKRJV7k4U"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-83557FB717DC",
+      "3d_ulpin_prototype": "SCHEP-PROTO-83557FB717DC",
+      "derived_property_id": "00-begane-grond-2-01-0p5hfj",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-01-0p5hfj",
+      "geometry_reference": "0P5HFjHIjAsevZeF10JaZS",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0P5HFjHIjAsevZeF10JaZS"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-FAA9E6AED49C",
+      "3d_ulpin_prototype": "SCHEP-PROTO-FAA9E6AED49C",
+      "derived_property_id": "00-begane-grond-2-00-0dj6n-",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-2-00-0dj6n-",
+      "geometry_reference": "0Dj6N$QAjCa8$dcIusb5Sm",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0Dj6N$QAjCa8$dcIusb5Sm"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-E3B35347428A",
+      "3d_ulpin_prototype": "SCHEP-PROTO-E3B35347428A",
+      "derived_property_id": "00-begane-grond-1-01-0ehfwk",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-01-0ehfwk",
+      "geometry_reference": "0EHFwkDTP5BAvP$Lr4UUAk",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0EHFwkDTP5BAvP$Lr4UUAk"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-51D18F64A54A",
+      "3d_ulpin_prototype": "SCHEP-PROTO-51D18F64A54A",
+      "derived_property_id": "00-begane-grond-1-06-0jkjl8",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-06-0jkjl8",
+      "geometry_reference": "0Jkjl8tTH5TBBcOqrZRjc0",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0Jkjl8tTH5TBBcOqrZRjc0"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-8800B72C64E7",
+      "3d_ulpin_prototype": "SCHEP-PROTO-8800B72C64E7",
+      "derived_property_id": "00-begane-grond-1-07-0p4air",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-07-0p4air",
+      "geometry_reference": "0P4aIRXgD9XPdxJodXPmsI",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0P4aIRXgD9XPdxJodXPmsI"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B0FD521A2102",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B0FD521A2102",
+      "derived_property_id": "00-begane-grond-1-02-1eo6mc",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-02-1eo6mc",
+      "geometry_reference": "1EO6MCIfDFuRP2Ugg$wu$f",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1EO6MCIfDFuRP2Ugg$wu$f"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-390D2D287B16",
+      "3d_ulpin_prototype": "SCHEP-PROTO-390D2D287B16",
+      "derived_property_id": "00-begane-grond-1-00-3k51pw",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-00-3k51pw",
+      "geometry_reference": "3K51PWTdT9s9p1sMs0i66A",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3K51PWTdT9s9p1sMs0i66A"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-66119AED9C3F",
+      "3d_ulpin_prototype": "SCHEP-PROTO-66119AED9C3F",
+      "derived_property_id": "00-begane-grond-1-05-3m0ean",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-05-3m0ean",
+      "geometry_reference": "3m0eaNZIj4WuqLA61vp_PJ",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3m0eaNZIj4WuqLA61vp_PJ"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1371631CD33B",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1371631CD33B",
+      "derived_property_id": "00-begane-grond-1-04-1s5uzb",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-04-1s5uzb",
+      "geometry_reference": "1S5uZBEqz97vGlKIzp8YFh",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1S5uZBEqz97vGlKIzp8YFh"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-D139DB4B1F08",
+      "3d_ulpin_prototype": "SCHEP-PROTO-D139DB4B1F08",
+      "derived_property_id": "00-begane-grond-1-03-3rw6tp",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "00 begane grond",
+      "unit_id": "00-begane-grond-1-03-3rw6tp",
+      "geometry_reference": "3RW6tpuaLA5fXODOX3rOlb",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3RW6tpuaLA5fXODOX3rOlb"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-869E6E08990A",
+      "3d_ulpin_prototype": "SCHEP-PROTO-869E6E08990A",
+      "derived_property_id": "01-eerste-verdieping-4-06-3f3cow",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-06-3f3cow",
+      "geometry_reference": "3F3COwDdj5LRVbWzGorFc7",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3F3COwDdj5LRVbWzGorFc7"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-525F277D9132",
+      "3d_ulpin_prototype": "SCHEP-PROTO-525F277D9132",
+      "derived_property_id": "01-eerste-verdieping-6-07-3ecqs2",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-07-3ecqs2",
+      "geometry_reference": "3EcQs2ERfA495F4sseU_w4",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3EcQs2ERfA495F4sseU_w4"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-21A519BD6165",
+      "3d_ulpin_prototype": "SCHEP-PROTO-21A519BD6165",
+      "derived_property_id": "01-eerste-verdieping-6-06-0z1xo3",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-06-0z1xo3",
+      "geometry_reference": "0z1xo3KDX8yQN59ZNuWEoz",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0z1xo3KDX8yQN59ZNuWEoz"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-04A81832CDB9",
+      "3d_ulpin_prototype": "SCHEP-PROTO-04A81832CDB9",
+      "derived_property_id": "01-eerste-verdieping-6-05-3spt-e",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-05-3spt-e",
+      "geometry_reference": "3SPT$EB8r0aBxVBsVnHu5U",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3SPT$EB8r0aBxVBsVnHu5U"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-93C0960C3ABA",
+      "3d_ulpin_prototype": "SCHEP-PROTO-93C0960C3ABA",
+      "derived_property_id": "01-eerste-verdieping-6-08-2gogl_",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-08-2gogl_",
+      "geometry_reference": "2GOGL_EpT9BOLi26H$n8Y1",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2GOGL_EpT9BOLi26H$n8Y1"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-43D46B82CD33",
+      "3d_ulpin_prototype": "SCHEP-PROTO-43D46B82CD33",
+      "derived_property_id": "01-eerste-verdieping-6-03-0kg640",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-03-0kg640",
+      "geometry_reference": "0kg640irz75hysOImfQ5Ff",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0kg640irz75hysOImfQ5Ff"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-405731470AF7",
+      "3d_ulpin_prototype": "SCHEP-PROTO-405731470AF7",
+      "derived_property_id": "01-eerste-verdieping-6-04-3_e7in",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-04-3_e7in",
+      "geometry_reference": "3_e7IngdDBjOHVpCs_T3bC",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3_e7IngdDBjOHVpCs_T3bC"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-3B415E26C9FD",
+      "3d_ulpin_prototype": "SCHEP-PROTO-3B415E26C9FD",
+      "derived_property_id": "01-eerste-verdieping-6-01-1bpdpr",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-01-1bpdpr",
+      "geometry_reference": "1bpdPR8RjDwuwW5iXv63ud",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1bpdPR8RjDwuwW5iXv63ud"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-08E58EA340B4",
+      "3d_ulpin_prototype": "SCHEP-PROTO-08E58EA340B4",
+      "derived_property_id": "01-eerste-verdieping-5-09-2so3nb",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-09-2so3nb",
+      "geometry_reference": "2so3nbcb13Ig9Yd7gOPiH$",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2so3nbcb13Ig9Yd7gOPiH$"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-BED81E2F9BCB",
+      "3d_ulpin_prototype": "SCHEP-PROTO-BED81E2F9BCB",
+      "derived_property_id": "01-eerste-verdieping-6-02-09wjtq",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-02-09wjtq",
+      "geometry_reference": "09WjTQSeH1n8koThMDL_IH",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "09WjTQSeH1n8koThMDL_IH"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1577452C9067",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1577452C9067",
+      "derived_property_id": "01-eerste-verdieping-6-00-2wflct",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-6-00-2wflct",
+      "geometry_reference": "2WflCt48T2yQbjDADsjk3X",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2WflCt48T2yQbjDADsjk3X"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-0458AA0152BF",
+      "3d_ulpin_prototype": "SCHEP-PROTO-0458AA0152BF",
+      "derived_property_id": "01-eerste-verdieping-5-07-1dqmrh",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-07-1dqmrh",
+      "geometry_reference": "1dQmRhr_nEmea8aisHAkCQ",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1dQmRhr_nEmea8aisHAkCQ"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-68B0FA228EA0",
+      "3d_ulpin_prototype": "SCHEP-PROTO-68B0FA228EA0",
+      "derived_property_id": "01-eerste-verdieping-5-00-1atro3",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-00-1atro3",
+      "geometry_reference": "1AtrO37LT8iQg1RDVAeoCA",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1AtrO37LT8iQg1RDVAeoCA"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-55200913FBE8",
+      "3d_ulpin_prototype": "SCHEP-PROTO-55200913FBE8",
+      "derived_property_id": "01-eerste-verdieping-5-05-0up7ra",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-05-0up7ra",
+      "geometry_reference": "0up7RAxwfAqvoyCE1kDxpy",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0up7RAxwfAqvoyCE1kDxpy"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-39A11BC87D7D",
+      "3d_ulpin_prototype": "SCHEP-PROTO-39A11BC87D7D",
+      "derived_property_id": "01-eerste-verdieping-5-06-0iiwc_",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-06-0iiwc_",
+      "geometry_reference": "0IIWC_MJj0TegDVVevqJ7a",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0IIWC_MJj0TegDVVevqJ7a"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-0DD1E6B1DBBA",
+      "3d_ulpin_prototype": "SCHEP-PROTO-0DD1E6B1DBBA",
+      "derived_property_id": "01-eerste-verdieping-5-08-1khe8h",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-08-1khe8h",
+      "geometry_reference": "1KHE8Hn6vAPe5Gw9Zrubuh",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1KHE8Hn6vAPe5Gw9Zrubuh"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-29D2A323B13D",
+      "3d_ulpin_prototype": "SCHEP-PROTO-29D2A323B13D",
+      "derived_property_id": "01-eerste-verdieping-5-03-0bsqhl",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-03-0bsqhl",
+      "geometry_reference": "0BsqHll2P5vhJOAHEDwAwi",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0BsqHll2P5vhJOAHEDwAwi"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-27A26B575507",
+      "3d_ulpin_prototype": "SCHEP-PROTO-27A26B575507",
+      "derived_property_id": "01-eerste-verdieping-5-04-1pbqvl",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-04-1pbqvl",
+      "geometry_reference": "1PBqvLnRDDUATdl_lvNYMh",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1PBqvLnRDDUATdl_lvNYMh"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-FE6AF2462252",
+      "3d_ulpin_prototype": "SCHEP-PROTO-FE6AF2462252",
+      "derived_property_id": "01-eerste-verdieping-5-02-2ex8cq",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-02-2ex8cq",
+      "geometry_reference": "2EX8CQvoT3VOdgcbCwhid_",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2EX8CQvoT3VOdgcbCwhid_"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-AAED8D39DE50",
+      "3d_ulpin_prototype": "SCHEP-PROTO-AAED8D39DE50",
+      "derived_property_id": "01-eerste-verdieping-5-01-0hw2p5",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-5-01-0hw2p5",
+      "geometry_reference": "0hW2P55_n5cOR9ThNgO3e6",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0hW2P55_n5cOR9ThNgO3e6"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-30239604535E",
+      "3d_ulpin_prototype": "SCHEP-PROTO-30239604535E",
+      "derived_property_id": "01-eerste-verdieping-4-01-0tv9iz",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-01-0tv9iz",
+      "geometry_reference": "0tv9iZwmX3QhOwYgrkdylc",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0tv9iZwmX3QhOwYgrkdylc"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B651C15DF8E4",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B651C15DF8E4",
+      "derived_property_id": "01-eerste-verdieping-4-07-3evctp",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-07-3evctp",
+      "geometry_reference": "3eVcTPP4z5PvakE2XtxxJp",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3eVcTPP4z5PvakE2XtxxJp"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-2DF99A3D123F",
+      "3d_ulpin_prototype": "SCHEP-PROTO-2DF99A3D123F",
+      "derived_property_id": "01-eerste-verdieping-4-08-09fo1j",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-08-09fo1j",
+      "geometry_reference": "09fo1jWjfFtQMbiri1ZVQ3",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "09fo1jWjfFtQMbiri1ZVQ3"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-42043F47D132",
+      "3d_ulpin_prototype": "SCHEP-PROTO-42043F47D132",
+      "derived_property_id": "01-eerste-verdieping-4-02-0ofdzw",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-02-0ofdzw",
+      "geometry_reference": "0OFDZWgvrCbvU2AvmpKDKA",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0OFDZWgvrCbvU2AvmpKDKA"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-7D2A8534C975",
+      "3d_ulpin_prototype": "SCHEP-PROTO-7D2A8534C975",
+      "derived_property_id": "01-eerste-verdieping-4-00-2ufjkh",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-00-2ufjkh",
+      "geometry_reference": "2UFJkHK4XCxgqVrTwxYwA7",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2UFJkHK4XCxgqVrTwxYwA7"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-EC700194A0ED",
+      "3d_ulpin_prototype": "SCHEP-PROTO-EC700194A0ED",
+      "derived_property_id": "01-eerste-verdieping-4-05-1rpmri",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-05-1rpmri",
+      "geometry_reference": "1RPMriui52lBriSIaCeUCC",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1RPMriui52lBriSIaCeUCC"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-A738FE61E110",
+      "3d_ulpin_prototype": "SCHEP-PROTO-A738FE61E110",
+      "derived_property_id": "01-eerste-verdieping-4-04-2euwuv",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-04-2euwuv",
+      "geometry_reference": "2eUwuV6Q14GRH$hdaTX4hB",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2eUwuV6Q14GRH$hdaTX4hB"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-190DF3024901",
+      "3d_ulpin_prototype": "SCHEP-PROTO-190DF3024901",
+      "derived_property_id": "01-eerste-verdieping-4-03-2brxap",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-4-03-2brxap",
+      "geometry_reference": "2BRXAPrXHFoR9OLTjqGZa3",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2BRXAPrXHFoR9OLTjqGZa3"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-210237FB5942",
+      "3d_ulpin_prototype": "SCHEP-PROTO-210237FB5942",
+      "derived_property_id": "01-eerste-verdieping-a1-01-0ldlkg",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "01 eerste verdieping",
+      "unit_id": "01-eerste-verdieping-a1-01-0ldlkg",
+      "geometry_reference": "0ldLkGDpv5wRT1Q$Q3V2M1",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0ldLkGDpv5wRT1Q$Q3V2M1"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-5765EDE5C3E0",
+      "3d_ulpin_prototype": "SCHEP-PROTO-5765EDE5C3E0",
+      "derived_property_id": "02-tweede-verdieping-7-06-3gmzjj",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-06-3gmzjj",
+      "geometry_reference": "3gmZJjQND96w5a6Ee$z2ah",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3gmZJjQND96w5a6Ee$z2ah"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-4CF2FFE85B85",
+      "3d_ulpin_prototype": "SCHEP-PROTO-4CF2FFE85B85",
+      "derived_property_id": "02-tweede-verdieping-8-09-0seyzp",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-09-0seyzp",
+      "geometry_reference": "0sEYZPVdXAZAaorrZw2LKy",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0sEYZPVdXAZAaorrZw2LKy"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-89B0D5B6AB99",
+      "3d_ulpin_prototype": "SCHEP-PROTO-89B0D5B6AB99",
+      "derived_property_id": "02-tweede-verdieping-8-07-0cjdgh",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-07-0cjdgh",
+      "geometry_reference": "0CJDgHLZLCWu7DbuOU80VN",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0CJDgHLZLCWu7DbuOU80VN"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1DB34B1EE939",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1DB34B1EE939",
+      "derived_property_id": "02-tweede-verdieping-8-00-0cujfs",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-00-0cujfs",
+      "geometry_reference": "0CujFs7XvBHACKRDUKrtM$",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0CujFs7XvBHACKRDUKrtM$"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-95D84F8E81A2",
+      "3d_ulpin_prototype": "SCHEP-PROTO-95D84F8E81A2",
+      "derived_property_id": "02-tweede-verdieping-8-05-2q_kn3",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-05-2q_kn3",
+      "geometry_reference": "2q_kN3Luf7wwPVcXYQjBxR",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2q_kN3Luf7wwPVcXYQjBxR"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-550530435AFB",
+      "3d_ulpin_prototype": "SCHEP-PROTO-550530435AFB",
+      "derived_property_id": "02-tweede-verdieping-8-06-1leids",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-06-1leids",
+      "geometry_reference": "1LeiDSp9fA6h6$bEYt0VSH",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1LeiDSp9fA6h6$bEYt0VSH"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-53CABCFF2B97",
+      "3d_ulpin_prototype": "SCHEP-PROTO-53CABCFF2B97",
+      "derived_property_id": "02-tweede-verdieping-8-08-1s8ejb",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-08-1s8ejb",
+      "geometry_reference": "1s8ejb3fH1wA$G6dYM5GgC",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1s8ejb3fH1wA$G6dYM5GgC"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-A98427149D31",
+      "3d_ulpin_prototype": "SCHEP-PROTO-A98427149D31",
+      "derived_property_id": "02-tweede-verdieping-8-03-0a_kf4",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-03-0a_kf4",
+      "geometry_reference": "0a_kF4OBP2GPx5hgvIBSXe",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0a_kF4OBP2GPx5hgvIBSXe"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-E79CDAFAA717",
+      "3d_ulpin_prototype": "SCHEP-PROTO-E79CDAFAA717",
+      "derived_property_id": "02-tweede-verdieping-8-04-3qkc-p",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-04-3qkc-p",
+      "geometry_reference": "3QKc$p$NXEvRNG3pdlAj02",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3QKc$p$NXEvRNG3pdlAj02"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B49ED760C969",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B49ED760C969",
+      "derived_property_id": "02-tweede-verdieping-8-02-2takn3",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-02-2takn3",
+      "geometry_reference": "2taKN3SF5AqhoJgBEDOiLL",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2taKN3SF5AqhoJgBEDOiLL"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-26110C4C7AEF",
+      "3d_ulpin_prototype": "SCHEP-PROTO-26110C4C7AEF",
+      "derived_property_id": "02-tweede-verdieping-8-01-1rgszo",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-8-01-1rgszo",
+      "geometry_reference": "1rGsZO_eH6hBvf3PaTPrrd",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1rGsZO_eH6hBvf3PaTPrrd"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-C862DFBBF74C",
+      "3d_ulpin_prototype": "SCHEP-PROTO-C862DFBBF74C",
+      "derived_property_id": "02-tweede-verdieping-7-01-2j8_gv",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-01-2j8_gv",
+      "geometry_reference": "2j8_gVWpbACxOVmNDi6bGE",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2j8_gVWpbACxOVmNDi6bGE"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-C730E3396B06",
+      "3d_ulpin_prototype": "SCHEP-PROTO-C730E3396B06",
+      "derived_property_id": "02-tweede-verdieping-7-07-1mzktl",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-07-1mzktl",
+      "geometry_reference": "1mzKtLlF9B0824gzkkIWlz",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1mzKtLlF9B0824gzkkIWlz"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-E19FF4640504",
+      "3d_ulpin_prototype": "SCHEP-PROTO-E19FF4640504",
+      "derived_property_id": "02-tweede-verdieping-7-08-3kejcn",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-08-3kejcn",
+      "geometry_reference": "3KeJCNzFv2cPjuyq2Kb61z",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3KeJCNzFv2cPjuyq2Kb61z"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-43641773654E",
+      "3d_ulpin_prototype": "SCHEP-PROTO-43641773654E",
+      "derived_property_id": "02-tweede-verdieping-7-02-0ylghi",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-02-0ylghi",
+      "geometry_reference": "0yLghiaXr4pB6B4YHPBOlT",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0yLghiaXr4pB6B4YHPBOlT"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-91FE7DE6B9FC",
+      "3d_ulpin_prototype": "SCHEP-PROTO-91FE7DE6B9FC",
+      "derived_property_id": "02-tweede-verdieping-7-00-0m66n5",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-00-0m66n5",
+      "geometry_reference": "0m66n5BInC6fBzFb8EWwyE",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0m66n5BInC6fBzFb8EWwyE"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-35E34F59AED1",
+      "3d_ulpin_prototype": "SCHEP-PROTO-35E34F59AED1",
+      "derived_property_id": "02-tweede-verdieping-7-05-1gekzc",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-05-1gekzc",
+      "geometry_reference": "1geKZCJAHAVQxXKkYkD9nV",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1geKZCJAHAVQxXKkYkD9nV"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1A8A8DD8A112",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1A8A8DD8A112",
+      "derived_property_id": "02-tweede-verdieping-7-04-3-vxlf",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-04-3-vxlf",
+      "geometry_reference": "3$vxLFFCTCjhIrAHJw7BxO",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3$vxLFFCTCjhIrAHJw7BxO"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-8822A31079C7",
+      "3d_ulpin_prototype": "SCHEP-PROTO-8822A31079C7",
+      "derived_property_id": "02-tweede-verdieping-7-03-1stydh",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-7-03-1stydh",
+      "geometry_reference": "1stYdhm21EUQMz3jV6WdHc",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1stYdhm21EUQMz3jV6WdHc"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-555282FAF941",
+      "3d_ulpin_prototype": "SCHEP-PROTO-555282FAF941",
+      "derived_property_id": "02-tweede-verdieping-a2-01-2nn5oy",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "02 tweede verdieping",
+      "unit_id": "02-tweede-verdieping-a2-01-2nn5oy",
+      "geometry_reference": "2Nn5OYLeT9FBcLTcY8oegS",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Nn5OYLeT9FBcLTcY8oegS"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-A7E791F8B0CC",
+      "3d_ulpin_prototype": "SCHEP-PROTO-A7E791F8B0CC",
+      "derived_property_id": "03-derde-verdieping-9-06-1ksvb7",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-06-1ksvb7",
+      "geometry_reference": "1ksvb7lcPBt9rmCaSOqIpd",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1ksvb7lcPBt9rmCaSOqIpd"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-1E9B47AC6C8E",
+      "3d_ulpin_prototype": "SCHEP-PROTO-1E9B47AC6C8E",
+      "derived_property_id": "03-derde-verdieping-10-07-1alg6d",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-07-1alg6d",
+      "geometry_reference": "1AlG6Dm9L1h8L4yH9tB8FO",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1AlG6Dm9L1h8L4yH9tB8FO"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-0FAEC93934A9",
+      "3d_ulpin_prototype": "SCHEP-PROTO-0FAEC93934A9",
+      "derived_property_id": "03-derde-verdieping-10-00-0c9lsn",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-00-0c9lsn",
+      "geometry_reference": "0c9LSnFgj7OBxwRT4cC9lK",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0c9LSnFgj7OBxwRT4cC9lK"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-C8D83A9CA8C0",
+      "3d_ulpin_prototype": "SCHEP-PROTO-C8D83A9CA8C0",
+      "derived_property_id": "03-derde-verdieping-10-05-1jrmac",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-05-1jrmac",
+      "geometry_reference": "1JrMACb0vE99f79I2KAPuN",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1JrMACb0vE99f79I2KAPuN"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-80BA8E98EB23",
+      "3d_ulpin_prototype": "SCHEP-PROTO-80BA8E98EB23",
+      "derived_property_id": "03-derde-verdieping-10-06-12skpf",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-06-12skpf",
+      "geometry_reference": "12sKPfqUvDFv$X4w8UYHNK",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "12sKPfqUvDFv$X4w8UYHNK"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-819FCA0B5751",
+      "3d_ulpin_prototype": "SCHEP-PROTO-819FCA0B5751",
+      "derived_property_id": "03-derde-verdieping-10-08-0folgh",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-08-0folgh",
+      "geometry_reference": "0FOLghHZTBOPD8KF6PRrx0",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0FOLghHZTBOPD8KF6PRrx0"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-2B3FC6D9FE91",
+      "3d_ulpin_prototype": "SCHEP-PROTO-2B3FC6D9FE91",
+      "derived_property_id": "03-derde-verdieping-10-03-0lgze9",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-03-0lgze9",
+      "geometry_reference": "0lGZe9hjL5GQNRN2Ku92xr",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0lGZe9hjL5GQNRN2Ku92xr"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-2705CA8FEF73",
+      "3d_ulpin_prototype": "SCHEP-PROTO-2705CA8FEF73",
+      "derived_property_id": "03-derde-verdieping-10-04-0thxut",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-04-0thxut",
+      "geometry_reference": "0thxUtY5D3nQDlN3b_gGVK",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0thxUtY5D3nQDlN3b_gGVK"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-B90907898511",
+      "3d_ulpin_prototype": "SCHEP-PROTO-B90907898511",
+      "derived_property_id": "03-derde-verdieping-10-02-2pbv_b",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-02-2pbv_b",
+      "geometry_reference": "2Pbv_BJfT8Ev1Sj5Jh4Tgi",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Pbv_BJfT8Ev1Sj5Jh4Tgi"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-4ABA5C827535",
+      "3d_ulpin_prototype": "SCHEP-PROTO-4ABA5C827535",
+      "derived_property_id": "03-derde-verdieping-10-01-2yo-ep",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-10-01-2yo-ep",
+      "geometry_reference": "2Yo$EpP$z2dOC6zNZ35BJq",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2Yo$EpP$z2dOC6zNZ35BJq"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-416A50CBD162",
+      "3d_ulpin_prototype": "SCHEP-PROTO-416A50CBD162",
+      "derived_property_id": "03-derde-verdieping-9-01-0oebkl",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-01-0oebkl",
+      "geometry_reference": "0oEbkL7YDD8AYm6eYpAT4B",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0oEbkL7YDD8AYm6eYpAT4B"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-5D351F833569",
+      "3d_ulpin_prototype": "SCHEP-PROTO-5D351F833569",
+      "derived_property_id": "03-derde-verdieping-9-07-34jlbt",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-07-34jlbt",
+      "geometry_reference": "34JLBtlPXEaeJkF7ppuU09",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "34JLBtlPXEaeJkF7ppuU09"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-958387FBEAD6",
+      "3d_ulpin_prototype": "SCHEP-PROTO-958387FBEAD6",
+      "derived_property_id": "03-derde-verdieping-9-08-0z1dmn",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-08-0z1dmn",
+      "geometry_reference": "0z1DMNAyb21RRdXtk2yF$a",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "0z1DMNAyb21RRdXtk2yF$a"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-C51535FBBAF5",
+      "3d_ulpin_prototype": "SCHEP-PROTO-C51535FBBAF5",
+      "derived_property_id": "03-derde-verdieping-9-02-2segle",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-02-2segle",
+      "geometry_reference": "2SEglEZ618iOaVY$jPjl1r",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "2SEglEZ618iOaVY$jPjl1r"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-59C903740AD9",
+      "3d_ulpin_prototype": "SCHEP-PROTO-59C903740AD9",
+      "derived_property_id": "03-derde-verdieping-9-00-00xvyz",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-00-00xvyz",
+      "geometry_reference": "00XVyzXGDDQPsHPeNwCNmZ",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "00XVyzXGDDQPsHPeNwCNmZ"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-5755549B9B50",
+      "3d_ulpin_prototype": "SCHEP-PROTO-5755549B9B50",
+      "derived_property_id": "03-derde-verdieping-9-05-3_fpsw",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-05-3_fpsw",
+      "geometry_reference": "3_fPSW07z7bufHlc3SsUgF",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3_fPSW07z7bufHlc3SsUgF"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-4C2914A66EA1",
+      "3d_ulpin_prototype": "SCHEP-PROTO-4C2914A66EA1",
+      "derived_property_id": "03-derde-verdieping-9-04-3ig4tb",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-04-3ig4tb",
+      "geometry_reference": "3iG4tbXJ901RkZ0OynKIbL",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3iG4tbXJ901RkZ0OynKIbL"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-D7D030CBE786",
+      "3d_ulpin_prototype": "SCHEP-PROTO-D7D030CBE786",
+      "derived_property_id": "03-derde-verdieping-9-03-1wtl5_",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-9-03-1wtl5_",
+      "geometry_reference": "1Wtl5_cnDDhAIgcPpOxWTl",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "1Wtl5_cnDDhAIgcPpOxWTl"
+      ],
+      "validation_status": "needs_review"
+    },
+    {
+      "prototype_ulpin": "SCHEP-PROTO-49610FB6C354",
+      "3d_ulpin_prototype": "SCHEP-PROTO-49610FB6C354",
+      "derived_property_id": "03-derde-verdieping-a3-01-3c9gfb",
+      "parent_parcel_id": "unknown",
+      "building_id": "schependomlaan-primary-building",
+      "storey_id": "03 derde verdieping",
+      "unit_id": "03-derde-verdieping-a3-01-3c9gfb",
+      "geometry_reference": "3c9gfBnpXAtgB1oHgYsgIs",
+      "source": "Schependomlaan IFC",
+      "source_ifc_global_ids": [
+        "3c9gfBnpXAtgB1oHgYsgIs"
+      ],
+      "validation_status": "needs_review"
+    }
+  ]
+}
